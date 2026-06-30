@@ -1,0 +1,9877 @@
+[
+  {
+    "id": "seoul",
+    "englishName": "Seoul",
+    "name": {
+      "en": "Seoul",
+      "ko": "서울",
+      "ja": "ソウル",
+      "es": "Seúl"
+    },
+    "country": {
+      "en": "South Korea",
+      "ko": "대한민국",
+      "ja": "韓国",
+      "es": "Corea del Sur"
+    },
+    "zone": "Asia/Seoul",
+    "aliases": [
+      "KST",
+      "Korea",
+      "대한민국",
+      "한국",
+      "Seoul",
+      "서울",
+      "ソウル",
+      "Seúl",
+      "Asia/Seoul"
+    ]
+  },
+  {
+    "id": "tokyo",
+    "englishName": "Tokyo",
+    "name": {
+      "en": "Tokyo",
+      "ko": "도쿄",
+      "ja": "東京",
+      "es": "Tokio"
+    },
+    "country": {
+      "en": "Japan",
+      "ko": "일본",
+      "ja": "日本",
+      "es": "Japón"
+    },
+    "zone": "Asia/Tokyo",
+    "aliases": [
+      "JST",
+      "Japan",
+      "日本",
+      "Tokyo",
+      "도쿄",
+      "東京",
+      "Tokio",
+      "Asia/Tokyo"
+    ]
+  },
+  {
+    "id": "singapore",
+    "englishName": "Singapore",
+    "name": {
+      "en": "Singapore",
+      "ko": "싱가포르",
+      "ja": "シンガポール",
+      "es": "Singapur"
+    },
+    "country": {
+      "en": "Singapore",
+      "ko": "싱가포르",
+      "ja": "シンガポール",
+      "es": "Singapur"
+    },
+    "zone": "Asia/Singapore",
+    "aliases": [
+      "SGT",
+      "Singapore",
+      "싱가포르",
+      "シンガポール",
+      "Singapur",
+      "Asia/Singapore"
+    ]
+  },
+  {
+    "id": "hong-kong",
+    "englishName": "Hong Kong",
+    "name": {
+      "en": "Hong Kong",
+      "ko": "홍콩",
+      "ja": "香港",
+      "es": "Hong Kong"
+    },
+    "country": {
+      "en": "Hong Kong",
+      "ko": "홍콩",
+      "ja": "香港",
+      "es": "Hong Kong"
+    },
+    "zone": "Asia/Hong_Kong",
+    "aliases": [
+      "HKT",
+      "Hong Kong",
+      "홍콩",
+      "香港",
+      "Asia/Hong_Kong"
+    ]
+  },
+  {
+    "id": "beijing",
+    "englishName": "Beijing",
+    "name": {
+      "en": "Beijing",
+      "ko": "베이징",
+      "ja": "北京",
+      "es": "Pekín"
+    },
+    "country": {
+      "en": "China",
+      "ko": "중국",
+      "ja": "中国",
+      "es": "China"
+    },
+    "zone": "Asia/Shanghai",
+    "aliases": [
+      "China",
+      "CST China",
+      "Shanghai",
+      "상하이",
+      "上海",
+      "Shanghái",
+      "Asia/Shanghai"
+    ]
+  },
+  {
+    "id": "new-delhi",
+    "englishName": "New Delhi",
+    "name": {
+      "en": "New Delhi",
+      "ko": "뉴델리",
+      "ja": "ニューデリー",
+      "es": "Nueva Delhi"
+    },
+    "country": {
+      "en": "India",
+      "ko": "인도",
+      "ja": "インド",
+      "es": "India"
+    },
+    "zone": "Asia/Kolkata",
+    "aliases": [
+      "IST",
+      "India",
+      "Delhi",
+      "Kolkata",
+      "Calcutta",
+      "Asia/Calcutta"
+    ]
+  },
+  {
+    "id": "dubai",
+    "englishName": "Dubai",
+    "name": {
+      "en": "Dubai",
+      "ko": "두바이",
+      "ja": "ドバイ",
+      "es": "Dubái"
+    },
+    "country": {
+      "en": "United Arab Emirates",
+      "ko": "아랍에미리트",
+      "ja": "アラブ首長国連邦",
+      "es": "Emiratos Árabes Unidos"
+    },
+    "zone": "Asia/Dubai",
+    "aliases": [
+      "GST",
+      "UAE",
+      "Dubai",
+      "두바이",
+      "ドバイ",
+      "Dubái",
+      "Asia/Dubai"
+    ]
+  },
+  {
+    "id": "riyadh",
+    "englishName": "Riyadh",
+    "name": {
+      "en": "Riyadh",
+      "ko": "리야드",
+      "ja": "リヤド",
+      "es": "Riad"
+    },
+    "country": {
+      "en": "Saudi Arabia",
+      "ko": "사우디아라비아",
+      "ja": "サウジアラビア",
+      "es": "Arabia Saudita"
+    },
+    "zone": "Asia/Riyadh",
+    "aliases": [
+      "AST",
+      "Saudi Arabia",
+      "Riyadh",
+      "리야드",
+      "リヤド",
+      "Riad",
+      "Asia/Riyadh"
+    ]
+  },
+  {
+    "id": "sydney",
+    "englishName": "Sydney",
+    "name": {
+      "en": "Sydney",
+      "ko": "시드니",
+      "ja": "シドニー",
+      "es": "Sídney"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "호주",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Sydney",
+    "aliases": [
+      "AEST",
+      "AEDT",
+      "Australia",
+      "Sydney",
+      "시드니",
+      "シドニー",
+      "Sídney",
+      "Australia/Sydney"
+    ]
+  },
+  {
+    "id": "melbourne",
+    "englishName": "Melbourne",
+    "name": {
+      "en": "Melbourne",
+      "ko": "멜버른",
+      "ja": "メルボルン",
+      "es": "Melbourne"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "호주",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Melbourne",
+    "aliases": [
+      "AEST",
+      "AEDT",
+      "Melbourne",
+      "멜버른",
+      "メルボルン",
+      "Australia/Melbourne"
+    ]
+  },
+  {
+    "id": "auckland",
+    "englishName": "Auckland",
+    "name": {
+      "en": "Auckland",
+      "ko": "오클랜드",
+      "ja": "オークランド",
+      "es": "Auckland"
+    },
+    "country": {
+      "en": "New Zealand",
+      "ko": "뉴질랜드",
+      "ja": "ニュージーランド",
+      "es": "Nueva Zelanda"
+    },
+    "zone": "Pacific/Auckland",
+    "aliases": [
+      "NZST",
+      "NZDT",
+      "New Zealand",
+      "Auckland",
+      "오클랜드",
+      "オークランド",
+      "Pacific/Auckland"
+    ]
+  },
+  {
+    "id": "honolulu",
+    "englishName": "Honolulu",
+    "name": {
+      "en": "Honolulu",
+      "ko": "호놀룰루",
+      "ja": "ホノルル",
+      "es": "Honolulu"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "Pacific/Honolulu",
+    "aliases": [
+      "HST",
+      "Hawaii",
+      "Honolulu",
+      "호놀룰루",
+      "ホノルル",
+      "Honolulú",
+      "Pacific/Honolulu"
+    ]
+  },
+  {
+    "id": "london",
+    "englishName": "London",
+    "name": {
+      "en": "London",
+      "ko": "런던",
+      "ja": "ロンドン",
+      "es": "Londres"
+    },
+    "country": {
+      "en": "United Kingdom",
+      "ko": "영국",
+      "ja": "イギリス",
+      "es": "Reino Unido"
+    },
+    "zone": "Europe/London",
+    "aliases": [
+      "GMT",
+      "BST",
+      "UK",
+      "England",
+      "London",
+      "런던",
+      "ロンドン",
+      "Londres",
+      "Europe/London"
+    ]
+  },
+  {
+    "id": "paris",
+    "englishName": "Paris",
+    "name": {
+      "en": "Paris",
+      "ko": "파리",
+      "ja": "パリ",
+      "es": "París"
+    },
+    "country": {
+      "en": "France",
+      "ko": "프랑스",
+      "ja": "フランス",
+      "es": "Francia"
+    },
+    "zone": "Europe/Paris",
+    "aliases": [
+      "CET",
+      "CEST",
+      "France",
+      "Paris",
+      "파리",
+      "パリ",
+      "París",
+      "Europe/Paris"
+    ]
+  },
+  {
+    "id": "berlin",
+    "englishName": "Berlin",
+    "name": {
+      "en": "Berlin",
+      "ko": "베를린",
+      "ja": "ベルリン",
+      "es": "Berlín"
+    },
+    "country": {
+      "en": "Germany",
+      "ko": "독일",
+      "ja": "ドイツ",
+      "es": "Alemania"
+    },
+    "zone": "Europe/Berlin",
+    "aliases": [
+      "CET",
+      "CEST",
+      "Germany",
+      "Berlin",
+      "베를린",
+      "ベルリン",
+      "Berlín",
+      "Europe/Berlin"
+    ]
+  },
+  {
+    "id": "madrid",
+    "englishName": "Madrid",
+    "name": {
+      "en": "Madrid",
+      "ko": "마드리드",
+      "ja": "マドリード",
+      "es": "Madrid"
+    },
+    "country": {
+      "en": "Spain",
+      "ko": "스페인",
+      "ja": "スペイン",
+      "es": "España"
+    },
+    "zone": "Europe/Madrid",
+    "aliases": [
+      "CET",
+      "CEST",
+      "Spain",
+      "Madrid",
+      "마드리드",
+      "マドリード",
+      "Europe/Madrid"
+    ]
+  },
+  {
+    "id": "rome",
+    "englishName": "Rome",
+    "name": {
+      "en": "Rome",
+      "ko": "로마",
+      "ja": "ローマ",
+      "es": "Roma"
+    },
+    "country": {
+      "en": "Italy",
+      "ko": "이탈리아",
+      "ja": "イタリア",
+      "es": "Italia"
+    },
+    "zone": "Europe/Rome",
+    "aliases": [
+      "CET",
+      "CEST",
+      "Italy",
+      "Rome",
+      "로마",
+      "ローマ",
+      "Roma",
+      "Europe/Rome"
+    ]
+  },
+  {
+    "id": "warsaw",
+    "englishName": "Warsaw",
+    "name": {
+      "en": "Warsaw",
+      "ko": "바르샤바",
+      "ja": "ワルシャワ",
+      "es": "Varsovia"
+    },
+    "country": {
+      "en": "Poland",
+      "ko": "폴란드",
+      "ja": "ポーランド",
+      "es": "Polonia"
+    },
+    "zone": "Europe/Warsaw",
+    "aliases": [
+      "CET",
+      "CEST",
+      "Poland",
+      "Warsaw",
+      "바르샤바",
+      "ワルシャワ",
+      "Varsovia",
+      "Europe/Warsaw"
+    ]
+  },
+  {
+    "id": "istanbul",
+    "englishName": "Istanbul",
+    "name": {
+      "en": "Istanbul",
+      "ko": "이스탄불",
+      "ja": "イスタンブール",
+      "es": "Estambul"
+    },
+    "country": {
+      "en": "Türkiye",
+      "ko": "튀르키예",
+      "ja": "トルコ",
+      "es": "Turquía"
+    },
+    "zone": "Europe/Istanbul",
+    "aliases": [
+      "TRT",
+      "Turkey",
+      "Türkiye",
+      "Istanbul",
+      "이스탄불",
+      "イスタンブール",
+      "Estambul",
+      "Europe/Istanbul"
+    ]
+  },
+  {
+    "id": "moscow",
+    "englishName": "Moscow",
+    "name": {
+      "en": "Moscow",
+      "ko": "모스크바",
+      "ja": "モスクワ",
+      "es": "Moscú"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Moscow",
+    "aliases": [
+      "MSK",
+      "Russia",
+      "Moscow",
+      "모스크바",
+      "モスクワ",
+      "Moscú",
+      "Europe/Moscow"
+    ]
+  },
+  {
+    "id": "new-york",
+    "englishName": "New York",
+    "name": {
+      "en": "New York",
+      "ko": "뉴욕",
+      "ja": "ニューヨーク",
+      "es": "Nueva York"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/New_York",
+    "aliases": [
+      "ET",
+      "EST",
+      "EDT",
+      "NYC",
+      "New York",
+      "뉴욕",
+      "ニューヨーク",
+      "Nueva York",
+      "America/New_York"
+    ]
+  },
+  {
+    "id": "los-angeles",
+    "englishName": "Los Angeles",
+    "name": {
+      "en": "Los Angeles",
+      "ko": "로스앤젤레스",
+      "ja": "ロサンゼルス",
+      "es": "Los Ángeles"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Los_Angeles",
+    "aliases": [
+      "PT",
+      "PST",
+      "PDT",
+      "LA",
+      "Los Angeles",
+      "로스앤젤레스",
+      "ロサンゼルス",
+      "Los Ángeles",
+      "America/Los_Angeles"
+    ]
+  },
+  {
+    "id": "chicago",
+    "englishName": "Chicago",
+    "name": {
+      "en": "Chicago",
+      "ko": "시카고",
+      "ja": "シカゴ",
+      "es": "Chicago"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Chicago",
+    "aliases": [
+      "CT",
+      "CST",
+      "CDT",
+      "Chicago",
+      "시카고",
+      "シカゴ",
+      "America/Chicago"
+    ]
+  },
+  {
+    "id": "denver",
+    "englishName": "Denver",
+    "name": {
+      "en": "Denver",
+      "ko": "덴버",
+      "ja": "デンバー",
+      "es": "Denver"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Denver",
+    "aliases": [
+      "MT",
+      "MST",
+      "MDT",
+      "Denver",
+      "덴버",
+      "デンバー",
+      "America/Denver"
+    ]
+  },
+  {
+    "id": "toronto",
+    "englishName": "Toronto",
+    "name": {
+      "en": "Toronto",
+      "ko": "토론토",
+      "ja": "トロント",
+      "es": "Toronto"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Toronto",
+    "aliases": [
+      "ET",
+      "EST",
+      "EDT",
+      "Canada",
+      "Toronto",
+      "토론토",
+      "トロント",
+      "America/Toronto"
+    ]
+  },
+  {
+    "id": "vancouver",
+    "englishName": "Vancouver",
+    "name": {
+      "en": "Vancouver",
+      "ko": "밴쿠버",
+      "ja": "バンクーバー",
+      "es": "Vancouver"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Vancouver",
+    "aliases": [
+      "PT",
+      "PST",
+      "PDT",
+      "Vancouver",
+      "벤쿠버",
+      "バンクーバー",
+      "America/Vancouver"
+    ]
+  },
+  {
+    "id": "mexico-city",
+    "englishName": "Mexico City",
+    "name": {
+      "en": "Mexico City",
+      "ko": "멕시코시티",
+      "ja": "メキシコシティ",
+      "es": "Ciudad de México"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Mexico_City",
+    "aliases": [
+      "Mexico",
+      "CDMX",
+      "CST Mexico",
+      "Mexico City",
+      "멕시코 시티",
+      "メキシコシティー",
+      "Ciudad de México",
+      "America/Mexico_City"
+    ]
+  },
+  {
+    "id": "sao-paulo",
+    "englishName": "São Paulo",
+    "name": {
+      "en": "São Paulo",
+      "ko": "상파울루",
+      "ja": "サンパウロ",
+      "es": "São Paulo"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Sao_Paulo",
+    "aliases": [
+      "Brazil",
+      "BRT",
+      "Sao Paulo",
+      "상파울루",
+      "サンパウロ",
+      "São Paulo",
+      "America/Sao_Paulo"
+    ]
+  },
+  {
+    "id": "buenos-aires",
+    "englishName": "Buenos Aires",
+    "name": {
+      "en": "Buenos Aires",
+      "ko": "부에노스아이레스",
+      "ja": "ブエノスアイレス",
+      "es": "Buenos Aires"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Buenos_Aires",
+    "aliases": [
+      "Argentina",
+      "ART",
+      "Buenos Aires",
+      "America/Buenos_Aires"
+    ]
+  },
+  {
+    "id": "johannesburg",
+    "englishName": "Johannesburg",
+    "name": {
+      "en": "Johannesburg",
+      "ko": "요하네스버그",
+      "ja": "ヨハネスブルグ",
+      "es": "Johannesburgo"
+    },
+    "country": {
+      "en": "South Africa",
+      "ko": "남아프리카공화국",
+      "ja": "南アフリカ",
+      "es": "Sudáfrica"
+    },
+    "zone": "Africa/Johannesburg",
+    "aliases": [
+      "SAST",
+      "South Africa",
+      "Johannesburg",
+      "요하네스버그",
+      "ヨハネスブルグ",
+      "Johannesburgo",
+      "Africa/Johannesburg"
+    ]
+  },
+  {
+    "id": "cairo",
+    "englishName": "Cairo",
+    "name": {
+      "en": "Cairo",
+      "ko": "카이로",
+      "ja": "カイロ",
+      "es": "El Cairo"
+    },
+    "country": {
+      "en": "Egypt",
+      "ko": "이집트",
+      "ja": "エジプト",
+      "es": "Egipto"
+    },
+    "zone": "Africa/Cairo",
+    "aliases": [
+      "Egypt",
+      "EET",
+      "Cairo",
+      "카이로",
+      "カイロ",
+      "El Cairo",
+      "Africa/Cairo"
+    ]
+  },
+  {
+    "id": "nairobi",
+    "englishName": "Nairobi",
+    "name": {
+      "en": "Nairobi",
+      "ko": "나이로비",
+      "ja": "ナイロビ",
+      "es": "Nairobi"
+    },
+    "country": {
+      "en": "Kenya",
+      "ko": "케냐",
+      "ja": "ケニア",
+      "es": "Kenia"
+    },
+    "zone": "Africa/Nairobi",
+    "aliases": [
+      "EAT",
+      "Kenya",
+      "Nairobi",
+      "나이로비",
+      "ナイロビ",
+      "Africa/Nairobi"
+    ]
+  },
+  {
+    "id": "africa-abidjan",
+    "englishName": "Abidjan",
+    "name": {
+      "en": "Abidjan",
+      "ko": "아비장",
+      "ja": "アビジャン",
+      "es": "Abiyán"
+    },
+    "country": {
+      "en": "Côte d’Ivoire",
+      "ko": "코트디부아르",
+      "ja": "コートジボワール",
+      "es": "Côte d’Ivoire"
+    },
+    "zone": "Africa/Abidjan",
+    "aliases": [
+      "Abidjan",
+      "Africa/Abidjan",
+      "아비장",
+      "アビジャン",
+      "Abiyán"
+    ]
+  },
+  {
+    "id": "africa-accra",
+    "englishName": "Accra",
+    "name": {
+      "en": "Accra",
+      "ko": "아크라",
+      "ja": "アクラ",
+      "es": "Acra"
+    },
+    "country": {
+      "en": "Ghana",
+      "ko": "가나",
+      "ja": "ガーナ",
+      "es": "Ghana"
+    },
+    "zone": "Africa/Accra",
+    "aliases": [
+      "Accra",
+      "Africa/Accra",
+      "아크라",
+      "アクラ",
+      "Acra"
+    ]
+  },
+  {
+    "id": "africa-addis-ababa",
+    "englishName": "Addis Ababa",
+    "name": {
+      "en": "Addis Ababa",
+      "ko": "아디스아바바",
+      "ja": "アジスアベバ",
+      "es": "Adís Abeba"
+    },
+    "country": {
+      "en": "Ethiopia",
+      "ko": "에티오피아",
+      "ja": "エチオピア",
+      "es": "Etiopía"
+    },
+    "zone": "Africa/Addis_Ababa",
+    "aliases": [
+      "Addis Ababa",
+      "Africa/Addis_Ababa",
+      "아디스아바바",
+      "アジスアベバ",
+      "Adís Abeba"
+    ]
+  },
+  {
+    "id": "africa-algiers",
+    "englishName": "Algiers",
+    "name": {
+      "en": "Algiers",
+      "ko": "알제",
+      "ja": "アルジェ",
+      "es": "Argel"
+    },
+    "country": {
+      "en": "Algeria",
+      "ko": "알제리",
+      "ja": "アルジェリア",
+      "es": "Argelia"
+    },
+    "zone": "Africa/Algiers",
+    "aliases": [
+      "Algiers",
+      "Africa/Algiers",
+      "알제",
+      "アルジェ",
+      "Argel"
+    ]
+  },
+  {
+    "id": "africa-asmara",
+    "englishName": "Asmara",
+    "name": {
+      "en": "Asmara",
+      "ko": "Asmara",
+      "ja": "Asmara",
+      "es": "Asmara"
+    },
+    "country": {
+      "en": "Eritrea",
+      "ko": "에리트리아",
+      "ja": "エリトリア",
+      "es": "Eritrea"
+    },
+    "zone": "Africa/Asmara",
+    "aliases": [
+      "Asmara",
+      "Asmera",
+      "Africa/Asmera"
+    ]
+  },
+  {
+    "id": "africa-bamako",
+    "englishName": "Bamako",
+    "name": {
+      "en": "Bamako",
+      "ko": "바마코",
+      "ja": "バマコ",
+      "es": "Bamako"
+    },
+    "country": {
+      "en": "Mali",
+      "ko": "말리",
+      "ja": "マリ",
+      "es": "Mali"
+    },
+    "zone": "Africa/Bamako",
+    "aliases": [
+      "Bamako",
+      "Africa/Bamako",
+      "바마코",
+      "バマコ"
+    ]
+  },
+  {
+    "id": "africa-bangui",
+    "englishName": "Bangui",
+    "name": {
+      "en": "Bangui",
+      "ko": "방기",
+      "ja": "バンギ",
+      "es": "Bangui"
+    },
+    "country": {
+      "en": "Central African Republic",
+      "ko": "중앙 아프리카 공화국",
+      "ja": "中央アフリカ共和国",
+      "es": "República Centroafricana"
+    },
+    "zone": "Africa/Bangui",
+    "aliases": [
+      "Bangui",
+      "Africa/Bangui",
+      "방기",
+      "バンギ"
+    ]
+  },
+  {
+    "id": "africa-banjul",
+    "englishName": "Banjul",
+    "name": {
+      "en": "Banjul",
+      "ko": "반줄",
+      "ja": "バンジュール",
+      "es": "Banjul"
+    },
+    "country": {
+      "en": "Gambia",
+      "ko": "감비아",
+      "ja": "ガンビア",
+      "es": "Gambia"
+    },
+    "zone": "Africa/Banjul",
+    "aliases": [
+      "Banjul",
+      "Africa/Banjul",
+      "반줄",
+      "バンジュール"
+    ]
+  },
+  {
+    "id": "africa-bissau",
+    "englishName": "Bissau",
+    "name": {
+      "en": "Bissau",
+      "ko": "비사우",
+      "ja": "ビサウ",
+      "es": "Bisáu"
+    },
+    "country": {
+      "en": "Guinea-Bissau",
+      "ko": "기니비사우",
+      "ja": "ギニアビサウ",
+      "es": "Guinea-Bisáu"
+    },
+    "zone": "Africa/Bissau",
+    "aliases": [
+      "Bissau",
+      "Africa/Bissau",
+      "비사우",
+      "ビサウ",
+      "Bisáu"
+    ]
+  },
+  {
+    "id": "africa-blantyre",
+    "englishName": "Blantyre",
+    "name": {
+      "en": "Blantyre",
+      "ko": "블랜타이어",
+      "ja": "ブランタイヤ",
+      "es": "Blantyre"
+    },
+    "country": {
+      "en": "Malawi",
+      "ko": "말라위",
+      "ja": "マラウイ",
+      "es": "Malaui"
+    },
+    "zone": "Africa/Blantyre",
+    "aliases": [
+      "Blantyre",
+      "Africa/Blantyre",
+      "블랜타이어",
+      "ブランタイヤ"
+    ]
+  },
+  {
+    "id": "africa-brazzaville",
+    "englishName": "Brazzaville",
+    "name": {
+      "en": "Brazzaville",
+      "ko": "브라자빌",
+      "ja": "ブラザビル",
+      "es": "Brazzaville"
+    },
+    "country": {
+      "en": "Congo - Brazzaville",
+      "ko": "콩고-브라자빌",
+      "ja": "コンゴ共和国(ブラザビル)",
+      "es": "Congo"
+    },
+    "zone": "Africa/Brazzaville",
+    "aliases": [
+      "Brazzaville",
+      "Africa/Brazzaville",
+      "브라자빌",
+      "ブラザビル"
+    ]
+  },
+  {
+    "id": "africa-bujumbura",
+    "englishName": "Bujumbura",
+    "name": {
+      "en": "Bujumbura",
+      "ko": "부줌부라",
+      "ja": "ブジュンブラ",
+      "es": "Bujumbura"
+    },
+    "country": {
+      "en": "Burundi",
+      "ko": "부룬디",
+      "ja": "ブルンジ",
+      "es": "Burundi"
+    },
+    "zone": "Africa/Bujumbura",
+    "aliases": [
+      "Bujumbura",
+      "Africa/Bujumbura",
+      "부줌부라",
+      "ブジュンブラ"
+    ]
+  },
+  {
+    "id": "africa-casablanca",
+    "englishName": "Casablanca",
+    "name": {
+      "en": "Casablanca",
+      "ko": "카사블랑카",
+      "ja": "カサブランカ",
+      "es": "Casablanca"
+    },
+    "country": {
+      "en": "Morocco",
+      "ko": "모로코",
+      "ja": "モロッコ",
+      "es": "Marruecos"
+    },
+    "zone": "Africa/Casablanca",
+    "aliases": [
+      "Casablanca",
+      "Africa/Casablanca",
+      "카사블랑카",
+      "カサブランカ"
+    ]
+  },
+  {
+    "id": "africa-ceuta",
+    "englishName": "Ceuta",
+    "name": {
+      "en": "Ceuta",
+      "ko": "세우타",
+      "ja": "セウタ",
+      "es": "Ceuta"
+    },
+    "country": {
+      "en": "Spain",
+      "ko": "스페인",
+      "ja": "スペイン",
+      "es": "España"
+    },
+    "zone": "Africa/Ceuta",
+    "aliases": [
+      "Ceuta",
+      "Africa/Ceuta",
+      "세우타",
+      "セウタ"
+    ]
+  },
+  {
+    "id": "africa-conakry",
+    "englishName": "Conakry",
+    "name": {
+      "en": "Conakry",
+      "ko": "코나크리",
+      "ja": "コナクリ",
+      "es": "Conakri"
+    },
+    "country": {
+      "en": "Guinea",
+      "ko": "기니",
+      "ja": "ギニア",
+      "es": "Guinea"
+    },
+    "zone": "Africa/Conakry",
+    "aliases": [
+      "Conakry",
+      "Africa/Conakry",
+      "코나크리",
+      "コナクリ",
+      "Conakri"
+    ]
+  },
+  {
+    "id": "africa-dakar",
+    "englishName": "Dakar",
+    "name": {
+      "en": "Dakar",
+      "ko": "다카르",
+      "ja": "ダカール",
+      "es": "Dakar"
+    },
+    "country": {
+      "en": "Senegal",
+      "ko": "세네갈",
+      "ja": "セネガル",
+      "es": "Senegal"
+    },
+    "zone": "Africa/Dakar",
+    "aliases": [
+      "Dakar",
+      "Africa/Dakar",
+      "다카르",
+      "ダカール"
+    ]
+  },
+  {
+    "id": "africa-dar-es-salaam",
+    "englishName": "Dar es Salaam",
+    "name": {
+      "en": "Dar es Salaam",
+      "ko": "다르에스살람",
+      "ja": "ダルエスサラーム",
+      "es": "Dar es-Salam"
+    },
+    "country": {
+      "en": "Tanzania",
+      "ko": "탄자니아",
+      "ja": "タンザニア",
+      "es": "Tanzania"
+    },
+    "zone": "Africa/Dar_es_Salaam",
+    "aliases": [
+      "Dar es Salaam",
+      "Africa/Dar_es_Salaam",
+      "다르에스살람",
+      "ダルエスサラーム",
+      "Dar es-Salam"
+    ]
+  },
+  {
+    "id": "africa-djibouti",
+    "englishName": "Djibouti",
+    "name": {
+      "en": "Djibouti",
+      "ko": "지부티",
+      "ja": "ジブチ",
+      "es": "Yibuti"
+    },
+    "country": {
+      "en": "Djibouti",
+      "ko": "지부티",
+      "ja": "ジブチ",
+      "es": "Yibuti"
+    },
+    "zone": "Africa/Djibouti",
+    "aliases": [
+      "Djibouti",
+      "Africa/Djibouti",
+      "지부티",
+      "ジブチ",
+      "Yibuti"
+    ]
+  },
+  {
+    "id": "africa-douala",
+    "englishName": "Douala",
+    "name": {
+      "en": "Douala",
+      "ko": "두알라",
+      "ja": "ドゥアラ",
+      "es": "Duala"
+    },
+    "country": {
+      "en": "Cameroon",
+      "ko": "카메룬",
+      "ja": "カメルーン",
+      "es": "Camerún"
+    },
+    "zone": "Africa/Douala",
+    "aliases": [
+      "Douala",
+      "Africa/Douala",
+      "두알라",
+      "ドゥアラ",
+      "Duala"
+    ]
+  },
+  {
+    "id": "africa-el-aaiun",
+    "englishName": "El Aaiun",
+    "name": {
+      "en": "El Aaiun",
+      "ko": "엘아이운",
+      "ja": "アイウン",
+      "es": "El Aaiún"
+    },
+    "country": {
+      "en": "Western Sahara",
+      "ko": "서사하라",
+      "ja": "西サハラ",
+      "es": "Sáhara Occidental"
+    },
+    "zone": "Africa/El_Aaiun",
+    "aliases": [
+      "El Aaiun",
+      "Africa/El_Aaiun",
+      "엘아이운",
+      "アイウン",
+      "El Aaiún"
+    ]
+  },
+  {
+    "id": "africa-freetown",
+    "englishName": "Freetown",
+    "name": {
+      "en": "Freetown",
+      "ko": "프리타운",
+      "ja": "フリータウン",
+      "es": "Freetown"
+    },
+    "country": {
+      "en": "Sierra Leone",
+      "ko": "시에라리온",
+      "ja": "シエラレオネ",
+      "es": "Sierra Leona"
+    },
+    "zone": "Africa/Freetown",
+    "aliases": [
+      "Freetown",
+      "Africa/Freetown",
+      "프리타운",
+      "フリータウン"
+    ]
+  },
+  {
+    "id": "africa-gaborone",
+    "englishName": "Gaborone",
+    "name": {
+      "en": "Gaborone",
+      "ko": "가보로네",
+      "ja": "ハボローネ",
+      "es": "Gaborone"
+    },
+    "country": {
+      "en": "Botswana",
+      "ko": "보츠와나",
+      "ja": "ボツワナ",
+      "es": "Botsuana"
+    },
+    "zone": "Africa/Gaborone",
+    "aliases": [
+      "Gaborone",
+      "Africa/Gaborone",
+      "가보로네",
+      "ハボローネ"
+    ]
+  },
+  {
+    "id": "africa-harare",
+    "englishName": "Harare",
+    "name": {
+      "en": "Harare",
+      "ko": "하라레",
+      "ja": "ハラレ",
+      "es": "Harare"
+    },
+    "country": {
+      "en": "Zimbabwe",
+      "ko": "짐바브웨",
+      "ja": "ジンバブエ",
+      "es": "Zimbabue"
+    },
+    "zone": "Africa/Harare",
+    "aliases": [
+      "Harare",
+      "Africa/Harare",
+      "하라레",
+      "ハラレ"
+    ]
+  },
+  {
+    "id": "africa-juba",
+    "englishName": "Juba",
+    "name": {
+      "en": "Juba",
+      "ko": "주바",
+      "ja": "ジュバ",
+      "es": "Juba"
+    },
+    "country": {
+      "en": "South Sudan",
+      "ko": "남수단",
+      "ja": "南スーダン",
+      "es": "Sudán del Sur"
+    },
+    "zone": "Africa/Juba",
+    "aliases": [
+      "Juba",
+      "Africa/Juba",
+      "주바",
+      "ジュバ"
+    ]
+  },
+  {
+    "id": "africa-kampala",
+    "englishName": "Kampala",
+    "name": {
+      "en": "Kampala",
+      "ko": "캄팔라",
+      "ja": "カンパラ",
+      "es": "Kampala"
+    },
+    "country": {
+      "en": "Uganda",
+      "ko": "우간다",
+      "ja": "ウガンダ",
+      "es": "Uganda"
+    },
+    "zone": "Africa/Kampala",
+    "aliases": [
+      "Kampala",
+      "Africa/Kampala",
+      "캄팔라",
+      "カンパラ"
+    ]
+  },
+  {
+    "id": "africa-khartoum",
+    "englishName": "Khartoum",
+    "name": {
+      "en": "Khartoum",
+      "ko": "카르툼",
+      "ja": "ハルツーム",
+      "es": "Jartum"
+    },
+    "country": {
+      "en": "Sudan",
+      "ko": "수단",
+      "ja": "スーダン",
+      "es": "Sudán"
+    },
+    "zone": "Africa/Khartoum",
+    "aliases": [
+      "Khartoum",
+      "Africa/Khartoum",
+      "카르툼",
+      "ハルツーム",
+      "Jartum"
+    ]
+  },
+  {
+    "id": "africa-kigali",
+    "englishName": "Kigali",
+    "name": {
+      "en": "Kigali",
+      "ko": "키갈리",
+      "ja": "キガリ",
+      "es": "Kigali"
+    },
+    "country": {
+      "en": "Rwanda",
+      "ko": "르완다",
+      "ja": "ルワンダ",
+      "es": "Ruanda"
+    },
+    "zone": "Africa/Kigali",
+    "aliases": [
+      "Kigali",
+      "Africa/Kigali",
+      "키갈리",
+      "キガリ"
+    ]
+  },
+  {
+    "id": "africa-kinshasa",
+    "englishName": "Kinshasa",
+    "name": {
+      "en": "Kinshasa",
+      "ko": "킨샤사",
+      "ja": "キンシャサ",
+      "es": "Kinshasa"
+    },
+    "country": {
+      "en": "Congo - Kinshasa",
+      "ko": "콩고-킨샤사",
+      "ja": "コンゴ民主共和国(キンシャサ)",
+      "es": "República Democrática del Congo"
+    },
+    "zone": "Africa/Kinshasa",
+    "aliases": [
+      "Kinshasa",
+      "Africa/Kinshasa",
+      "킨샤사",
+      "キンシャサ"
+    ]
+  },
+  {
+    "id": "africa-lagos",
+    "englishName": "Lagos",
+    "name": {
+      "en": "Lagos",
+      "ko": "라고스",
+      "ja": "ラゴス",
+      "es": "Lagos"
+    },
+    "country": {
+      "en": "Nigeria",
+      "ko": "나이지리아",
+      "ja": "ナイジェリア",
+      "es": "Nigeria"
+    },
+    "zone": "Africa/Lagos",
+    "aliases": [
+      "Lagos",
+      "Africa/Lagos",
+      "라고스",
+      "ラゴス"
+    ]
+  },
+  {
+    "id": "africa-libreville",
+    "englishName": "Libreville",
+    "name": {
+      "en": "Libreville",
+      "ko": "리브르빌",
+      "ja": "リーブルヴィル",
+      "es": "Libreville"
+    },
+    "country": {
+      "en": "Gabon",
+      "ko": "가봉",
+      "ja": "ガボン",
+      "es": "Gabón"
+    },
+    "zone": "Africa/Libreville",
+    "aliases": [
+      "Libreville",
+      "Africa/Libreville",
+      "리브르빌",
+      "リーブルヴィル"
+    ]
+  },
+  {
+    "id": "africa-lome",
+    "englishName": "Lome",
+    "name": {
+      "en": "Lome",
+      "ko": "로메",
+      "ja": "ロメ",
+      "es": "Lomé"
+    },
+    "country": {
+      "en": "Togo",
+      "ko": "토고",
+      "ja": "トーゴ",
+      "es": "Togo"
+    },
+    "zone": "Africa/Lome",
+    "aliases": [
+      "Lome",
+      "Africa/Lome",
+      "로메",
+      "ロメ",
+      "Lomé"
+    ]
+  },
+  {
+    "id": "africa-luanda",
+    "englishName": "Luanda",
+    "name": {
+      "en": "Luanda",
+      "ko": "루안다",
+      "ja": "ルアンダ",
+      "es": "Luanda"
+    },
+    "country": {
+      "en": "Angola",
+      "ko": "앙골라",
+      "ja": "アンゴラ",
+      "es": "Angola"
+    },
+    "zone": "Africa/Luanda",
+    "aliases": [
+      "Luanda",
+      "Africa/Luanda",
+      "루안다",
+      "ルアンダ"
+    ]
+  },
+  {
+    "id": "africa-lubumbashi",
+    "englishName": "Lubumbashi",
+    "name": {
+      "en": "Lubumbashi",
+      "ko": "루붐바시",
+      "ja": "ルブンバシ",
+      "es": "Lubumbashi"
+    },
+    "country": {
+      "en": "Congo - Kinshasa",
+      "ko": "콩고-킨샤사",
+      "ja": "コンゴ民主共和国(キンシャサ)",
+      "es": "República Democrática del Congo"
+    },
+    "zone": "Africa/Lubumbashi",
+    "aliases": [
+      "Lubumbashi",
+      "Africa/Lubumbashi",
+      "루붐바시",
+      "ルブンバシ"
+    ]
+  },
+  {
+    "id": "africa-lusaka",
+    "englishName": "Lusaka",
+    "name": {
+      "en": "Lusaka",
+      "ko": "루사카",
+      "ja": "ルサカ",
+      "es": "Lusaka"
+    },
+    "country": {
+      "en": "Zambia",
+      "ko": "잠비아",
+      "ja": "ザンビア",
+      "es": "Zambia"
+    },
+    "zone": "Africa/Lusaka",
+    "aliases": [
+      "Lusaka",
+      "Africa/Lusaka",
+      "루사카",
+      "ルサカ"
+    ]
+  },
+  {
+    "id": "africa-malabo",
+    "englishName": "Malabo",
+    "name": {
+      "en": "Malabo",
+      "ko": "말라보",
+      "ja": "マラボ",
+      "es": "Malabo"
+    },
+    "country": {
+      "en": "Equatorial Guinea",
+      "ko": "적도 기니",
+      "ja": "赤道ギニア",
+      "es": "Guinea Ecuatorial"
+    },
+    "zone": "Africa/Malabo",
+    "aliases": [
+      "Malabo",
+      "Africa/Malabo",
+      "말라보",
+      "マラボ"
+    ]
+  },
+  {
+    "id": "africa-maputo",
+    "englishName": "Maputo",
+    "name": {
+      "en": "Maputo",
+      "ko": "마푸토",
+      "ja": "マプト",
+      "es": "Maputo"
+    },
+    "country": {
+      "en": "Mozambique",
+      "ko": "모잠비크",
+      "ja": "モザンビーク",
+      "es": "Mozambique"
+    },
+    "zone": "Africa/Maputo",
+    "aliases": [
+      "Maputo",
+      "Africa/Maputo",
+      "마푸토",
+      "マプト"
+    ]
+  },
+  {
+    "id": "africa-maseru",
+    "englishName": "Maseru",
+    "name": {
+      "en": "Maseru",
+      "ko": "마세루",
+      "ja": "マセル",
+      "es": "Maseru"
+    },
+    "country": {
+      "en": "Lesotho",
+      "ko": "레소토",
+      "ja": "レソト",
+      "es": "Lesoto"
+    },
+    "zone": "Africa/Maseru",
+    "aliases": [
+      "Maseru",
+      "Africa/Maseru",
+      "마세루",
+      "マセル"
+    ]
+  },
+  {
+    "id": "africa-mbabane",
+    "englishName": "Mbabane",
+    "name": {
+      "en": "Mbabane",
+      "ko": "음바바네",
+      "ja": "ムババーネ",
+      "es": "Mbabane"
+    },
+    "country": {
+      "en": "Eswatini",
+      "ko": "에스와티니",
+      "ja": "エスワティニ",
+      "es": "Esuatini"
+    },
+    "zone": "Africa/Mbabane",
+    "aliases": [
+      "Mbabane",
+      "Africa/Mbabane",
+      "음바바네",
+      "ムババーネ"
+    ]
+  },
+  {
+    "id": "africa-mogadishu",
+    "englishName": "Mogadishu",
+    "name": {
+      "en": "Mogadishu",
+      "ko": "모가디슈",
+      "ja": "モガディシオ",
+      "es": "Mogadiscio"
+    },
+    "country": {
+      "en": "Somalia",
+      "ko": "소말리아",
+      "ja": "ソマリア",
+      "es": "Somalia"
+    },
+    "zone": "Africa/Mogadishu",
+    "aliases": [
+      "Mogadishu",
+      "Africa/Mogadishu",
+      "모가디슈",
+      "モガディシオ",
+      "Mogadiscio"
+    ]
+  },
+  {
+    "id": "africa-monrovia",
+    "englishName": "Monrovia",
+    "name": {
+      "en": "Monrovia",
+      "ko": "몬로비아",
+      "ja": "モンロビア",
+      "es": "Monrovia"
+    },
+    "country": {
+      "en": "Liberia",
+      "ko": "라이베리아",
+      "ja": "リベリア",
+      "es": "Liberia"
+    },
+    "zone": "Africa/Monrovia",
+    "aliases": [
+      "Monrovia",
+      "Africa/Monrovia",
+      "몬로비아",
+      "モンロビア"
+    ]
+  },
+  {
+    "id": "africa-ndjamena",
+    "englishName": "Ndjamena",
+    "name": {
+      "en": "Ndjamena",
+      "ko": "엔자메나",
+      "ja": "ンジャメナ",
+      "es": "Yamena"
+    },
+    "country": {
+      "en": "Chad",
+      "ko": "차드",
+      "ja": "チャド",
+      "es": "Chad"
+    },
+    "zone": "Africa/Ndjamena",
+    "aliases": [
+      "Ndjamena",
+      "Africa/Ndjamena",
+      "엔자메나",
+      "ンジャメナ",
+      "Yamena"
+    ]
+  },
+  {
+    "id": "africa-niamey",
+    "englishName": "Niamey",
+    "name": {
+      "en": "Niamey",
+      "ko": "니아메",
+      "ja": "ニアメ",
+      "es": "Niamey"
+    },
+    "country": {
+      "en": "Niger",
+      "ko": "니제르",
+      "ja": "ニジェール",
+      "es": "Níger"
+    },
+    "zone": "Africa/Niamey",
+    "aliases": [
+      "Niamey",
+      "Africa/Niamey",
+      "니아메",
+      "ニアメ"
+    ]
+  },
+  {
+    "id": "africa-nouakchott",
+    "englishName": "Nouakchott",
+    "name": {
+      "en": "Nouakchott",
+      "ko": "누악쇼트",
+      "ja": "ヌアクショット",
+      "es": "Nuakchot"
+    },
+    "country": {
+      "en": "Mauritania",
+      "ko": "모리타니",
+      "ja": "モーリタニア",
+      "es": "Mauritania"
+    },
+    "zone": "Africa/Nouakchott",
+    "aliases": [
+      "Nouakchott",
+      "Africa/Nouakchott",
+      "누악쇼트",
+      "ヌアクショット",
+      "Nuakchot"
+    ]
+  },
+  {
+    "id": "africa-ouagadougou",
+    "englishName": "Ouagadougou",
+    "name": {
+      "en": "Ouagadougou",
+      "ko": "와가두구",
+      "ja": "ワガドゥグー",
+      "es": "Uagadugú"
+    },
+    "country": {
+      "en": "Burkina Faso",
+      "ko": "부르키나파소",
+      "ja": "ブルキナファソ",
+      "es": "Burkina Faso"
+    },
+    "zone": "Africa/Ouagadougou",
+    "aliases": [
+      "Ouagadougou",
+      "Africa/Ouagadougou",
+      "와가두구",
+      "ワガドゥグー",
+      "Uagadugú"
+    ]
+  },
+  {
+    "id": "africa-porto-novo",
+    "englishName": "Porto-Novo",
+    "name": {
+      "en": "Porto-Novo",
+      "ko": "포르토노보",
+      "ja": "ポルトノボ",
+      "es": "Portonovo"
+    },
+    "country": {
+      "en": "Benin",
+      "ko": "베냉",
+      "ja": "ベナン",
+      "es": "Benín"
+    },
+    "zone": "Africa/Porto-Novo",
+    "aliases": [
+      "Porto-Novo",
+      "Africa/Porto-Novo",
+      "포르토노보",
+      "ポルトノボ",
+      "Portonovo"
+    ]
+  },
+  {
+    "id": "africa-sao-tome",
+    "englishName": "São Tomé",
+    "name": {
+      "en": "São Tomé",
+      "ko": "상투메",
+      "ja": "サントメ",
+      "es": "Santo Tomé"
+    },
+    "country": {
+      "en": "São Tomé & Príncipe",
+      "ko": "상투메 프린시페",
+      "ja": "サントメ・プリンシペ",
+      "es": "Santo Tomé y Príncipe"
+    },
+    "zone": "Africa/Sao_Tome",
+    "aliases": [
+      "Sao Tome",
+      "Africa/Sao_Tome",
+      "São Tomé",
+      "상투메",
+      "サントメ",
+      "Santo Tomé"
+    ]
+  },
+  {
+    "id": "africa-tripoli",
+    "englishName": "Tripoli",
+    "name": {
+      "en": "Tripoli",
+      "ko": "트리폴리",
+      "ja": "トリポリ",
+      "es": "Trípoli"
+    },
+    "country": {
+      "en": "Libya",
+      "ko": "리비아",
+      "ja": "リビア",
+      "es": "Libia"
+    },
+    "zone": "Africa/Tripoli",
+    "aliases": [
+      "Tripoli",
+      "Africa/Tripoli",
+      "트리폴리",
+      "トリポリ",
+      "Trípoli"
+    ]
+  },
+  {
+    "id": "africa-tunis",
+    "englishName": "Tunis",
+    "name": {
+      "en": "Tunis",
+      "ko": "튀니스",
+      "ja": "チュニス",
+      "es": "Túnez"
+    },
+    "country": {
+      "en": "Tunisia",
+      "ko": "튀니지",
+      "ja": "チュニジア",
+      "es": "Túnez"
+    },
+    "zone": "Africa/Tunis",
+    "aliases": [
+      "Tunis",
+      "Africa/Tunis",
+      "튀니스",
+      "チュニス",
+      "Túnez"
+    ]
+  },
+  {
+    "id": "africa-windhoek",
+    "englishName": "Windhoek",
+    "name": {
+      "en": "Windhoek",
+      "ko": "빈트후크",
+      "ja": "ウィントフック",
+      "es": "Windhoek"
+    },
+    "country": {
+      "en": "Namibia",
+      "ko": "나미비아",
+      "ja": "ナミビア",
+      "es": "Namibia"
+    },
+    "zone": "Africa/Windhoek",
+    "aliases": [
+      "Windhoek",
+      "Africa/Windhoek",
+      "빈트후크",
+      "ウィントフック"
+    ]
+  },
+  {
+    "id": "america-adak",
+    "englishName": "Adak",
+    "name": {
+      "en": "Adak",
+      "ko": "에이닥",
+      "ja": "アダック",
+      "es": "Adak"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Adak",
+    "aliases": [
+      "Adak",
+      "America/Adak",
+      "에이닥",
+      "アダック"
+    ]
+  },
+  {
+    "id": "america-anchorage",
+    "englishName": "Anchorage",
+    "name": {
+      "en": "Anchorage",
+      "ko": "앵커리지",
+      "ja": "アンカレッジ",
+      "es": "Anchorage"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Anchorage",
+    "aliases": [
+      "Anchorage",
+      "America/Anchorage",
+      "앵커리지",
+      "アンカレッジ"
+    ]
+  },
+  {
+    "id": "america-anguilla",
+    "englishName": "Anguilla",
+    "name": {
+      "en": "Anguilla",
+      "ko": "앙귈라",
+      "ja": "アンギラ",
+      "es": "Anguila"
+    },
+    "country": {
+      "en": "Anguilla",
+      "ko": "앵귈라",
+      "ja": "アンギラ",
+      "es": "Anguila"
+    },
+    "zone": "America/Anguilla",
+    "aliases": [
+      "Anguilla",
+      "America/Anguilla",
+      "앙귈라",
+      "アンギラ",
+      "Anguila"
+    ]
+  },
+  {
+    "id": "america-antigua",
+    "englishName": "Antigua",
+    "name": {
+      "en": "Antigua",
+      "ko": "안티과",
+      "ja": "アンティグア",
+      "es": "Antigua"
+    },
+    "country": {
+      "en": "Antigua & Barbuda",
+      "ko": "앤티가 바부다",
+      "ja": "アンティグア・バーブーダ",
+      "es": "Antigua y Barbuda"
+    },
+    "zone": "America/Antigua",
+    "aliases": [
+      "Antigua",
+      "America/Antigua",
+      "안티과",
+      "アンティグア"
+    ]
+  },
+  {
+    "id": "america-araguaina",
+    "englishName": "Araguaina",
+    "name": {
+      "en": "Araguaina",
+      "ko": "아라과이나",
+      "ja": "アラグァイナ",
+      "es": "Araguaína"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Araguaina",
+    "aliases": [
+      "Araguaina",
+      "America/Araguaina",
+      "아라과이나",
+      "アラグァイナ",
+      "Araguaína"
+    ]
+  },
+  {
+    "id": "america-aruba",
+    "englishName": "Aruba",
+    "name": {
+      "en": "Aruba",
+      "ko": "아루바",
+      "ja": "アルバ",
+      "es": "Aruba"
+    },
+    "country": {
+      "en": "Aruba",
+      "ko": "아루바",
+      "ja": "アルバ",
+      "es": "Aruba"
+    },
+    "zone": "America/Aruba",
+    "aliases": [
+      "Aruba",
+      "America/Aruba",
+      "아루바",
+      "アルバ"
+    ]
+  },
+  {
+    "id": "america-asuncion",
+    "englishName": "Asunción",
+    "name": {
+      "en": "Asunción",
+      "ko": "아순시온",
+      "ja": "アスンシオン",
+      "es": "Asunción"
+    },
+    "country": {
+      "en": "Paraguay",
+      "ko": "파라과이",
+      "ja": "パラグアイ",
+      "es": "Paraguay"
+    },
+    "zone": "America/Asuncion",
+    "aliases": [
+      "Asuncion",
+      "America/Asuncion",
+      "Asunción",
+      "아순시온",
+      "アスンシオン"
+    ]
+  },
+  {
+    "id": "america-atikokan",
+    "englishName": "Atikokan",
+    "name": {
+      "en": "Atikokan",
+      "ko": "Atikokan",
+      "ja": "Atikokan",
+      "es": "Atikokan"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Atikokan",
+    "aliases": [
+      "Atikokan",
+      "Coral Harbour",
+      "America/Coral_Harbour"
+    ]
+  },
+  {
+    "id": "america-bahia",
+    "englishName": "Bahia",
+    "name": {
+      "en": "Bahia",
+      "ko": "바히아",
+      "ja": "バイーア",
+      "es": "Bahía"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Bahia",
+    "aliases": [
+      "Bahia",
+      "America/Bahia",
+      "바히아",
+      "バイーア",
+      "Bahía"
+    ]
+  },
+  {
+    "id": "america-bahia-banderas",
+    "englishName": "Bahía de Banderas",
+    "name": {
+      "en": "Bahía de Banderas",
+      "ko": "바이아 반데라스",
+      "ja": "バイアバンデラ",
+      "es": "Bahía de Banderas"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Bahia_Banderas",
+    "aliases": [
+      "Bahia Banderas",
+      "America/Bahia_Banderas",
+      "Bahía de Banderas",
+      "바이아 반데라스",
+      "バイアバンデラ"
+    ]
+  },
+  {
+    "id": "america-barbados",
+    "englishName": "Barbados",
+    "name": {
+      "en": "Barbados",
+      "ko": "바베이도스",
+      "ja": "バルバドス",
+      "es": "Barbados"
+    },
+    "country": {
+      "en": "Barbados",
+      "ko": "바베이도스",
+      "ja": "バルバドス",
+      "es": "Barbados"
+    },
+    "zone": "America/Barbados",
+    "aliases": [
+      "Barbados",
+      "America/Barbados",
+      "바베이도스",
+      "バルバドス"
+    ]
+  },
+  {
+    "id": "america-belem",
+    "englishName": "Belem",
+    "name": {
+      "en": "Belem",
+      "ko": "벨렘",
+      "ja": "ベレン",
+      "es": "Belén"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Belem",
+    "aliases": [
+      "Belem",
+      "America/Belem",
+      "벨렘",
+      "ベレン",
+      "Belén"
+    ]
+  },
+  {
+    "id": "america-belize",
+    "englishName": "Belize",
+    "name": {
+      "en": "Belize",
+      "ko": "벨리즈",
+      "ja": "ベリーズ",
+      "es": "Belice"
+    },
+    "country": {
+      "en": "Belize",
+      "ko": "벨리즈",
+      "ja": "ベリーズ",
+      "es": "Belice"
+    },
+    "zone": "America/Belize",
+    "aliases": [
+      "Belize",
+      "America/Belize",
+      "벨리즈",
+      "ベリーズ",
+      "Belice"
+    ]
+  },
+  {
+    "id": "america-north-dakota-beulah",
+    "englishName": "Beulah, North Dakota",
+    "name": {
+      "en": "Beulah, North Dakota",
+      "ko": "노스다코타주, 베라",
+      "ja": "ノースダコタ州ビューラー",
+      "es": "Beulah, Dakota del Norte"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/North_Dakota/Beulah",
+    "aliases": [
+      "Beulah",
+      "America/North_Dakota/Beulah",
+      "Beulah, North Dakota",
+      "노스다코타주, 베라",
+      "ノースダコタ州ビューラー",
+      "Beulah, Dakota del Norte"
+    ]
+  },
+  {
+    "id": "america-blanc-sablon",
+    "englishName": "Blanc-Sablon",
+    "name": {
+      "en": "Blanc-Sablon",
+      "ko": "블랑 사블롱",
+      "ja": "ブラン・サブロン",
+      "es": "Blanc-Sablon"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Blanc-Sablon",
+    "aliases": [
+      "Blanc-Sablon",
+      "America/Blanc-Sablon",
+      "블랑 사블롱",
+      "ブラン・サブロン"
+    ]
+  },
+  {
+    "id": "america-boa-vista",
+    "englishName": "Boa Vista",
+    "name": {
+      "en": "Boa Vista",
+      "ko": "보아 비스타",
+      "ja": "ボアビスタ",
+      "es": "Boa Vista"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Boa_Vista",
+    "aliases": [
+      "Boa Vista",
+      "America/Boa_Vista",
+      "보아 비스타",
+      "ボアビスタ"
+    ]
+  },
+  {
+    "id": "america-bogota",
+    "englishName": "Bogota",
+    "name": {
+      "en": "Bogota",
+      "ko": "보고타",
+      "ja": "ボゴタ",
+      "es": "Bogotá"
+    },
+    "country": {
+      "en": "Colombia",
+      "ko": "콜롬비아",
+      "ja": "コロンビア",
+      "es": "Colombia"
+    },
+    "zone": "America/Bogota",
+    "aliases": [
+      "Bogota",
+      "America/Bogota",
+      "보고타",
+      "ボゴタ",
+      "Bogotá"
+    ]
+  },
+  {
+    "id": "america-boise",
+    "englishName": "Boise",
+    "name": {
+      "en": "Boise",
+      "ko": "보이시",
+      "ja": "ボイシ",
+      "es": "Boise"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Boise",
+    "aliases": [
+      "Boise",
+      "America/Boise",
+      "보이시",
+      "ボイシ"
+    ]
+  },
+  {
+    "id": "america-cambridge-bay",
+    "englishName": "Cambridge Bay",
+    "name": {
+      "en": "Cambridge Bay",
+      "ko": "케임브리지 베이",
+      "ja": "ケンブリッジベイ",
+      "es": "Cambridge Bay"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Cambridge_Bay",
+    "aliases": [
+      "Cambridge Bay",
+      "America/Cambridge_Bay",
+      "케임브리지 베이",
+      "ケンブリッジベイ"
+    ]
+  },
+  {
+    "id": "america-campo-grande",
+    "englishName": "Campo Grande",
+    "name": {
+      "en": "Campo Grande",
+      "ko": "캄포 그란데",
+      "ja": "カンポグランデ",
+      "es": "Campo Grande"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Campo_Grande",
+    "aliases": [
+      "Campo Grande",
+      "America/Campo_Grande",
+      "캄포 그란데",
+      "カンポグランデ"
+    ]
+  },
+  {
+    "id": "america-cancun",
+    "englishName": "Cancún",
+    "name": {
+      "en": "Cancún",
+      "ko": "칸쿤",
+      "ja": "カンクン",
+      "es": "Cancún"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Cancun",
+    "aliases": [
+      "Cancun",
+      "America/Cancun",
+      "Cancún",
+      "칸쿤",
+      "カンクン"
+    ]
+  },
+  {
+    "id": "america-caracas",
+    "englishName": "Caracas",
+    "name": {
+      "en": "Caracas",
+      "ko": "카라카스",
+      "ja": "カラカス",
+      "es": "Caracas"
+    },
+    "country": {
+      "en": "Venezuela",
+      "ko": "베네수엘라",
+      "ja": "ベネズエラ",
+      "es": "Venezuela"
+    },
+    "zone": "America/Caracas",
+    "aliases": [
+      "Caracas",
+      "America/Caracas",
+      "카라카스",
+      "カラカス"
+    ]
+  },
+  {
+    "id": "america-argentina-catamarca",
+    "englishName": "Catamarca",
+    "name": {
+      "en": "Catamarca",
+      "ko": "Catamarca",
+      "ja": "Catamarca",
+      "es": "Catamarca"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Catamarca",
+    "aliases": [
+      "Catamarca",
+      "America/Catamarca"
+    ]
+  },
+  {
+    "id": "america-cayenne",
+    "englishName": "Cayenne",
+    "name": {
+      "en": "Cayenne",
+      "ko": "카옌",
+      "ja": "カイエンヌ",
+      "es": "Cayena"
+    },
+    "country": {
+      "en": "French Guiana",
+      "ko": "프랑스령 기아나",
+      "ja": "仏領ギアナ",
+      "es": "Guayana Francesa"
+    },
+    "zone": "America/Cayenne",
+    "aliases": [
+      "Cayenne",
+      "America/Cayenne",
+      "카옌",
+      "カイエンヌ",
+      "Cayena"
+    ]
+  },
+  {
+    "id": "america-cayman",
+    "englishName": "Cayman",
+    "name": {
+      "en": "Cayman",
+      "ko": "케이맨",
+      "ja": "ケイマン",
+      "es": "Caimán"
+    },
+    "country": {
+      "en": "Cayman Islands",
+      "ko": "케이맨 제도",
+      "ja": "ケイマン諸島",
+      "es": "Islas Caimán"
+    },
+    "zone": "America/Cayman",
+    "aliases": [
+      "Cayman",
+      "America/Cayman",
+      "케이맨",
+      "ケイマン",
+      "Caimán"
+    ]
+  },
+  {
+    "id": "america-north-dakota-center",
+    "englishName": "Center, North Dakota",
+    "name": {
+      "en": "Center, North Dakota",
+      "ko": "중부, 노스다코타",
+      "ja": "ノースダコタ州センター",
+      "es": "Center, Dakota del Norte"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/North_Dakota/Center",
+    "aliases": [
+      "Center",
+      "America/North_Dakota/Center",
+      "Center, North Dakota",
+      "중부, 노스다코타",
+      "ノースダコタ州センター",
+      "Center, Dakota del Norte"
+    ]
+  },
+  {
+    "id": "america-chihuahua",
+    "englishName": "Chihuahua",
+    "name": {
+      "en": "Chihuahua",
+      "ko": "치와와",
+      "ja": "チワワ",
+      "es": "Chihuahua"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Chihuahua",
+    "aliases": [
+      "Chihuahua",
+      "America/Chihuahua",
+      "치와와",
+      "チワワ"
+    ]
+  },
+  {
+    "id": "america-ciudad-juarez",
+    "englishName": "Ciudad Juárez",
+    "name": {
+      "en": "Ciudad Juárez",
+      "ko": "시우다드후아레스",
+      "ja": "シウダー・フアレス",
+      "es": "Ciudad Juárez"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Ciudad_Juarez",
+    "aliases": [
+      "Ciudad Juarez",
+      "America/Ciudad_Juarez",
+      "Ciudad Juárez",
+      "시우다드후아레스",
+      "シウダー・フアレス"
+    ]
+  },
+  {
+    "id": "america-argentina-cordoba",
+    "englishName": "Cordoba",
+    "name": {
+      "en": "Cordoba",
+      "ko": "Cordoba",
+      "ja": "Cordoba",
+      "es": "Cordoba"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Cordoba",
+    "aliases": [
+      "Cordoba",
+      "America/Cordoba"
+    ]
+  },
+  {
+    "id": "america-costa-rica",
+    "englishName": "Costa Rica",
+    "name": {
+      "en": "Costa Rica",
+      "ko": "코스타리카",
+      "ja": "コスタリカ",
+      "es": "Costa Rica"
+    },
+    "country": {
+      "en": "Costa Rica",
+      "ko": "코스타리카",
+      "ja": "コスタリカ",
+      "es": "Costa Rica"
+    },
+    "zone": "America/Costa_Rica",
+    "aliases": [
+      "Costa Rica",
+      "America/Costa_Rica",
+      "코스타리카",
+      "コスタリカ"
+    ]
+  },
+  {
+    "id": "america-coyhaique",
+    "englishName": "Coyhaique",
+    "name": {
+      "en": "Coyhaique",
+      "ko": "Coyhaique",
+      "ja": "Coyhaique",
+      "es": "Coyhaique"
+    },
+    "country": {
+      "en": "world",
+      "ko": "세계",
+      "ja": "世界",
+      "es": "Mundo"
+    },
+    "zone": "America/Coyhaique",
+    "aliases": [
+      "Coyhaique",
+      "America/Coyhaique"
+    ]
+  },
+  {
+    "id": "america-creston",
+    "englishName": "Creston",
+    "name": {
+      "en": "Creston",
+      "ko": "크레스톤",
+      "ja": "クレストン",
+      "es": "Creston"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Creston",
+    "aliases": [
+      "Creston",
+      "America/Creston",
+      "크레스톤",
+      "クレストン"
+    ]
+  },
+  {
+    "id": "america-cuiaba",
+    "englishName": "Cuiaba",
+    "name": {
+      "en": "Cuiaba",
+      "ko": "쿠이아바",
+      "ja": "クイアバ",
+      "es": "Cuiabá"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Cuiaba",
+    "aliases": [
+      "Cuiaba",
+      "America/Cuiaba",
+      "쿠이아바",
+      "クイアバ",
+      "Cuiabá"
+    ]
+  },
+  {
+    "id": "america-curacao",
+    "englishName": "Curaçao",
+    "name": {
+      "en": "Curaçao",
+      "ko": "퀴라소",
+      "ja": "キュラソー",
+      "es": "Curazao"
+    },
+    "country": {
+      "en": "Curaçao",
+      "ko": "퀴라소",
+      "ja": "キュラソー",
+      "es": "Curazao"
+    },
+    "zone": "America/Curacao",
+    "aliases": [
+      "Curacao",
+      "America/Curacao",
+      "Curaçao",
+      "퀴라소",
+      "キュラソー",
+      "Curazao"
+    ]
+  },
+  {
+    "id": "america-danmarkshavn",
+    "englishName": "Danmarkshavn",
+    "name": {
+      "en": "Danmarkshavn",
+      "ko": "덴마크샤븐",
+      "ja": "デンマークシャウン",
+      "es": "Danmarkshavn"
+    },
+    "country": {
+      "en": "Greenland",
+      "ko": "그린란드",
+      "ja": "グリーンランド",
+      "es": "Groenlandia"
+    },
+    "zone": "America/Danmarkshavn",
+    "aliases": [
+      "Danmarkshavn",
+      "America/Danmarkshavn",
+      "덴마크샤븐",
+      "デンマークシャウン"
+    ]
+  },
+  {
+    "id": "america-dawson",
+    "englishName": "Dawson",
+    "name": {
+      "en": "Dawson",
+      "ko": "도슨",
+      "ja": "ドーソン",
+      "es": "Dawson"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Dawson",
+    "aliases": [
+      "Dawson",
+      "America/Dawson",
+      "도슨",
+      "ドーソン"
+    ]
+  },
+  {
+    "id": "america-dawson-creek",
+    "englishName": "Dawson Creek",
+    "name": {
+      "en": "Dawson Creek",
+      "ko": "도슨크릭",
+      "ja": "ドーソンクリーク",
+      "es": "Dawson Creek"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Dawson_Creek",
+    "aliases": [
+      "Dawson Creek",
+      "America/Dawson_Creek",
+      "도슨크릭",
+      "ドーソンクリーク"
+    ]
+  },
+  {
+    "id": "america-detroit",
+    "englishName": "Detroit",
+    "name": {
+      "en": "Detroit",
+      "ko": "디트로이트",
+      "ja": "デトロイト",
+      "es": "Detroit"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Detroit",
+    "aliases": [
+      "Detroit",
+      "America/Detroit",
+      "디트로이트",
+      "デトロイト"
+    ]
+  },
+  {
+    "id": "america-dominica",
+    "englishName": "Dominica",
+    "name": {
+      "en": "Dominica",
+      "ko": "도미니카",
+      "ja": "ドミニカ",
+      "es": "Dominica"
+    },
+    "country": {
+      "en": "Dominica",
+      "ko": "도미니카",
+      "ja": "ドミニカ国",
+      "es": "Dominica"
+    },
+    "zone": "America/Dominica",
+    "aliases": [
+      "Dominica",
+      "America/Dominica",
+      "도미니카",
+      "ドミニカ"
+    ]
+  },
+  {
+    "id": "america-edmonton",
+    "englishName": "Edmonton",
+    "name": {
+      "en": "Edmonton",
+      "ko": "에드먼턴",
+      "ja": "エドモントン",
+      "es": "Edmonton"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Edmonton",
+    "aliases": [
+      "Edmonton",
+      "America/Edmonton",
+      "에드먼턴",
+      "エドモントン"
+    ]
+  },
+  {
+    "id": "america-eirunepe",
+    "englishName": "Eirunepe",
+    "name": {
+      "en": "Eirunepe",
+      "ko": "아이루네페",
+      "ja": "エイルネペ",
+      "es": "Eirunepé"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Eirunepe",
+    "aliases": [
+      "Eirunepe",
+      "America/Eirunepe",
+      "아이루네페",
+      "エイルネペ",
+      "Eirunepé"
+    ]
+  },
+  {
+    "id": "america-el-salvador",
+    "englishName": "El Salvador",
+    "name": {
+      "en": "El Salvador",
+      "ko": "엘살바도르",
+      "ja": "エルサルバドル",
+      "es": "El Salvador"
+    },
+    "country": {
+      "en": "El Salvador",
+      "ko": "엘살바도르",
+      "ja": "エルサルバドル",
+      "es": "El Salvador"
+    },
+    "zone": "America/El_Salvador",
+    "aliases": [
+      "El Salvador",
+      "America/El_Salvador",
+      "엘살바도르",
+      "エルサルバドル"
+    ]
+  },
+  {
+    "id": "america-noronha",
+    "englishName": "Fernando de Noronha",
+    "name": {
+      "en": "Fernando de Noronha",
+      "ko": "노롱야",
+      "ja": "ノローニャ",
+      "es": "Fernando de Noronha"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Noronha",
+    "aliases": [
+      "Noronha",
+      "America/Noronha",
+      "Fernando de Noronha",
+      "노롱야",
+      "ノローニャ"
+    ]
+  },
+  {
+    "id": "america-fort-nelson",
+    "englishName": "Fort Nelson",
+    "name": {
+      "en": "Fort Nelson",
+      "ko": "포트 넬슨",
+      "ja": "フォートネルソン",
+      "es": "Fort Nelson"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Fort_Nelson",
+    "aliases": [
+      "Fort Nelson",
+      "America/Fort_Nelson",
+      "포트 넬슨",
+      "フォートネルソン"
+    ]
+  },
+  {
+    "id": "america-fortaleza",
+    "englishName": "Fortaleza",
+    "name": {
+      "en": "Fortaleza",
+      "ko": "포르탈레자",
+      "ja": "フォルタレザ",
+      "es": "Fortaleza"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Fortaleza",
+    "aliases": [
+      "Fortaleza",
+      "America/Fortaleza",
+      "포르탈레자",
+      "フォルタレザ"
+    ]
+  },
+  {
+    "id": "america-glace-bay",
+    "englishName": "Glace Bay",
+    "name": {
+      "en": "Glace Bay",
+      "ko": "글라스베이",
+      "ja": "グレースベイ",
+      "es": "Glace Bay"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Glace_Bay",
+    "aliases": [
+      "Glace Bay",
+      "America/Glace_Bay",
+      "글라스베이",
+      "グレースベイ"
+    ]
+  },
+  {
+    "id": "america-goose-bay",
+    "englishName": "Goose Bay",
+    "name": {
+      "en": "Goose Bay",
+      "ko": "구즈베이",
+      "ja": "グースベイ",
+      "es": "Goose Bay"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Goose_Bay",
+    "aliases": [
+      "Goose Bay",
+      "America/Goose_Bay",
+      "구즈베이",
+      "グースベイ"
+    ]
+  },
+  {
+    "id": "america-grand-turk",
+    "englishName": "Grand Turk",
+    "name": {
+      "en": "Grand Turk",
+      "ko": "그랜드 터크",
+      "ja": "グランドターク",
+      "es": "Gran Turca"
+    },
+    "country": {
+      "en": "Turks & Caicos Islands",
+      "ko": "터크스 케이커스 제도",
+      "ja": "タークス・カイコス諸島",
+      "es": "Islas Turcas y Caicos"
+    },
+    "zone": "America/Grand_Turk",
+    "aliases": [
+      "Grand Turk",
+      "America/Grand_Turk",
+      "그랜드 터크",
+      "グランドターク",
+      "Gran Turca"
+    ]
+  },
+  {
+    "id": "america-grenada",
+    "englishName": "Grenada",
+    "name": {
+      "en": "Grenada",
+      "ko": "그레나다",
+      "ja": "グレナダ",
+      "es": "Granada"
+    },
+    "country": {
+      "en": "Grenada",
+      "ko": "그레나다",
+      "ja": "グレナダ",
+      "es": "Granada"
+    },
+    "zone": "America/Grenada",
+    "aliases": [
+      "Grenada",
+      "America/Grenada",
+      "그레나다",
+      "グレナダ",
+      "Granada"
+    ]
+  },
+  {
+    "id": "america-guadeloupe",
+    "englishName": "Guadeloupe",
+    "name": {
+      "en": "Guadeloupe",
+      "ko": "과들루프",
+      "ja": "グアドループ",
+      "es": "Guadalupe"
+    },
+    "country": {
+      "en": "Guadeloupe",
+      "ko": "과들루프",
+      "ja": "グアドループ",
+      "es": "Guadalupe"
+    },
+    "zone": "America/Guadeloupe",
+    "aliases": [
+      "Guadeloupe",
+      "America/Guadeloupe",
+      "과들루프",
+      "グアドループ",
+      "Guadalupe"
+    ]
+  },
+  {
+    "id": "america-guatemala",
+    "englishName": "Guatemala",
+    "name": {
+      "en": "Guatemala",
+      "ko": "과테말라",
+      "ja": "グアテマラ",
+      "es": "Guatemala"
+    },
+    "country": {
+      "en": "Guatemala",
+      "ko": "과테말라",
+      "ja": "グアテマラ",
+      "es": "Guatemala"
+    },
+    "zone": "America/Guatemala",
+    "aliases": [
+      "Guatemala",
+      "America/Guatemala",
+      "과테말라",
+      "グアテマラ"
+    ]
+  },
+  {
+    "id": "america-guayaquil",
+    "englishName": "Guayaquil",
+    "name": {
+      "en": "Guayaquil",
+      "ko": "과야킬",
+      "ja": "グアヤキル",
+      "es": "Guayaquil"
+    },
+    "country": {
+      "en": "Ecuador",
+      "ko": "에콰도르",
+      "ja": "エクアドル",
+      "es": "Ecuador"
+    },
+    "zone": "America/Guayaquil",
+    "aliases": [
+      "Guayaquil",
+      "America/Guayaquil",
+      "과야킬",
+      "グアヤキル"
+    ]
+  },
+  {
+    "id": "america-guyana",
+    "englishName": "Guyana",
+    "name": {
+      "en": "Guyana",
+      "ko": "가이아나",
+      "ja": "ガイアナ",
+      "es": "Guyana"
+    },
+    "country": {
+      "en": "Guyana",
+      "ko": "가이아나",
+      "ja": "ガイアナ",
+      "es": "Guyana"
+    },
+    "zone": "America/Guyana",
+    "aliases": [
+      "Guyana",
+      "America/Guyana",
+      "가이아나",
+      "ガイアナ"
+    ]
+  },
+  {
+    "id": "america-halifax",
+    "englishName": "Halifax",
+    "name": {
+      "en": "Halifax",
+      "ko": "핼리팩스",
+      "ja": "ハリファクス",
+      "es": "Halifax"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Halifax",
+    "aliases": [
+      "Halifax",
+      "America/Halifax",
+      "핼리팩스",
+      "ハリファクス"
+    ]
+  },
+  {
+    "id": "america-havana",
+    "englishName": "Havana",
+    "name": {
+      "en": "Havana",
+      "ko": "하바나",
+      "ja": "ハバナ",
+      "es": "La Habana"
+    },
+    "country": {
+      "en": "Cuba",
+      "ko": "쿠바",
+      "ja": "キューバ",
+      "es": "Cuba"
+    },
+    "zone": "America/Havana",
+    "aliases": [
+      "Havana",
+      "America/Havana",
+      "하바나",
+      "ハバナ",
+      "La Habana"
+    ]
+  },
+  {
+    "id": "america-hermosillo",
+    "englishName": "Hermosillo",
+    "name": {
+      "en": "Hermosillo",
+      "ko": "에르모시요",
+      "ja": "エルモシヨ",
+      "es": "Hermosillo"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Hermosillo",
+    "aliases": [
+      "Hermosillo",
+      "America/Hermosillo",
+      "에르모시요",
+      "エルモシヨ"
+    ]
+  },
+  {
+    "id": "america-indiana-indianapolis",
+    "englishName": "Indianapolis",
+    "name": {
+      "en": "Indianapolis",
+      "ko": "Indianapolis",
+      "ja": "Indianapolis",
+      "es": "Indianapolis"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Indianapolis",
+    "aliases": [
+      "Indianapolis",
+      "America/Indianapolis"
+    ]
+  },
+  {
+    "id": "america-inuvik",
+    "englishName": "Inuvik",
+    "name": {
+      "en": "Inuvik",
+      "ko": "이누빅",
+      "ja": "イヌヴィク",
+      "es": "Inuvik"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Inuvik",
+    "aliases": [
+      "Inuvik",
+      "America/Inuvik",
+      "이누빅",
+      "イヌヴィク"
+    ]
+  },
+  {
+    "id": "america-iqaluit",
+    "englishName": "Iqaluit",
+    "name": {
+      "en": "Iqaluit",
+      "ko": "이칼루이트",
+      "ja": "イカルイット",
+      "es": "Iqaluit"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Iqaluit",
+    "aliases": [
+      "Iqaluit",
+      "America/Iqaluit",
+      "이칼루이트",
+      "イカルイット"
+    ]
+  },
+  {
+    "id": "america-scoresbysund",
+    "englishName": "Ittoqqortoormiit",
+    "name": {
+      "en": "Ittoqqortoormiit",
+      "ko": "스코레스바이선드",
+      "ja": "イトコルトルミット",
+      "es": "Ittoqqortoormiit"
+    },
+    "country": {
+      "en": "Greenland",
+      "ko": "그린란드",
+      "ja": "グリーンランド",
+      "es": "Groenlandia"
+    },
+    "zone": "America/Scoresbysund",
+    "aliases": [
+      "Scoresbysund",
+      "America/Scoresbysund",
+      "Ittoqqortoormiit",
+      "스코레스바이선드",
+      "イトコルトルミット"
+    ]
+  },
+  {
+    "id": "america-jamaica",
+    "englishName": "Jamaica",
+    "name": {
+      "en": "Jamaica",
+      "ko": "자메이카",
+      "ja": "ジャマイカ",
+      "es": "Jamaica"
+    },
+    "country": {
+      "en": "Jamaica",
+      "ko": "자메이카",
+      "ja": "ジャマイカ",
+      "es": "Jamaica"
+    },
+    "zone": "America/Jamaica",
+    "aliases": [
+      "Jamaica",
+      "America/Jamaica",
+      "자메이카",
+      "ジャマイカ"
+    ]
+  },
+  {
+    "id": "america-argentina-jujuy",
+    "englishName": "Jujuy",
+    "name": {
+      "en": "Jujuy",
+      "ko": "Jujuy",
+      "ja": "Jujuy",
+      "es": "Jujuy"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Jujuy",
+    "aliases": [
+      "Jujuy",
+      "America/Jujuy"
+    ]
+  },
+  {
+    "id": "america-juneau",
+    "englishName": "Juneau",
+    "name": {
+      "en": "Juneau",
+      "ko": "주노",
+      "ja": "ジュノー",
+      "es": "Juneau"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Juneau",
+    "aliases": [
+      "Juneau",
+      "America/Juneau",
+      "주노",
+      "ジュノー"
+    ]
+  },
+  {
+    "id": "america-indiana-knox",
+    "englishName": "Knox, Indiana",
+    "name": {
+      "en": "Knox, Indiana",
+      "ko": "인디애나주, 녹스",
+      "ja": "インディアナ州ノックス",
+      "es": "Knox, Indiana"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Knox",
+    "aliases": [
+      "Knox",
+      "America/Indiana/Knox",
+      "Knox, Indiana",
+      "인디애나주, 녹스",
+      "インディアナ州ノックス"
+    ]
+  },
+  {
+    "id": "america-kralendijk",
+    "englishName": "Kralendijk",
+    "name": {
+      "en": "Kralendijk",
+      "ko": "크라렌디즈크",
+      "ja": "クラレンダイク",
+      "es": "Kralendijk"
+    },
+    "country": {
+      "en": "Caribbean Netherlands",
+      "ko": "네덜란드령 카리브",
+      "ja": "オランダ領カリブ",
+      "es": "Caribe neerlandés"
+    },
+    "zone": "America/Kralendijk",
+    "aliases": [
+      "Kralendijk",
+      "America/Kralendijk",
+      "크라렌디즈크",
+      "クラレンダイク"
+    ]
+  },
+  {
+    "id": "america-la-paz",
+    "englishName": "La Paz",
+    "name": {
+      "en": "La Paz",
+      "ko": "라파스",
+      "ja": "ラパス",
+      "es": "La Paz"
+    },
+    "country": {
+      "en": "Bolivia",
+      "ko": "볼리비아",
+      "ja": "ボリビア",
+      "es": "Bolivia"
+    },
+    "zone": "America/La_Paz",
+    "aliases": [
+      "La Paz",
+      "America/La_Paz",
+      "라파스",
+      "ラパス"
+    ]
+  },
+  {
+    "id": "america-argentina-la-rioja",
+    "englishName": "La Rioja",
+    "name": {
+      "en": "La Rioja",
+      "ko": "라 리오하",
+      "ja": "ラリオハ",
+      "es": "La Rioja"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/La_Rioja",
+    "aliases": [
+      "La Rioja",
+      "America/Argentina/La_Rioja",
+      "라 리오하",
+      "ラリオハ"
+    ]
+  },
+  {
+    "id": "america-lima",
+    "englishName": "Lima",
+    "name": {
+      "en": "Lima",
+      "ko": "리마",
+      "ja": "リマ",
+      "es": "Lima"
+    },
+    "country": {
+      "en": "Peru",
+      "ko": "페루",
+      "ja": "ペルー",
+      "es": "Perú"
+    },
+    "zone": "America/Lima",
+    "aliases": [
+      "Lima",
+      "America/Lima",
+      "리마",
+      "リマ"
+    ]
+  },
+  {
+    "id": "america-kentucky-louisville",
+    "englishName": "Louisville",
+    "name": {
+      "en": "Louisville",
+      "ko": "Louisville",
+      "ja": "Louisville",
+      "es": "Louisville"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Kentucky/Louisville",
+    "aliases": [
+      "Louisville",
+      "America/Louisville"
+    ]
+  },
+  {
+    "id": "america-lower-princes",
+    "englishName": "Lower Prince’s Quarter",
+    "name": {
+      "en": "Lower Prince’s Quarter",
+      "ko": "로워 프린스 쿼터",
+      "ja": "ローワー・プリンセズ・クウォーター",
+      "es": "Lower Prince’s Quarter"
+    },
+    "country": {
+      "en": "Sint Maarten",
+      "ko": "신트마르턴",
+      "ja": "シント・マールテン",
+      "es": "Sint Maarten"
+    },
+    "zone": "America/Lower_Princes",
+    "aliases": [
+      "Lower Princes",
+      "America/Lower_Princes",
+      "Lower Prince’s Quarter",
+      "로워 프린스 쿼터",
+      "ローワー・プリンセズ・クウォーター"
+    ]
+  },
+  {
+    "id": "america-maceio",
+    "englishName": "Maceio",
+    "name": {
+      "en": "Maceio",
+      "ko": "마세이오",
+      "ja": "マセイオ",
+      "es": "Maceió"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Maceio",
+    "aliases": [
+      "Maceio",
+      "America/Maceio",
+      "마세이오",
+      "マセイオ",
+      "Maceió"
+    ]
+  },
+  {
+    "id": "america-managua",
+    "englishName": "Managua",
+    "name": {
+      "en": "Managua",
+      "ko": "마나과",
+      "ja": "マナグア",
+      "es": "Managua"
+    },
+    "country": {
+      "en": "Nicaragua",
+      "ko": "니카라과",
+      "ja": "ニカラグア",
+      "es": "Nicaragua"
+    },
+    "zone": "America/Managua",
+    "aliases": [
+      "Managua",
+      "America/Managua",
+      "마나과",
+      "マナグア"
+    ]
+  },
+  {
+    "id": "america-manaus",
+    "englishName": "Manaus",
+    "name": {
+      "en": "Manaus",
+      "ko": "마나우스",
+      "ja": "マナウス",
+      "es": "Manaos"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Manaus",
+    "aliases": [
+      "Manaus",
+      "America/Manaus",
+      "마나우스",
+      "マナウス",
+      "Manaos"
+    ]
+  },
+  {
+    "id": "america-indiana-marengo",
+    "englishName": "Marengo, Indiana",
+    "name": {
+      "en": "Marengo, Indiana",
+      "ko": "인디애나주, 머렝고",
+      "ja": "インディアナ州マレンゴ",
+      "es": "Marengo, Indiana"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Marengo",
+    "aliases": [
+      "Marengo",
+      "America/Indiana/Marengo",
+      "Marengo, Indiana",
+      "인디애나주, 머렝고",
+      "インディアナ州マレンゴ"
+    ]
+  },
+  {
+    "id": "america-marigot",
+    "englishName": "Marigot",
+    "name": {
+      "en": "Marigot",
+      "ko": "마리곳",
+      "ja": "マリゴ",
+      "es": "Marigot"
+    },
+    "country": {
+      "en": "St. Martin",
+      "ko": "생마르탱",
+      "ja": "サン・マルタン",
+      "es": "San Martín"
+    },
+    "zone": "America/Marigot",
+    "aliases": [
+      "Marigot",
+      "America/Marigot",
+      "마리곳",
+      "マリゴ"
+    ]
+  },
+  {
+    "id": "america-martinique",
+    "englishName": "Martinique",
+    "name": {
+      "en": "Martinique",
+      "ko": "마티니크",
+      "ja": "マルティニーク",
+      "es": "Martinica"
+    },
+    "country": {
+      "en": "Martinique",
+      "ko": "마르티니크",
+      "ja": "マルティニーク",
+      "es": "Martinica"
+    },
+    "zone": "America/Martinique",
+    "aliases": [
+      "Martinique",
+      "America/Martinique",
+      "마티니크",
+      "マルティニーク",
+      "Martinica"
+    ]
+  },
+  {
+    "id": "america-matamoros",
+    "englishName": "Matamoros",
+    "name": {
+      "en": "Matamoros",
+      "ko": "마타모로스",
+      "ja": "マタモロス",
+      "es": "Matamoros"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Matamoros",
+    "aliases": [
+      "Matamoros",
+      "America/Matamoros",
+      "마타모로스",
+      "マタモロス"
+    ]
+  },
+  {
+    "id": "america-mazatlan",
+    "englishName": "Mazatlan",
+    "name": {
+      "en": "Mazatlan",
+      "ko": "마사틀란",
+      "ja": "マサトラン",
+      "es": "Mazatlán"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Mazatlan",
+    "aliases": [
+      "Mazatlan",
+      "America/Mazatlan",
+      "마사틀란",
+      "マサトラン",
+      "Mazatlán"
+    ]
+  },
+  {
+    "id": "america-argentina-mendoza",
+    "englishName": "Mendoza",
+    "name": {
+      "en": "Mendoza",
+      "ko": "Mendoza",
+      "ja": "Mendoza",
+      "es": "Mendoza"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Mendoza",
+    "aliases": [
+      "Mendoza",
+      "America/Mendoza"
+    ]
+  },
+  {
+    "id": "america-menominee",
+    "englishName": "Menominee",
+    "name": {
+      "en": "Menominee",
+      "ko": "메노미니",
+      "ja": "メノミニー",
+      "es": "Menominee"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Menominee",
+    "aliases": [
+      "Menominee",
+      "America/Menominee",
+      "메노미니",
+      "メノミニー"
+    ]
+  },
+  {
+    "id": "america-metlakatla",
+    "englishName": "Metlakatla",
+    "name": {
+      "en": "Metlakatla",
+      "ko": "메틀라카틀라",
+      "ja": "メトラカトラ",
+      "es": "Metlakatla"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Metlakatla",
+    "aliases": [
+      "Metlakatla",
+      "America/Metlakatla",
+      "메틀라카틀라",
+      "メトラカトラ"
+    ]
+  },
+  {
+    "id": "america-miquelon",
+    "englishName": "Miquelon",
+    "name": {
+      "en": "Miquelon",
+      "ko": "미클롱",
+      "ja": "ミクロン島",
+      "es": "Miquelón"
+    },
+    "country": {
+      "en": "St. Pierre & Miquelon",
+      "ko": "생피에르 미클롱",
+      "ja": "サンピエール島・ミクロン島",
+      "es": "San Pedro y Miquelón"
+    },
+    "zone": "America/Miquelon",
+    "aliases": [
+      "Miquelon",
+      "America/Miquelon",
+      "미클롱",
+      "ミクロン島",
+      "Miquelón"
+    ]
+  },
+  {
+    "id": "america-moncton",
+    "englishName": "Moncton",
+    "name": {
+      "en": "Moncton",
+      "ko": "몽턴",
+      "ja": "モンクトン",
+      "es": "Moncton"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Moncton",
+    "aliases": [
+      "Moncton",
+      "America/Moncton",
+      "몽턴",
+      "モンクトン"
+    ]
+  },
+  {
+    "id": "america-monterrey",
+    "englishName": "Monterrey",
+    "name": {
+      "en": "Monterrey",
+      "ko": "몬테레이",
+      "ja": "モンテレイ",
+      "es": "Monterrey"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Monterrey",
+    "aliases": [
+      "Monterrey",
+      "America/Monterrey",
+      "몬테레이",
+      "モンテレイ"
+    ]
+  },
+  {
+    "id": "america-montevideo",
+    "englishName": "Montevideo",
+    "name": {
+      "en": "Montevideo",
+      "ko": "몬테비데오",
+      "ja": "モンテビデオ",
+      "es": "Montevideo"
+    },
+    "country": {
+      "en": "Uruguay",
+      "ko": "우루과이",
+      "ja": "ウルグアイ",
+      "es": "Uruguay"
+    },
+    "zone": "America/Montevideo",
+    "aliases": [
+      "Montevideo",
+      "America/Montevideo",
+      "몬테비데오",
+      "モンテビデオ"
+    ]
+  },
+  {
+    "id": "america-kentucky-monticello",
+    "englishName": "Monticello, Kentucky",
+    "name": {
+      "en": "Monticello, Kentucky",
+      "ko": "켄터키주, 몬티첼로",
+      "ja": "ケンタッキー州モンティチェロ",
+      "es": "Monticello, Kentucky"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Kentucky/Monticello",
+    "aliases": [
+      "Monticello",
+      "America/Kentucky/Monticello",
+      "Monticello, Kentucky",
+      "켄터키주, 몬티첼로",
+      "ケンタッキー州モンティチェロ"
+    ]
+  },
+  {
+    "id": "america-montserrat",
+    "englishName": "Montserrat",
+    "name": {
+      "en": "Montserrat",
+      "ko": "몬세라트",
+      "ja": "モントセラト",
+      "es": "Montserrat"
+    },
+    "country": {
+      "en": "Montserrat",
+      "ko": "몬트세라트",
+      "ja": "モントセラト",
+      "es": "Montserrat"
+    },
+    "zone": "America/Montserrat",
+    "aliases": [
+      "Montserrat",
+      "America/Montserrat",
+      "몬세라트",
+      "モントセラト"
+    ]
+  },
+  {
+    "id": "america-merida",
+    "englishName": "Mérida",
+    "name": {
+      "en": "Mérida",
+      "ko": "메리다",
+      "ja": "メリダ",
+      "es": "Mérida"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Merida",
+    "aliases": [
+      "Merida",
+      "America/Merida",
+      "Mérida",
+      "메리다",
+      "メリダ"
+    ]
+  },
+  {
+    "id": "america-nassau",
+    "englishName": "Nassau",
+    "name": {
+      "en": "Nassau",
+      "ko": "나소",
+      "ja": "ナッソー",
+      "es": "Nassau"
+    },
+    "country": {
+      "en": "Bahamas",
+      "ko": "바하마",
+      "ja": "バハマ",
+      "es": "Bahamas"
+    },
+    "zone": "America/Nassau",
+    "aliases": [
+      "Nassau",
+      "America/Nassau",
+      "나소",
+      "ナッソー"
+    ]
+  },
+  {
+    "id": "america-north-dakota-new-salem",
+    "englishName": "New Salem, North Dakota",
+    "name": {
+      "en": "New Salem, North Dakota",
+      "ko": "노스다코타주, 뉴살렘",
+      "ja": "ノースダコタ州ニューセーラム",
+      "es": "New Salem, Dakota del Norte"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/North_Dakota/New_Salem",
+    "aliases": [
+      "New Salem",
+      "America/North_Dakota/New_Salem",
+      "New Salem, North Dakota",
+      "노스다코타주, 뉴살렘",
+      "ノースダコタ州ニューセーラム",
+      "New Salem, Dakota del Norte"
+    ]
+  },
+  {
+    "id": "america-nome",
+    "englishName": "Nome",
+    "name": {
+      "en": "Nome",
+      "ko": "놈",
+      "ja": "ノーム",
+      "es": "Nome"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Nome",
+    "aliases": [
+      "Nome",
+      "America/Nome",
+      "놈",
+      "ノーム"
+    ]
+  },
+  {
+    "id": "america-nuuk",
+    "englishName": "Nuuk",
+    "name": {
+      "en": "Nuuk",
+      "ko": "Nuuk",
+      "ja": "Nuuk",
+      "es": "Nuuk"
+    },
+    "country": {
+      "en": "Greenland",
+      "ko": "그린란드",
+      "ja": "グリーンランド",
+      "es": "Groenlandia"
+    },
+    "zone": "America/Nuuk",
+    "aliases": [
+      "Nuuk",
+      "Godthab",
+      "America/Godthab"
+    ]
+  },
+  {
+    "id": "america-ojinaga",
+    "englishName": "Ojinaga",
+    "name": {
+      "en": "Ojinaga",
+      "ko": "오히나가",
+      "ja": "オヒナガ",
+      "es": "Ojinaga"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Ojinaga",
+    "aliases": [
+      "Ojinaga",
+      "America/Ojinaga",
+      "오히나가",
+      "オヒナガ"
+    ]
+  },
+  {
+    "id": "america-panama",
+    "englishName": "Panama",
+    "name": {
+      "en": "Panama",
+      "ko": "파나마",
+      "ja": "パナマ",
+      "es": "Panamá"
+    },
+    "country": {
+      "en": "Panama",
+      "ko": "파나마",
+      "ja": "パナマ",
+      "es": "Panamá"
+    },
+    "zone": "America/Panama",
+    "aliases": [
+      "Panama",
+      "America/Panama",
+      "파나마",
+      "パナマ",
+      "Panamá"
+    ]
+  },
+  {
+    "id": "america-paramaribo",
+    "englishName": "Paramaribo",
+    "name": {
+      "en": "Paramaribo",
+      "ko": "파라마리보",
+      "ja": "パラマリボ",
+      "es": "Paramaribo"
+    },
+    "country": {
+      "en": "Suriname",
+      "ko": "수리남",
+      "ja": "スリナム",
+      "es": "Surinam"
+    },
+    "zone": "America/Paramaribo",
+    "aliases": [
+      "Paramaribo",
+      "America/Paramaribo",
+      "파라마리보",
+      "パラマリボ"
+    ]
+  },
+  {
+    "id": "america-indiana-petersburg",
+    "englishName": "Petersburg, Indiana",
+    "name": {
+      "en": "Petersburg, Indiana",
+      "ko": "인디애나주, 피츠버그",
+      "ja": "インディアナ州ピーターズバーグ",
+      "es": "Petersburg, Indiana"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Petersburg",
+    "aliases": [
+      "Petersburg",
+      "America/Indiana/Petersburg",
+      "Petersburg, Indiana",
+      "인디애나주, 피츠버그",
+      "インディアナ州ピーターズバーグ"
+    ]
+  },
+  {
+    "id": "america-phoenix",
+    "englishName": "Phoenix",
+    "name": {
+      "en": "Phoenix",
+      "ko": "피닉스",
+      "ja": "フェニックス",
+      "es": "Phoenix"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Phoenix",
+    "aliases": [
+      "Phoenix",
+      "America/Phoenix",
+      "피닉스",
+      "フェニックス"
+    ]
+  },
+  {
+    "id": "america-port-of-spain",
+    "englishName": "Port of Spain",
+    "name": {
+      "en": "Port of Spain",
+      "ko": "포트오브스페인",
+      "ja": "ポートオブスペイン",
+      "es": "Puerto España"
+    },
+    "country": {
+      "en": "Trinidad & Tobago",
+      "ko": "트리니다드 토바고",
+      "ja": "トリニダード・トバゴ",
+      "es": "Trinidad y Tobago"
+    },
+    "zone": "America/Port_of_Spain",
+    "aliases": [
+      "Port of Spain",
+      "America/Port_of_Spain",
+      "포트오브스페인",
+      "ポートオブスペイン",
+      "Puerto España"
+    ]
+  },
+  {
+    "id": "america-port-au-prince",
+    "englishName": "Port-au-Prince",
+    "name": {
+      "en": "Port-au-Prince",
+      "ko": "포르토프랭스",
+      "ja": "ポルトープランス",
+      "es": "Puerto Príncipe"
+    },
+    "country": {
+      "en": "Haiti",
+      "ko": "아이티",
+      "ja": "ハイチ",
+      "es": "Haití"
+    },
+    "zone": "America/Port-au-Prince",
+    "aliases": [
+      "Port-au-Prince",
+      "America/Port-au-Prince",
+      "포르토프랭스",
+      "ポルトープランス",
+      "Puerto Príncipe"
+    ]
+  },
+  {
+    "id": "america-porto-velho",
+    "englishName": "Porto Velho",
+    "name": {
+      "en": "Porto Velho",
+      "ko": "포르토벨료",
+      "ja": "ポルトベーリョ",
+      "es": "Porto Velho"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Porto_Velho",
+    "aliases": [
+      "Porto Velho",
+      "America/Porto_Velho",
+      "포르토벨료",
+      "ポルトベーリョ"
+    ]
+  },
+  {
+    "id": "america-puerto-rico",
+    "englishName": "Puerto Rico",
+    "name": {
+      "en": "Puerto Rico",
+      "ko": "푸에르토리코",
+      "ja": "プエルトリコ",
+      "es": "Puerto Rico"
+    },
+    "country": {
+      "en": "Puerto Rico",
+      "ko": "푸에르토리코",
+      "ja": "プエルトリコ",
+      "es": "Puerto Rico"
+    },
+    "zone": "America/Puerto_Rico",
+    "aliases": [
+      "Puerto Rico",
+      "America/Puerto_Rico",
+      "푸에르토리코",
+      "プエルトリコ"
+    ]
+  },
+  {
+    "id": "america-punta-arenas",
+    "englishName": "Punta Arenas",
+    "name": {
+      "en": "Punta Arenas",
+      "ko": "푼타아레나스",
+      "ja": "プンタアレナス",
+      "es": "Punta Arenas"
+    },
+    "country": {
+      "en": "Chile",
+      "ko": "칠레",
+      "ja": "チリ",
+      "es": "Chile"
+    },
+    "zone": "America/Punta_Arenas",
+    "aliases": [
+      "Punta Arenas",
+      "America/Punta_Arenas",
+      "푼타아레나스",
+      "プンタアレナス"
+    ]
+  },
+  {
+    "id": "america-rankin-inlet",
+    "englishName": "Rankin Inlet",
+    "name": {
+      "en": "Rankin Inlet",
+      "ko": "랭킹 인렛",
+      "ja": "ランキンインレット",
+      "es": "Rankin Inlet"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Rankin_Inlet",
+    "aliases": [
+      "Rankin Inlet",
+      "America/Rankin_Inlet",
+      "랭킹 인렛",
+      "ランキンインレット"
+    ]
+  },
+  {
+    "id": "america-recife",
+    "englishName": "Recife",
+    "name": {
+      "en": "Recife",
+      "ko": "레시페",
+      "ja": "レシフェ",
+      "es": "Recife"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Recife",
+    "aliases": [
+      "Recife",
+      "America/Recife",
+      "레시페",
+      "レシフェ"
+    ]
+  },
+  {
+    "id": "america-regina",
+    "englishName": "Regina",
+    "name": {
+      "en": "Regina",
+      "ko": "리자이나",
+      "ja": "レジャイナ",
+      "es": "Regina"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Regina",
+    "aliases": [
+      "Regina",
+      "America/Regina",
+      "리자이나",
+      "レジャイナ"
+    ]
+  },
+  {
+    "id": "america-resolute",
+    "englishName": "Resolute",
+    "name": {
+      "en": "Resolute",
+      "ko": "리졸루트",
+      "ja": "レゾリュート",
+      "es": "Resolute"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Resolute",
+    "aliases": [
+      "Resolute",
+      "America/Resolute",
+      "리졸루트",
+      "レゾリュート"
+    ]
+  },
+  {
+    "id": "america-rio-branco",
+    "englishName": "Rio Branco",
+    "name": {
+      "en": "Rio Branco",
+      "ko": "히우 브랑쿠",
+      "ja": "リオブランコ",
+      "es": "Río Branco"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Rio_Branco",
+    "aliases": [
+      "Rio Branco",
+      "America/Rio_Branco",
+      "히우 브랑쿠",
+      "リオブランコ",
+      "Río Branco"
+    ]
+  },
+  {
+    "id": "america-argentina-rio-gallegos",
+    "englishName": "Rio Gallegos",
+    "name": {
+      "en": "Rio Gallegos",
+      "ko": "리오 가예고스",
+      "ja": "リオガジェゴス",
+      "es": "Río Gallegos"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Rio_Gallegos",
+    "aliases": [
+      "Rio Gallegos",
+      "America/Argentina/Rio_Gallegos",
+      "리오 가예고스",
+      "リオガジェゴス",
+      "Río Gallegos"
+    ]
+  },
+  {
+    "id": "america-argentina-salta",
+    "englishName": "Salta",
+    "name": {
+      "en": "Salta",
+      "ko": "살타",
+      "ja": "サルタ",
+      "es": "Salta"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Salta",
+    "aliases": [
+      "Salta",
+      "America/Argentina/Salta",
+      "살타",
+      "サルタ"
+    ]
+  },
+  {
+    "id": "america-argentina-san-juan",
+    "englishName": "San Juan",
+    "name": {
+      "en": "San Juan",
+      "ko": "산후안",
+      "ja": "サンファン",
+      "es": "San Juan"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/San_Juan",
+    "aliases": [
+      "San Juan",
+      "America/Argentina/San_Juan",
+      "산후안",
+      "サンファン"
+    ]
+  },
+  {
+    "id": "america-argentina-san-luis",
+    "englishName": "San Luis",
+    "name": {
+      "en": "San Luis",
+      "ko": "산루이스",
+      "ja": "サンルイス",
+      "es": "San Luis"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/San_Luis",
+    "aliases": [
+      "San Luis",
+      "America/Argentina/San_Luis",
+      "산루이스",
+      "サンルイス"
+    ]
+  },
+  {
+    "id": "america-santarem",
+    "englishName": "Santarem",
+    "name": {
+      "en": "Santarem",
+      "ko": "산타렘",
+      "ja": "サンタレム",
+      "es": "Santarém"
+    },
+    "country": {
+      "en": "Brazil",
+      "ko": "브라질",
+      "ja": "ブラジル",
+      "es": "Brasil"
+    },
+    "zone": "America/Santarem",
+    "aliases": [
+      "Santarem",
+      "America/Santarem",
+      "산타렘",
+      "サンタレム",
+      "Santarém"
+    ]
+  },
+  {
+    "id": "america-santiago",
+    "englishName": "Santiago",
+    "name": {
+      "en": "Santiago",
+      "ko": "산티아고",
+      "ja": "サンチアゴ",
+      "es": "Santiago de Chile"
+    },
+    "country": {
+      "en": "Chile",
+      "ko": "칠레",
+      "ja": "チリ",
+      "es": "Chile"
+    },
+    "zone": "America/Santiago",
+    "aliases": [
+      "Santiago",
+      "America/Santiago",
+      "산티아고",
+      "サンチアゴ",
+      "Santiago de Chile"
+    ]
+  },
+  {
+    "id": "america-santo-domingo",
+    "englishName": "Santo Domingo",
+    "name": {
+      "en": "Santo Domingo",
+      "ko": "산토도밍고",
+      "ja": "サントドミンゴ",
+      "es": "Santo Domingo"
+    },
+    "country": {
+      "en": "Dominican Republic",
+      "ko": "도미니카 공화국",
+      "ja": "ドミニカ共和国",
+      "es": "República Dominicana"
+    },
+    "zone": "America/Santo_Domingo",
+    "aliases": [
+      "Santo Domingo",
+      "America/Santo_Domingo",
+      "산토도밍고",
+      "サントドミンゴ"
+    ]
+  },
+  {
+    "id": "america-sitka",
+    "englishName": "Sitka",
+    "name": {
+      "en": "Sitka",
+      "ko": "싯카",
+      "ja": "シトカ",
+      "es": "Sitka"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Sitka",
+    "aliases": [
+      "Sitka",
+      "America/Sitka",
+      "싯카",
+      "シトカ"
+    ]
+  },
+  {
+    "id": "america-st-barthelemy",
+    "englishName": "St. Barthélemy",
+    "name": {
+      "en": "St. Barthélemy",
+      "ko": "생바르텔레미",
+      "ja": "サン・バルテルミー",
+      "es": "San Bartolomé"
+    },
+    "country": {
+      "en": "St. Barthélemy",
+      "ko": "생바르텔레미",
+      "ja": "サン・バルテルミー",
+      "es": "San Bartolomé"
+    },
+    "zone": "America/St_Barthelemy",
+    "aliases": [
+      "St. Barthelemy",
+      "America/St_Barthelemy",
+      "St. Barthélemy",
+      "생바르텔레미",
+      "サン・バルテルミー",
+      "San Bartolomé"
+    ]
+  },
+  {
+    "id": "america-st-johns",
+    "englishName": "St. John’s",
+    "name": {
+      "en": "St. John’s",
+      "ko": "세인트존스",
+      "ja": "セントジョンズ",
+      "es": "San Juan de Terranova"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/St_Johns",
+    "aliases": [
+      "St. Johns",
+      "America/St_Johns",
+      "St. John’s",
+      "세인트존스",
+      "セントジョンズ",
+      "San Juan de Terranova"
+    ]
+  },
+  {
+    "id": "america-st-kitts",
+    "englishName": "St. Kitts",
+    "name": {
+      "en": "St. Kitts",
+      "ko": "세인트키츠",
+      "ja": "セントクリストファー",
+      "es": "San Cristóbal"
+    },
+    "country": {
+      "en": "St. Kitts & Nevis",
+      "ko": "세인트키츠 네비스",
+      "ja": "セントクリストファー・ネーヴィス",
+      "es": "San Cristóbal y Nieves"
+    },
+    "zone": "America/St_Kitts",
+    "aliases": [
+      "St. Kitts",
+      "America/St_Kitts",
+      "세인트키츠",
+      "セントクリストファー",
+      "San Cristóbal"
+    ]
+  },
+  {
+    "id": "america-st-lucia",
+    "englishName": "St. Lucia",
+    "name": {
+      "en": "St. Lucia",
+      "ko": "세인트루시아",
+      "ja": "セントルシア",
+      "es": "Santa Lucía"
+    },
+    "country": {
+      "en": "St. Lucia",
+      "ko": "세인트루시아",
+      "ja": "セントルシア",
+      "es": "Santa Lucía"
+    },
+    "zone": "America/St_Lucia",
+    "aliases": [
+      "St. Lucia",
+      "America/St_Lucia",
+      "세인트루시아",
+      "セントルシア",
+      "Santa Lucía"
+    ]
+  },
+  {
+    "id": "america-st-thomas",
+    "englishName": "St. Thomas",
+    "name": {
+      "en": "St. Thomas",
+      "ko": "세인트토마스",
+      "ja": "セントトーマス",
+      "es": "St. Thomas"
+    },
+    "country": {
+      "en": "U.S. Virgin Islands",
+      "ko": "미국령 버진아일랜드",
+      "ja": "米領ヴァージン諸島",
+      "es": "Islas Vírgenes de EE. UU."
+    },
+    "zone": "America/St_Thomas",
+    "aliases": [
+      "St. Thomas",
+      "America/St_Thomas",
+      "세인트토마스",
+      "セントトーマス"
+    ]
+  },
+  {
+    "id": "america-st-vincent",
+    "englishName": "St. Vincent",
+    "name": {
+      "en": "St. Vincent",
+      "ko": "세인트빈센트",
+      "ja": "セントビンセント",
+      "es": "San Vicente"
+    },
+    "country": {
+      "en": "St. Vincent & Grenadines",
+      "ko": "세인트빈센트그레나딘",
+      "ja": "セントビンセント及びグレナディーン諸島",
+      "es": "San Vicente y las Granadinas"
+    },
+    "zone": "America/St_Vincent",
+    "aliases": [
+      "St. Vincent",
+      "America/St_Vincent",
+      "세인트빈센트",
+      "セントビンセント",
+      "San Vicente"
+    ]
+  },
+  {
+    "id": "america-swift-current",
+    "englishName": "Swift Current",
+    "name": {
+      "en": "Swift Current",
+      "ko": "스위프트커런트",
+      "ja": "スウィフトカレント",
+      "es": "Swift Current"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Swift_Current",
+    "aliases": [
+      "Swift Current",
+      "America/Swift_Current",
+      "스위프트커런트",
+      "スウィフトカレント"
+    ]
+  },
+  {
+    "id": "america-tegucigalpa",
+    "englishName": "Tegucigalpa",
+    "name": {
+      "en": "Tegucigalpa",
+      "ko": "테구시갈파",
+      "ja": "テグシガルパ",
+      "es": "Tegucigalpa"
+    },
+    "country": {
+      "en": "Honduras",
+      "ko": "온두라스",
+      "ja": "ホンジュラス",
+      "es": "Honduras"
+    },
+    "zone": "America/Tegucigalpa",
+    "aliases": [
+      "Tegucigalpa",
+      "America/Tegucigalpa",
+      "테구시갈파",
+      "テグシガルパ"
+    ]
+  },
+  {
+    "id": "america-indiana-tell-city",
+    "englishName": "Tell City, Indiana",
+    "name": {
+      "en": "Tell City, Indiana",
+      "ko": "인디애나주, 텔시티",
+      "ja": "インディアナ州テルシティ",
+      "es": "Tell City, Indiana"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Tell_City",
+    "aliases": [
+      "Tell City",
+      "America/Indiana/Tell_City",
+      "Tell City, Indiana",
+      "인디애나주, 텔시티",
+      "インディアナ州テルシティ"
+    ]
+  },
+  {
+    "id": "america-thule",
+    "englishName": "Thule",
+    "name": {
+      "en": "Thule",
+      "ko": "툴레",
+      "ja": "チューレ",
+      "es": "Thule"
+    },
+    "country": {
+      "en": "Greenland",
+      "ko": "그린란드",
+      "ja": "グリーンランド",
+      "es": "Groenlandia"
+    },
+    "zone": "America/Thule",
+    "aliases": [
+      "Thule",
+      "America/Thule",
+      "툴레",
+      "チューレ"
+    ]
+  },
+  {
+    "id": "america-tijuana",
+    "englishName": "Tijuana",
+    "name": {
+      "en": "Tijuana",
+      "ko": "티후아나",
+      "ja": "ティフアナ",
+      "es": "Tijuana"
+    },
+    "country": {
+      "en": "Mexico",
+      "ko": "멕시코",
+      "ja": "メキシコ",
+      "es": "México"
+    },
+    "zone": "America/Tijuana",
+    "aliases": [
+      "Tijuana",
+      "America/Tijuana",
+      "티후아나",
+      "ティフアナ"
+    ]
+  },
+  {
+    "id": "america-tortola",
+    "englishName": "Tortola",
+    "name": {
+      "en": "Tortola",
+      "ko": "토르톨라",
+      "ja": "トルトーラ",
+      "es": "Tórtola"
+    },
+    "country": {
+      "en": "British Virgin Islands",
+      "ko": "영국령 버진아일랜드",
+      "ja": "英領ヴァージン諸島",
+      "es": "Islas Vírgenes Británicas"
+    },
+    "zone": "America/Tortola",
+    "aliases": [
+      "Tortola",
+      "America/Tortola",
+      "토르톨라",
+      "トルトーラ",
+      "Tórtola"
+    ]
+  },
+  {
+    "id": "america-argentina-tucuman",
+    "englishName": "Tucuman",
+    "name": {
+      "en": "Tucuman",
+      "ko": "투쿠만",
+      "ja": "トゥクマン",
+      "es": "Tucumán"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Tucuman",
+    "aliases": [
+      "Tucuman",
+      "America/Argentina/Tucuman",
+      "투쿠만",
+      "トゥクマン",
+      "Tucumán"
+    ]
+  },
+  {
+    "id": "america-argentina-ushuaia",
+    "englishName": "Ushuaia",
+    "name": {
+      "en": "Ushuaia",
+      "ko": "우수아이아",
+      "ja": "ウシュアイア",
+      "es": "Ushuaia"
+    },
+    "country": {
+      "en": "Argentina",
+      "ko": "아르헨티나",
+      "ja": "アルゼンチン",
+      "es": "Argentina"
+    },
+    "zone": "America/Argentina/Ushuaia",
+    "aliases": [
+      "Ushuaia",
+      "America/Argentina/Ushuaia",
+      "우수아이아",
+      "ウシュアイア"
+    ]
+  },
+  {
+    "id": "america-indiana-vevay",
+    "englishName": "Vevay, Indiana",
+    "name": {
+      "en": "Vevay, Indiana",
+      "ko": "인디애나주, 비비",
+      "ja": "インディアナ州ビベー",
+      "es": "Vevay, Indiana"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Vevay",
+    "aliases": [
+      "Vevay",
+      "America/Indiana/Vevay",
+      "Vevay, Indiana",
+      "인디애나주, 비비",
+      "インディアナ州ビベー"
+    ]
+  },
+  {
+    "id": "america-indiana-vincennes",
+    "englishName": "Vincennes, Indiana",
+    "name": {
+      "en": "Vincennes, Indiana",
+      "ko": "인디애나주, 빈센스",
+      "ja": "インディアナ州ビンセンス",
+      "es": "Vincennes, Indiana"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Vincennes",
+    "aliases": [
+      "Vincennes",
+      "America/Indiana/Vincennes",
+      "Vincennes, Indiana",
+      "인디애나주, 빈센스",
+      "インディアナ州ビンセンス"
+    ]
+  },
+  {
+    "id": "america-whitehorse",
+    "englishName": "Whitehorse",
+    "name": {
+      "en": "Whitehorse",
+      "ko": "화이트호스",
+      "ja": "ホワイトホース",
+      "es": "Whitehorse"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Whitehorse",
+    "aliases": [
+      "Whitehorse",
+      "America/Whitehorse",
+      "화이트호스",
+      "ホワイトホース"
+    ]
+  },
+  {
+    "id": "america-indiana-winamac",
+    "englishName": "Winamac, Indiana",
+    "name": {
+      "en": "Winamac, Indiana",
+      "ko": "인디애나주, 위너맥",
+      "ja": "インディアナ州ウィナマック",
+      "es": "Winamac, Indiana"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Indiana/Winamac",
+    "aliases": [
+      "Winamac",
+      "America/Indiana/Winamac",
+      "Winamac, Indiana",
+      "인디애나주, 위너맥",
+      "インディアナ州ウィナマック"
+    ]
+  },
+  {
+    "id": "america-winnipeg",
+    "englishName": "Winnipeg",
+    "name": {
+      "en": "Winnipeg",
+      "ko": "위니펙",
+      "ja": "ウィニペグ",
+      "es": "Winnipeg"
+    },
+    "country": {
+      "en": "Canada",
+      "ko": "캐나다",
+      "ja": "カナダ",
+      "es": "Canadá"
+    },
+    "zone": "America/Winnipeg",
+    "aliases": [
+      "Winnipeg",
+      "America/Winnipeg",
+      "위니펙",
+      "ウィニペグ"
+    ]
+  },
+  {
+    "id": "america-yakutat",
+    "englishName": "Yakutat",
+    "name": {
+      "en": "Yakutat",
+      "ko": "야쿠타트",
+      "ja": "ヤクタット",
+      "es": "Yakutat"
+    },
+    "country": {
+      "en": "United States",
+      "ko": "미국",
+      "ja": "アメリカ合衆国",
+      "es": "Estados Unidos"
+    },
+    "zone": "America/Yakutat",
+    "aliases": [
+      "Yakutat",
+      "America/Yakutat",
+      "야쿠타트",
+      "ヤクタット"
+    ]
+  },
+  {
+    "id": "antarctica-casey",
+    "englishName": "Casey",
+    "name": {
+      "en": "Casey",
+      "ko": "케이시",
+      "ja": "ケーシー基地",
+      "es": "Casey"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/Casey",
+    "aliases": [
+      "Casey",
+      "Antarctica/Casey",
+      "케이시",
+      "ケーシー基地"
+    ]
+  },
+  {
+    "id": "antarctica-davis",
+    "englishName": "Davis",
+    "name": {
+      "en": "Davis",
+      "ko": "데이비스",
+      "ja": "デービス基地",
+      "es": "Davis"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/Davis",
+    "aliases": [
+      "Davis",
+      "Antarctica/Davis",
+      "데이비스",
+      "デービス基地"
+    ]
+  },
+  {
+    "id": "antarctica-dumontdurville",
+    "englishName": "Dumont-d’Urville",
+    "name": {
+      "en": "Dumont-d’Urville",
+      "ko": "뒤몽 뒤르빌",
+      "ja": "デュモン・デュルヴィル基地",
+      "es": "Dumont-d’Urville"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/DumontDUrville",
+    "aliases": [
+      "DumontDUrville",
+      "Antarctica/DumontDUrville",
+      "Dumont-d’Urville",
+      "뒤몽 뒤르빌",
+      "デュモン・デュルヴィル基地"
+    ]
+  },
+  {
+    "id": "antarctica-macquarie",
+    "englishName": "Macquarie Island",
+    "name": {
+      "en": "Macquarie Island",
+      "ko": "맥쿼리",
+      "ja": "マッコリー",
+      "es": "Macquarie"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Antarctica/Macquarie",
+    "aliases": [
+      "Macquarie",
+      "Antarctica/Macquarie",
+      "Macquarie Island",
+      "맥쿼리",
+      "マッコリー"
+    ]
+  },
+  {
+    "id": "antarctica-mawson",
+    "englishName": "Mawson",
+    "name": {
+      "en": "Mawson",
+      "ko": "모슨",
+      "ja": "モーソン基地",
+      "es": "Mawson"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/Mawson",
+    "aliases": [
+      "Mawson",
+      "Antarctica/Mawson",
+      "모슨",
+      "モーソン基地"
+    ]
+  },
+  {
+    "id": "antarctica-mcmurdo",
+    "englishName": "McMurdo",
+    "name": {
+      "en": "McMurdo",
+      "ko": "맥머도",
+      "ja": "マクマード基地",
+      "es": "McMurdo"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/McMurdo",
+    "aliases": [
+      "McMurdo",
+      "Antarctica/McMurdo",
+      "맥머도",
+      "マクマード基地"
+    ]
+  },
+  {
+    "id": "antarctica-palmer",
+    "englishName": "Palmer",
+    "name": {
+      "en": "Palmer",
+      "ko": "파머",
+      "ja": "パーマー基地",
+      "es": "Palmer"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/Palmer",
+    "aliases": [
+      "Palmer",
+      "Antarctica/Palmer",
+      "파머",
+      "パーマー基地"
+    ]
+  },
+  {
+    "id": "antarctica-rothera",
+    "englishName": "Rothera",
+    "name": {
+      "en": "Rothera",
+      "ko": "로데라",
+      "ja": "ロゼラ基地",
+      "es": "Rothera"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/Rothera",
+    "aliases": [
+      "Rothera",
+      "Antarctica/Rothera",
+      "로데라",
+      "ロゼラ基地"
+    ]
+  },
+  {
+    "id": "antarctica-syowa",
+    "englishName": "Syowa",
+    "name": {
+      "en": "Syowa",
+      "ko": "쇼와",
+      "ja": "昭和基地",
+      "es": "Syowa"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/Syowa",
+    "aliases": [
+      "Syowa",
+      "Antarctica/Syowa",
+      "쇼와",
+      "昭和基地"
+    ]
+  },
+  {
+    "id": "antarctica-troll",
+    "englishName": "Troll",
+    "name": {
+      "en": "Troll",
+      "ko": "트롤",
+      "ja": "トロル基地",
+      "es": "Troll"
+    },
+    "country": {
+      "en": "world",
+      "ko": "세계",
+      "ja": "世界",
+      "es": "Mundo"
+    },
+    "zone": "Antarctica/Troll",
+    "aliases": [
+      "Troll",
+      "Antarctica/Troll",
+      "트롤",
+      "トロル基地"
+    ]
+  },
+  {
+    "id": "antarctica-vostok",
+    "englishName": "Vostok",
+    "name": {
+      "en": "Vostok",
+      "ko": "보스토크",
+      "ja": "ボストーク基地",
+      "es": "Vostok"
+    },
+    "country": {
+      "en": "Antarctica",
+      "ko": "남극 대륙",
+      "ja": "南極",
+      "es": "Antártida"
+    },
+    "zone": "Antarctica/Vostok",
+    "aliases": [
+      "Vostok",
+      "Antarctica/Vostok",
+      "보스토크",
+      "ボストーク基地"
+    ]
+  },
+  {
+    "id": "arctic-longyearbyen",
+    "englishName": "Longyearbyen",
+    "name": {
+      "en": "Longyearbyen",
+      "ko": "롱이어비엔",
+      "ja": "ロングイェールビーン",
+      "es": "Longyearbyen"
+    },
+    "country": {
+      "en": "Svalbard & Jan Mayen",
+      "ko": "스발바르제도-얀마웬섬",
+      "ja": "スバールバル諸島・ヤンマイエン島",
+      "es": "Svalbard y Jan Mayen"
+    },
+    "zone": "Arctic/Longyearbyen",
+    "aliases": [
+      "Longyearbyen",
+      "Arctic/Longyearbyen",
+      "롱이어비엔",
+      "ロングイェールビーン"
+    ]
+  },
+  {
+    "id": "asia-aden",
+    "englishName": "Aden",
+    "name": {
+      "en": "Aden",
+      "ko": "아덴",
+      "ja": "アデン",
+      "es": "Adén"
+    },
+    "country": {
+      "en": "Yemen",
+      "ko": "예멘",
+      "ja": "イエメン",
+      "es": "Yemen"
+    },
+    "zone": "Asia/Aden",
+    "aliases": [
+      "Aden",
+      "Asia/Aden",
+      "아덴",
+      "アデン",
+      "Adén"
+    ]
+  },
+  {
+    "id": "asia-almaty",
+    "englishName": "Almaty",
+    "name": {
+      "en": "Almaty",
+      "ko": "알마티",
+      "ja": "アルマトイ",
+      "es": "Almaty"
+    },
+    "country": {
+      "en": "Kazakhstan",
+      "ko": "카자흐스탄",
+      "ja": "カザフスタン",
+      "es": "Kazajistán"
+    },
+    "zone": "Asia/Almaty",
+    "aliases": [
+      "Almaty",
+      "Asia/Almaty",
+      "알마티",
+      "アルマトイ"
+    ]
+  },
+  {
+    "id": "asia-amman",
+    "englishName": "Amman",
+    "name": {
+      "en": "Amman",
+      "ko": "암만",
+      "ja": "アンマン",
+      "es": "Ammán"
+    },
+    "country": {
+      "en": "Jordan",
+      "ko": "요르단",
+      "ja": "ヨルダン",
+      "es": "Jordania"
+    },
+    "zone": "Asia/Amman",
+    "aliases": [
+      "Amman",
+      "Asia/Amman",
+      "암만",
+      "アンマン",
+      "Ammán"
+    ]
+  },
+  {
+    "id": "asia-anadyr",
+    "englishName": "Anadyr",
+    "name": {
+      "en": "Anadyr",
+      "ko": "아나디리",
+      "ja": "アナディリ",
+      "es": "Anádyr"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Anadyr",
+    "aliases": [
+      "Anadyr",
+      "Asia/Anadyr",
+      "아나디리",
+      "アナディリ",
+      "Anádyr"
+    ]
+  },
+  {
+    "id": "asia-aqtau",
+    "englishName": "Aqtau",
+    "name": {
+      "en": "Aqtau",
+      "ko": "아크타우",
+      "ja": "アクタウ",
+      "es": "Aktau"
+    },
+    "country": {
+      "en": "Kazakhstan",
+      "ko": "카자흐스탄",
+      "ja": "カザフスタン",
+      "es": "Kazajistán"
+    },
+    "zone": "Asia/Aqtau",
+    "aliases": [
+      "Aqtau",
+      "Asia/Aqtau",
+      "아크타우",
+      "アクタウ",
+      "Aktau"
+    ]
+  },
+  {
+    "id": "asia-aqtobe",
+    "englishName": "Aqtobe",
+    "name": {
+      "en": "Aqtobe",
+      "ko": "악토브",
+      "ja": "アクトベ",
+      "es": "Aktobe"
+    },
+    "country": {
+      "en": "Kazakhstan",
+      "ko": "카자흐스탄",
+      "ja": "カザフスタン",
+      "es": "Kazajistán"
+    },
+    "zone": "Asia/Aqtobe",
+    "aliases": [
+      "Aqtobe",
+      "Asia/Aqtobe",
+      "악토브",
+      "アクトベ",
+      "Aktobe"
+    ]
+  },
+  {
+    "id": "asia-ashgabat",
+    "englishName": "Ashgabat",
+    "name": {
+      "en": "Ashgabat",
+      "ko": "아슈하바트",
+      "ja": "アシガバード",
+      "es": "Asjabad"
+    },
+    "country": {
+      "en": "Turkmenistan",
+      "ko": "투르크메니스탄",
+      "ja": "トルクメニスタン",
+      "es": "Turkmenistán"
+    },
+    "zone": "Asia/Ashgabat",
+    "aliases": [
+      "Ashgabat",
+      "Asia/Ashgabat",
+      "아슈하바트",
+      "アシガバード",
+      "Asjabad"
+    ]
+  },
+  {
+    "id": "asia-atyrau",
+    "englishName": "Atyrau",
+    "name": {
+      "en": "Atyrau",
+      "ko": "아티라우",
+      "ja": "アティラウ",
+      "es": "Atyrau"
+    },
+    "country": {
+      "en": "Kazakhstan",
+      "ko": "카자흐스탄",
+      "ja": "カザフスタン",
+      "es": "Kazajistán"
+    },
+    "zone": "Asia/Atyrau",
+    "aliases": [
+      "Atyrau",
+      "Asia/Atyrau",
+      "아티라우",
+      "アティラウ"
+    ]
+  },
+  {
+    "id": "asia-baghdad",
+    "englishName": "Baghdad",
+    "name": {
+      "en": "Baghdad",
+      "ko": "바그다드",
+      "ja": "バグダッド",
+      "es": "Bagdad"
+    },
+    "country": {
+      "en": "Iraq",
+      "ko": "이라크",
+      "ja": "イラク",
+      "es": "Irak"
+    },
+    "zone": "Asia/Baghdad",
+    "aliases": [
+      "Baghdad",
+      "Asia/Baghdad",
+      "바그다드",
+      "バグダッド",
+      "Bagdad"
+    ]
+  },
+  {
+    "id": "asia-bahrain",
+    "englishName": "Bahrain",
+    "name": {
+      "en": "Bahrain",
+      "ko": "바레인",
+      "ja": "バーレーン",
+      "es": "Baréin"
+    },
+    "country": {
+      "en": "Bahrain",
+      "ko": "바레인",
+      "ja": "バーレーン",
+      "es": "Baréin"
+    },
+    "zone": "Asia/Bahrain",
+    "aliases": [
+      "Bahrain",
+      "Asia/Bahrain",
+      "바레인",
+      "バーレーン",
+      "Baréin"
+    ]
+  },
+  {
+    "id": "asia-baku",
+    "englishName": "Baku",
+    "name": {
+      "en": "Baku",
+      "ko": "바쿠",
+      "ja": "バクー",
+      "es": "Bakú"
+    },
+    "country": {
+      "en": "Azerbaijan",
+      "ko": "아제르바이잔",
+      "ja": "アゼルバイジャン",
+      "es": "Azerbaiyán"
+    },
+    "zone": "Asia/Baku",
+    "aliases": [
+      "Baku",
+      "Asia/Baku",
+      "바쿠",
+      "バクー",
+      "Bakú"
+    ]
+  },
+  {
+    "id": "asia-bangkok",
+    "englishName": "Bangkok",
+    "name": {
+      "en": "Bangkok",
+      "ko": "방콕",
+      "ja": "バンコク",
+      "es": "Bangkok"
+    },
+    "country": {
+      "en": "Thailand",
+      "ko": "태국",
+      "ja": "タイ",
+      "es": "Tailandia"
+    },
+    "zone": "Asia/Bangkok",
+    "aliases": [
+      "Bangkok",
+      "Asia/Bangkok",
+      "방콕",
+      "バンコク"
+    ]
+  },
+  {
+    "id": "asia-barnaul",
+    "englishName": "Barnaul",
+    "name": {
+      "en": "Barnaul",
+      "ko": "바르나울",
+      "ja": "バルナウル",
+      "es": "Barnaúl"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Barnaul",
+    "aliases": [
+      "Barnaul",
+      "Asia/Barnaul",
+      "바르나울",
+      "バルナウル",
+      "Barnaúl"
+    ]
+  },
+  {
+    "id": "asia-beirut",
+    "englishName": "Beirut",
+    "name": {
+      "en": "Beirut",
+      "ko": "베이루트",
+      "ja": "ベイルート",
+      "es": "Beirut"
+    },
+    "country": {
+      "en": "Lebanon",
+      "ko": "레바논",
+      "ja": "レバノン",
+      "es": "Líbano"
+    },
+    "zone": "Asia/Beirut",
+    "aliases": [
+      "Beirut",
+      "Asia/Beirut",
+      "베이루트",
+      "ベイルート"
+    ]
+  },
+  {
+    "id": "asia-bishkek",
+    "englishName": "Bishkek",
+    "name": {
+      "en": "Bishkek",
+      "ko": "비슈케크",
+      "ja": "ビシュケク",
+      "es": "Bishkek"
+    },
+    "country": {
+      "en": "Kyrgyzstan",
+      "ko": "키르기스스탄",
+      "ja": "キルギス",
+      "es": "Kirguistán"
+    },
+    "zone": "Asia/Bishkek",
+    "aliases": [
+      "Bishkek",
+      "Asia/Bishkek",
+      "비슈케크",
+      "ビシュケク"
+    ]
+  },
+  {
+    "id": "asia-brunei",
+    "englishName": "Brunei",
+    "name": {
+      "en": "Brunei",
+      "ko": "브루나이",
+      "ja": "ブルネイ",
+      "es": "Brunéi"
+    },
+    "country": {
+      "en": "Brunei",
+      "ko": "브루나이",
+      "ja": "ブルネイ",
+      "es": "Brunéi"
+    },
+    "zone": "Asia/Brunei",
+    "aliases": [
+      "Brunei",
+      "Asia/Brunei",
+      "브루나이",
+      "ブルネイ",
+      "Brunéi"
+    ]
+  },
+  {
+    "id": "asia-chita",
+    "englishName": "Chita",
+    "name": {
+      "en": "Chita",
+      "ko": "치타",
+      "ja": "チタ",
+      "es": "Chitá"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Chita",
+    "aliases": [
+      "Chita",
+      "Asia/Chita",
+      "치타",
+      "チタ",
+      "Chitá"
+    ]
+  },
+  {
+    "id": "asia-colombo",
+    "englishName": "Colombo",
+    "name": {
+      "en": "Colombo",
+      "ko": "콜롬보",
+      "ja": "コロンボ",
+      "es": "Colombo"
+    },
+    "country": {
+      "en": "Sri Lanka",
+      "ko": "스리랑카",
+      "ja": "スリランカ",
+      "es": "Sri Lanka"
+    },
+    "zone": "Asia/Colombo",
+    "aliases": [
+      "Colombo",
+      "Asia/Colombo",
+      "콜롬보",
+      "コロンボ"
+    ]
+  },
+  {
+    "id": "asia-damascus",
+    "englishName": "Damascus",
+    "name": {
+      "en": "Damascus",
+      "ko": "다마스쿠스",
+      "ja": "ダマスカス",
+      "es": "Damasco"
+    },
+    "country": {
+      "en": "Syria",
+      "ko": "시리아",
+      "ja": "シリア",
+      "es": "Siria"
+    },
+    "zone": "Asia/Damascus",
+    "aliases": [
+      "Damascus",
+      "Asia/Damascus",
+      "다마스쿠스",
+      "ダマスカス",
+      "Damasco"
+    ]
+  },
+  {
+    "id": "asia-dhaka",
+    "englishName": "Dhaka",
+    "name": {
+      "en": "Dhaka",
+      "ko": "다카",
+      "ja": "ダッカ",
+      "es": "Daca"
+    },
+    "country": {
+      "en": "Bangladesh",
+      "ko": "방글라데시",
+      "ja": "バングラデシュ",
+      "es": "Bangladés"
+    },
+    "zone": "Asia/Dhaka",
+    "aliases": [
+      "Dhaka",
+      "Asia/Dhaka",
+      "다카",
+      "ダッカ",
+      "Daca"
+    ]
+  },
+  {
+    "id": "asia-dili",
+    "englishName": "Dili",
+    "name": {
+      "en": "Dili",
+      "ko": "딜리",
+      "ja": "ディリ",
+      "es": "Dili"
+    },
+    "country": {
+      "en": "Timor-Leste",
+      "ko": "동티모르",
+      "ja": "東ティモール",
+      "es": "Timor-Leste"
+    },
+    "zone": "Asia/Dili",
+    "aliases": [
+      "Dili",
+      "Asia/Dili",
+      "딜리",
+      "ディリ"
+    ]
+  },
+  {
+    "id": "asia-dushanbe",
+    "englishName": "Dushanbe",
+    "name": {
+      "en": "Dushanbe",
+      "ko": "두샨베",
+      "ja": "ドゥシャンベ",
+      "es": "Dusambé"
+    },
+    "country": {
+      "en": "Tajikistan",
+      "ko": "타지키스탄",
+      "ja": "タジキスタン",
+      "es": "Tayikistán"
+    },
+    "zone": "Asia/Dushanbe",
+    "aliases": [
+      "Dushanbe",
+      "Asia/Dushanbe",
+      "두샨베",
+      "ドゥシャンベ",
+      "Dusambé"
+    ]
+  },
+  {
+    "id": "asia-famagusta",
+    "englishName": "Famagusta",
+    "name": {
+      "en": "Famagusta",
+      "ko": "파마구스타",
+      "ja": "ファマグスタ",
+      "es": "Famagusta"
+    },
+    "country": {
+      "en": "Cyprus",
+      "ko": "키프로스",
+      "ja": "キプロス",
+      "es": "Chipre"
+    },
+    "zone": "Asia/Famagusta",
+    "aliases": [
+      "Famagusta",
+      "Asia/Famagusta",
+      "파마구스타",
+      "ファマグスタ"
+    ]
+  },
+  {
+    "id": "asia-gaza",
+    "englishName": "Gaza",
+    "name": {
+      "en": "Gaza",
+      "ko": "가자",
+      "ja": "ガザ",
+      "es": "Gaza"
+    },
+    "country": {
+      "en": "Palestinian Territories",
+      "ko": "팔레스타인 지구",
+      "ja": "パレスチナ自治区",
+      "es": "Territorios Palestinos"
+    },
+    "zone": "Asia/Gaza",
+    "aliases": [
+      "Gaza",
+      "Asia/Gaza",
+      "가자",
+      "ガザ"
+    ]
+  },
+  {
+    "id": "asia-hebron",
+    "englishName": "Hebron",
+    "name": {
+      "en": "Hebron",
+      "ko": "헤브론",
+      "ja": "ヘブロン",
+      "es": "Hebrón"
+    },
+    "country": {
+      "en": "Palestinian Territories",
+      "ko": "팔레스타인 지구",
+      "ja": "パレスチナ自治区",
+      "es": "Territorios Palestinos"
+    },
+    "zone": "Asia/Hebron",
+    "aliases": [
+      "Hebron",
+      "Asia/Hebron",
+      "헤브론",
+      "ヘブロン",
+      "Hebrón"
+    ]
+  },
+  {
+    "id": "asia-ho-chi-minh",
+    "englishName": "Ho Chi Minh",
+    "name": {
+      "en": "Ho Chi Minh",
+      "ko": "Ho Chi Minh",
+      "ja": "Ho Chi Minh",
+      "es": "Ho Chi Minh"
+    },
+    "country": {
+      "en": "Vietnam",
+      "ko": "베트남",
+      "ja": "ベトナム",
+      "es": "Vietnam"
+    },
+    "zone": "Asia/Ho_Chi_Minh",
+    "aliases": [
+      "Ho Chi Minh",
+      "Saigon",
+      "Asia/Saigon"
+    ]
+  },
+  {
+    "id": "asia-hovd",
+    "englishName": "Hovd",
+    "name": {
+      "en": "Hovd",
+      "ko": "호브드",
+      "ja": "ホブド",
+      "es": "Hovd"
+    },
+    "country": {
+      "en": "Mongolia",
+      "ko": "몽골",
+      "ja": "モンゴル",
+      "es": "Mongolia"
+    },
+    "zone": "Asia/Hovd",
+    "aliases": [
+      "Hovd",
+      "Asia/Hovd",
+      "호브드",
+      "ホブド"
+    ]
+  },
+  {
+    "id": "asia-irkutsk",
+    "englishName": "Irkutsk",
+    "name": {
+      "en": "Irkutsk",
+      "ko": "이르쿠츠크",
+      "ja": "イルクーツク",
+      "es": "Irkutsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Irkutsk",
+    "aliases": [
+      "Irkutsk",
+      "Asia/Irkutsk",
+      "이르쿠츠크",
+      "イルクーツク"
+    ]
+  },
+  {
+    "id": "asia-jakarta",
+    "englishName": "Jakarta",
+    "name": {
+      "en": "Jakarta",
+      "ko": "자카르타",
+      "ja": "ジャカルタ",
+      "es": "Yakarta"
+    },
+    "country": {
+      "en": "Indonesia",
+      "ko": "인도네시아",
+      "ja": "インドネシア",
+      "es": "Indonesia"
+    },
+    "zone": "Asia/Jakarta",
+    "aliases": [
+      "Jakarta",
+      "Asia/Jakarta",
+      "자카르타",
+      "ジャカルタ",
+      "Yakarta"
+    ]
+  },
+  {
+    "id": "asia-jayapura",
+    "englishName": "Jayapura",
+    "name": {
+      "en": "Jayapura",
+      "ko": "자야푸라",
+      "ja": "ジャヤプラ",
+      "es": "Jayapura"
+    },
+    "country": {
+      "en": "Indonesia",
+      "ko": "인도네시아",
+      "ja": "インドネシア",
+      "es": "Indonesia"
+    },
+    "zone": "Asia/Jayapura",
+    "aliases": [
+      "Jayapura",
+      "Asia/Jayapura",
+      "자야푸라",
+      "ジャヤプラ"
+    ]
+  },
+  {
+    "id": "asia-jerusalem",
+    "englishName": "Jerusalem",
+    "name": {
+      "en": "Jerusalem",
+      "ko": "예루살렘",
+      "ja": "エルサレム",
+      "es": "Jerusalén"
+    },
+    "country": {
+      "en": "Israel",
+      "ko": "이스라엘",
+      "ja": "イスラエル",
+      "es": "Israel"
+    },
+    "zone": "Asia/Jerusalem",
+    "aliases": [
+      "Jerusalem",
+      "Asia/Jerusalem",
+      "예루살렘",
+      "エルサレム",
+      "Jerusalén"
+    ]
+  },
+  {
+    "id": "asia-kabul",
+    "englishName": "Kabul",
+    "name": {
+      "en": "Kabul",
+      "ko": "카불",
+      "ja": "カブール",
+      "es": "Kabul"
+    },
+    "country": {
+      "en": "Afghanistan",
+      "ko": "아프가니스탄",
+      "ja": "アフガニスタン",
+      "es": "Afganistán"
+    },
+    "zone": "Asia/Kabul",
+    "aliases": [
+      "Kabul",
+      "Asia/Kabul",
+      "카불",
+      "カブール"
+    ]
+  },
+  {
+    "id": "asia-kamchatka",
+    "englishName": "Kamchatka",
+    "name": {
+      "en": "Kamchatka",
+      "ko": "캄차카",
+      "ja": "カムチャッカ",
+      "es": "Kamchatka"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Kamchatka",
+    "aliases": [
+      "Kamchatka",
+      "Asia/Kamchatka",
+      "캄차카",
+      "カムチャッカ"
+    ]
+  },
+  {
+    "id": "asia-karachi",
+    "englishName": "Karachi",
+    "name": {
+      "en": "Karachi",
+      "ko": "카라치",
+      "ja": "カラチ",
+      "es": "Karachi"
+    },
+    "country": {
+      "en": "Pakistan",
+      "ko": "파키스탄",
+      "ja": "パキスタン",
+      "es": "Pakistán"
+    },
+    "zone": "Asia/Karachi",
+    "aliases": [
+      "Karachi",
+      "Asia/Karachi",
+      "카라치",
+      "カラチ"
+    ]
+  },
+  {
+    "id": "asia-kathmandu",
+    "englishName": "Kathmandu",
+    "name": {
+      "en": "Kathmandu",
+      "ko": "Kathmandu",
+      "ja": "Kathmandu",
+      "es": "Kathmandu"
+    },
+    "country": {
+      "en": "Nepal",
+      "ko": "네팔",
+      "ja": "ネパール",
+      "es": "Nepal"
+    },
+    "zone": "Asia/Kathmandu",
+    "aliases": [
+      "Kathmandu",
+      "Katmandu",
+      "Asia/Katmandu"
+    ]
+  },
+  {
+    "id": "asia-khandyga",
+    "englishName": "Khandyga",
+    "name": {
+      "en": "Khandyga",
+      "ko": "한디가",
+      "ja": "ハンドゥイガ",
+      "es": "Khandiga"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Khandyga",
+    "aliases": [
+      "Khandyga",
+      "Asia/Khandyga",
+      "한디가",
+      "ハンドゥイガ",
+      "Khandiga"
+    ]
+  },
+  {
+    "id": "asia-qostanay",
+    "englishName": "Kostanay",
+    "name": {
+      "en": "Kostanay",
+      "ko": "코스타나이",
+      "ja": "コスタナイ",
+      "es": "Kostanái"
+    },
+    "country": {
+      "en": "Kazakhstan",
+      "ko": "카자흐스탄",
+      "ja": "カザフスタン",
+      "es": "Kazajistán"
+    },
+    "zone": "Asia/Qostanay",
+    "aliases": [
+      "Qostanay",
+      "Asia/Qostanay",
+      "Kostanay",
+      "코스타나이",
+      "コスタナイ",
+      "Kostanái"
+    ]
+  },
+  {
+    "id": "asia-krasnoyarsk",
+    "englishName": "Krasnoyarsk",
+    "name": {
+      "en": "Krasnoyarsk",
+      "ko": "크라스노야르스크",
+      "ja": "クラスノヤルスク",
+      "es": "Krasnoyarsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Krasnoyarsk",
+    "aliases": [
+      "Krasnoyarsk",
+      "Asia/Krasnoyarsk",
+      "크라스노야르스크",
+      "クラスノヤルスク"
+    ]
+  },
+  {
+    "id": "asia-kuala-lumpur",
+    "englishName": "Kuala Lumpur",
+    "name": {
+      "en": "Kuala Lumpur",
+      "ko": "쿠알라룸푸르",
+      "ja": "クアラルンプール",
+      "es": "Kuala Lumpur"
+    },
+    "country": {
+      "en": "Malaysia",
+      "ko": "말레이시아",
+      "ja": "マレーシア",
+      "es": "Malasia"
+    },
+    "zone": "Asia/Kuala_Lumpur",
+    "aliases": [
+      "Kuala Lumpur",
+      "Asia/Kuala_Lumpur",
+      "쿠알라룸푸르",
+      "クアラルンプール"
+    ]
+  },
+  {
+    "id": "asia-kuching",
+    "englishName": "Kuching",
+    "name": {
+      "en": "Kuching",
+      "ko": "쿠칭",
+      "ja": "クチン",
+      "es": "Kuching"
+    },
+    "country": {
+      "en": "Malaysia",
+      "ko": "말레이시아",
+      "ja": "マレーシア",
+      "es": "Malasia"
+    },
+    "zone": "Asia/Kuching",
+    "aliases": [
+      "Kuching",
+      "Asia/Kuching",
+      "쿠칭",
+      "クチン"
+    ]
+  },
+  {
+    "id": "asia-kuwait",
+    "englishName": "Kuwait",
+    "name": {
+      "en": "Kuwait",
+      "ko": "쿠웨이트",
+      "ja": "クウェート",
+      "es": "Kuwait"
+    },
+    "country": {
+      "en": "Kuwait",
+      "ko": "쿠웨이트",
+      "ja": "クウェート",
+      "es": "Kuwait"
+    },
+    "zone": "Asia/Kuwait",
+    "aliases": [
+      "Kuwait",
+      "Asia/Kuwait",
+      "쿠웨이트",
+      "クウェート"
+    ]
+  },
+  {
+    "id": "asia-macau",
+    "englishName": "Macao",
+    "name": {
+      "en": "Macao",
+      "ko": "마카오",
+      "ja": "マカオ",
+      "es": "Macao"
+    },
+    "country": {
+      "en": "Macao SAR China",
+      "ko": "마카오(중국 특별행정구)",
+      "ja": "中華人民共和国マカオ特別行政区",
+      "es": "RAE de Macao (China)"
+    },
+    "zone": "Asia/Macau",
+    "aliases": [
+      "Macau",
+      "Asia/Macau",
+      "Macao",
+      "마카오",
+      "マカオ"
+    ]
+  },
+  {
+    "id": "asia-magadan",
+    "englishName": "Magadan",
+    "name": {
+      "en": "Magadan",
+      "ko": "마가단",
+      "ja": "マガダン",
+      "es": "Magadán"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Magadan",
+    "aliases": [
+      "Magadan",
+      "Asia/Magadan",
+      "마가단",
+      "マガダン",
+      "Magadán"
+    ]
+  },
+  {
+    "id": "asia-makassar",
+    "englishName": "Makassar",
+    "name": {
+      "en": "Makassar",
+      "ko": "마카사르",
+      "ja": "マカッサル",
+      "es": "Makasar"
+    },
+    "country": {
+      "en": "Indonesia",
+      "ko": "인도네시아",
+      "ja": "インドネシア",
+      "es": "Indonesia"
+    },
+    "zone": "Asia/Makassar",
+    "aliases": [
+      "Makassar",
+      "Asia/Makassar",
+      "마카사르",
+      "マカッサル",
+      "Makasar"
+    ]
+  },
+  {
+    "id": "asia-manila",
+    "englishName": "Manila",
+    "name": {
+      "en": "Manila",
+      "ko": "마닐라",
+      "ja": "マニラ",
+      "es": "Manila"
+    },
+    "country": {
+      "en": "Philippines",
+      "ko": "필리핀",
+      "ja": "フィリピン",
+      "es": "Filipinas"
+    },
+    "zone": "Asia/Manila",
+    "aliases": [
+      "Manila",
+      "Asia/Manila",
+      "마닐라",
+      "マニラ"
+    ]
+  },
+  {
+    "id": "asia-muscat",
+    "englishName": "Muscat",
+    "name": {
+      "en": "Muscat",
+      "ko": "무스카트",
+      "ja": "マスカット",
+      "es": "Mascate"
+    },
+    "country": {
+      "en": "Oman",
+      "ko": "오만",
+      "ja": "オマーン",
+      "es": "Omán"
+    },
+    "zone": "Asia/Muscat",
+    "aliases": [
+      "Muscat",
+      "Asia/Muscat",
+      "무스카트",
+      "マスカット",
+      "Mascate"
+    ]
+  },
+  {
+    "id": "asia-nicosia",
+    "englishName": "Nicosia",
+    "name": {
+      "en": "Nicosia",
+      "ko": "니코시아",
+      "ja": "ニコシア",
+      "es": "Nicosia"
+    },
+    "country": {
+      "en": "Cyprus",
+      "ko": "키프로스",
+      "ja": "キプロス",
+      "es": "Chipre"
+    },
+    "zone": "Asia/Nicosia",
+    "aliases": [
+      "Nicosia",
+      "Asia/Nicosia",
+      "니코시아",
+      "ニコシア"
+    ]
+  },
+  {
+    "id": "asia-novokuznetsk",
+    "englishName": "Novokuznetsk",
+    "name": {
+      "en": "Novokuznetsk",
+      "ko": "노보쿠즈네츠크",
+      "ja": "ノヴォクズネツク",
+      "es": "Novokuznetsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Novokuznetsk",
+    "aliases": [
+      "Novokuznetsk",
+      "Asia/Novokuznetsk",
+      "노보쿠즈네츠크",
+      "ノヴォクズネツク"
+    ]
+  },
+  {
+    "id": "asia-novosibirsk",
+    "englishName": "Novosibirsk",
+    "name": {
+      "en": "Novosibirsk",
+      "ko": "노보시비르스크",
+      "ja": "ノヴォシビルスク",
+      "es": "Novosibirsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Novosibirsk",
+    "aliases": [
+      "Novosibirsk",
+      "Asia/Novosibirsk",
+      "노보시비르스크",
+      "ノヴォシビルスク"
+    ]
+  },
+  {
+    "id": "asia-omsk",
+    "englishName": "Omsk",
+    "name": {
+      "en": "Omsk",
+      "ko": "옴스크",
+      "ja": "オムスク",
+      "es": "Omsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Omsk",
+    "aliases": [
+      "Omsk",
+      "Asia/Omsk",
+      "옴스크",
+      "オムスク"
+    ]
+  },
+  {
+    "id": "asia-oral",
+    "englishName": "Oral",
+    "name": {
+      "en": "Oral",
+      "ko": "오랄",
+      "ja": "オラル",
+      "es": "Oral"
+    },
+    "country": {
+      "en": "Kazakhstan",
+      "ko": "카자흐스탄",
+      "ja": "カザフスタン",
+      "es": "Kazajistán"
+    },
+    "zone": "Asia/Oral",
+    "aliases": [
+      "Oral",
+      "Asia/Oral",
+      "오랄",
+      "オラル"
+    ]
+  },
+  {
+    "id": "asia-phnom-penh",
+    "englishName": "Phnom Penh",
+    "name": {
+      "en": "Phnom Penh",
+      "ko": "프놈펜",
+      "ja": "プノンペン",
+      "es": "Phnom Penh"
+    },
+    "country": {
+      "en": "Cambodia",
+      "ko": "캄보디아",
+      "ja": "カンボジア",
+      "es": "Camboya"
+    },
+    "zone": "Asia/Phnom_Penh",
+    "aliases": [
+      "Phnom Penh",
+      "Asia/Phnom_Penh",
+      "프놈펜",
+      "プノンペン"
+    ]
+  },
+  {
+    "id": "asia-pontianak",
+    "englishName": "Pontianak",
+    "name": {
+      "en": "Pontianak",
+      "ko": "폰티아나크",
+      "ja": "ポンティアナック",
+      "es": "Pontianak"
+    },
+    "country": {
+      "en": "Indonesia",
+      "ko": "인도네시아",
+      "ja": "インドネシア",
+      "es": "Indonesia"
+    },
+    "zone": "Asia/Pontianak",
+    "aliases": [
+      "Pontianak",
+      "Asia/Pontianak",
+      "폰티아나크",
+      "ポンティアナック"
+    ]
+  },
+  {
+    "id": "asia-pyongyang",
+    "englishName": "Pyongyang",
+    "name": {
+      "en": "Pyongyang",
+      "ko": "평양",
+      "ja": "平壌",
+      "es": "Pyongyang"
+    },
+    "country": {
+      "en": "North Korea",
+      "ko": "북한",
+      "ja": "北朝鮮",
+      "es": "Corea del Norte"
+    },
+    "zone": "Asia/Pyongyang",
+    "aliases": [
+      "Pyongyang",
+      "Asia/Pyongyang",
+      "평양",
+      "平壌"
+    ]
+  },
+  {
+    "id": "asia-qatar",
+    "englishName": "Qatar",
+    "name": {
+      "en": "Qatar",
+      "ko": "카타르",
+      "ja": "カタール",
+      "es": "Catar"
+    },
+    "country": {
+      "en": "Qatar",
+      "ko": "카타르",
+      "ja": "カタール",
+      "es": "Catar"
+    },
+    "zone": "Asia/Qatar",
+    "aliases": [
+      "Qatar",
+      "Asia/Qatar",
+      "카타르",
+      "カタール",
+      "Catar"
+    ]
+  },
+  {
+    "id": "asia-qyzylorda",
+    "englishName": "Qyzylorda",
+    "name": {
+      "en": "Qyzylorda",
+      "ko": "키질로르다",
+      "ja": "クズロルダ",
+      "es": "Kyzylorda"
+    },
+    "country": {
+      "en": "Kazakhstan",
+      "ko": "카자흐스탄",
+      "ja": "カザフスタン",
+      "es": "Kazajistán"
+    },
+    "zone": "Asia/Qyzylorda",
+    "aliases": [
+      "Qyzylorda",
+      "Asia/Qyzylorda",
+      "키질로르다",
+      "クズロルダ",
+      "Kyzylorda"
+    ]
+  },
+  {
+    "id": "asia-sakhalin",
+    "englishName": "Sakhalin",
+    "name": {
+      "en": "Sakhalin",
+      "ko": "사할린",
+      "ja": "サハリン",
+      "es": "Sajalín"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Sakhalin",
+    "aliases": [
+      "Sakhalin",
+      "Asia/Sakhalin",
+      "사할린",
+      "サハリン",
+      "Sajalín"
+    ]
+  },
+  {
+    "id": "asia-samarkand",
+    "englishName": "Samarkand",
+    "name": {
+      "en": "Samarkand",
+      "ko": "사마르칸트",
+      "ja": "サマルカンド",
+      "es": "Samarcanda"
+    },
+    "country": {
+      "en": "Uzbekistan",
+      "ko": "우즈베키스탄",
+      "ja": "ウズベキスタン",
+      "es": "Uzbekistán"
+    },
+    "zone": "Asia/Samarkand",
+    "aliases": [
+      "Samarkand",
+      "Asia/Samarkand",
+      "사마르칸트",
+      "サマルカンド",
+      "Samarcanda"
+    ]
+  },
+  {
+    "id": "asia-srednekolymsk",
+    "englishName": "Srednekolymsk",
+    "name": {
+      "en": "Srednekolymsk",
+      "ko": "스레드네콜림스크",
+      "ja": "スレドネコリムスク",
+      "es": "Srednekolimsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Srednekolymsk",
+    "aliases": [
+      "Srednekolymsk",
+      "Asia/Srednekolymsk",
+      "스레드네콜림스크",
+      "スレドネコリムスク",
+      "Srednekolimsk"
+    ]
+  },
+  {
+    "id": "asia-taipei",
+    "englishName": "Taipei",
+    "name": {
+      "en": "Taipei",
+      "ko": "타이베이",
+      "ja": "台北",
+      "es": "Taipéi"
+    },
+    "country": {
+      "en": "Taiwan",
+      "ko": "대만",
+      "ja": "台湾",
+      "es": "Taiwán"
+    },
+    "zone": "Asia/Taipei",
+    "aliases": [
+      "Taipei",
+      "Asia/Taipei",
+      "타이베이",
+      "台北",
+      "Taipéi"
+    ]
+  },
+  {
+    "id": "asia-tashkent",
+    "englishName": "Tashkent",
+    "name": {
+      "en": "Tashkent",
+      "ko": "타슈켄트",
+      "ja": "タシケント",
+      "es": "Taskent"
+    },
+    "country": {
+      "en": "Uzbekistan",
+      "ko": "우즈베키스탄",
+      "ja": "ウズベキスタン",
+      "es": "Uzbekistán"
+    },
+    "zone": "Asia/Tashkent",
+    "aliases": [
+      "Tashkent",
+      "Asia/Tashkent",
+      "타슈켄트",
+      "タシケント",
+      "Taskent"
+    ]
+  },
+  {
+    "id": "asia-tbilisi",
+    "englishName": "Tbilisi",
+    "name": {
+      "en": "Tbilisi",
+      "ko": "트빌리시",
+      "ja": "トビリシ",
+      "es": "Tiflis"
+    },
+    "country": {
+      "en": "Georgia",
+      "ko": "조지아",
+      "ja": "ジョージア",
+      "es": "Georgia"
+    },
+    "zone": "Asia/Tbilisi",
+    "aliases": [
+      "Tbilisi",
+      "Asia/Tbilisi",
+      "트빌리시",
+      "トビリシ",
+      "Tiflis"
+    ]
+  },
+  {
+    "id": "asia-tehran",
+    "englishName": "Tehran",
+    "name": {
+      "en": "Tehran",
+      "ko": "테헤란",
+      "ja": "テヘラン",
+      "es": "Teherán"
+    },
+    "country": {
+      "en": "Iran",
+      "ko": "이란",
+      "ja": "イラン",
+      "es": "Irán"
+    },
+    "zone": "Asia/Tehran",
+    "aliases": [
+      "Tehran",
+      "Asia/Tehran",
+      "테헤란",
+      "テヘラン",
+      "Teherán"
+    ]
+  },
+  {
+    "id": "asia-thimphu",
+    "englishName": "Thimphu",
+    "name": {
+      "en": "Thimphu",
+      "ko": "팀부",
+      "ja": "ティンプー",
+      "es": "Timbu"
+    },
+    "country": {
+      "en": "Bhutan",
+      "ko": "부탄",
+      "ja": "ブータン",
+      "es": "Bután"
+    },
+    "zone": "Asia/Thimphu",
+    "aliases": [
+      "Thimphu",
+      "Asia/Thimphu",
+      "팀부",
+      "ティンプー",
+      "Timbu"
+    ]
+  },
+  {
+    "id": "asia-tomsk",
+    "englishName": "Tomsk",
+    "name": {
+      "en": "Tomsk",
+      "ko": "톰스크",
+      "ja": "トムスク",
+      "es": "Tomsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Tomsk",
+    "aliases": [
+      "Tomsk",
+      "Asia/Tomsk",
+      "톰스크",
+      "トムスク"
+    ]
+  },
+  {
+    "id": "asia-ulaanbaatar",
+    "englishName": "Ulaanbaatar",
+    "name": {
+      "en": "Ulaanbaatar",
+      "ko": "울란바토르",
+      "ja": "ウランバートル",
+      "es": "Ulán Bator"
+    },
+    "country": {
+      "en": "Mongolia",
+      "ko": "몽골",
+      "ja": "モンゴル",
+      "es": "Mongolia"
+    },
+    "zone": "Asia/Ulaanbaatar",
+    "aliases": [
+      "Ulaanbaatar",
+      "Asia/Ulaanbaatar",
+      "울란바토르",
+      "ウランバートル",
+      "Ulán Bator"
+    ]
+  },
+  {
+    "id": "asia-urumqi",
+    "englishName": "Urumqi",
+    "name": {
+      "en": "Urumqi",
+      "ko": "우루무치",
+      "ja": "ウルムチ",
+      "es": "Ürümqi"
+    },
+    "country": {
+      "en": "China",
+      "ko": "중국",
+      "ja": "中国",
+      "es": "China"
+    },
+    "zone": "Asia/Urumqi",
+    "aliases": [
+      "Urumqi",
+      "Asia/Urumqi",
+      "우루무치",
+      "ウルムチ",
+      "Ürümqi"
+    ]
+  },
+  {
+    "id": "asia-ust-nera",
+    "englishName": "Ust-Nera",
+    "name": {
+      "en": "Ust-Nera",
+      "ko": "우스티네라",
+      "ja": "ウスチネラ",
+      "es": "Ust-Nera"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Ust-Nera",
+    "aliases": [
+      "Ust-Nera",
+      "Asia/Ust-Nera",
+      "우스티네라",
+      "ウスチネラ"
+    ]
+  },
+  {
+    "id": "asia-vientiane",
+    "englishName": "Vientiane",
+    "name": {
+      "en": "Vientiane",
+      "ko": "비엔티안",
+      "ja": "ビエンチャン",
+      "es": "Vientián"
+    },
+    "country": {
+      "en": "Laos",
+      "ko": "라오스",
+      "ja": "ラオス",
+      "es": "Laos"
+    },
+    "zone": "Asia/Vientiane",
+    "aliases": [
+      "Vientiane",
+      "Asia/Vientiane",
+      "비엔티안",
+      "ビエンチャン",
+      "Vientián"
+    ]
+  },
+  {
+    "id": "asia-vladivostok",
+    "englishName": "Vladivostok",
+    "name": {
+      "en": "Vladivostok",
+      "ko": "블라디보스토크",
+      "ja": "ウラジオストク",
+      "es": "Vladivostok"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Vladivostok",
+    "aliases": [
+      "Vladivostok",
+      "Asia/Vladivostok",
+      "블라디보스토크",
+      "ウラジオストク"
+    ]
+  },
+  {
+    "id": "asia-yakutsk",
+    "englishName": "Yakutsk",
+    "name": {
+      "en": "Yakutsk",
+      "ko": "야쿠츠크",
+      "ja": "ヤクーツク",
+      "es": "Yakutsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Yakutsk",
+    "aliases": [
+      "Yakutsk",
+      "Asia/Yakutsk",
+      "야쿠츠크",
+      "ヤクーツク"
+    ]
+  },
+  {
+    "id": "asia-yangon",
+    "englishName": "Yangon",
+    "name": {
+      "en": "Yangon",
+      "ko": "Yangon",
+      "ja": "Yangon",
+      "es": "Yangon"
+    },
+    "country": {
+      "en": "Myanmar (Burma)",
+      "ko": "미얀마",
+      "ja": "ミャンマー (ビルマ)",
+      "es": "Myanmar (Birmania)"
+    },
+    "zone": "Asia/Yangon",
+    "aliases": [
+      "Yangon",
+      "Rangoon",
+      "Asia/Rangoon"
+    ]
+  },
+  {
+    "id": "asia-yekaterinburg",
+    "englishName": "Yekaterinburg",
+    "name": {
+      "en": "Yekaterinburg",
+      "ko": "예카테린부르크",
+      "ja": "エカテリンブルグ",
+      "es": "Ekaterimburgo"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Asia/Yekaterinburg",
+    "aliases": [
+      "Yekaterinburg",
+      "Asia/Yekaterinburg",
+      "예카테린부르크",
+      "エカテリンブルグ",
+      "Ekaterimburgo"
+    ]
+  },
+  {
+    "id": "asia-yerevan",
+    "englishName": "Yerevan",
+    "name": {
+      "en": "Yerevan",
+      "ko": "예레반",
+      "ja": "エレバン",
+      "es": "Ereván"
+    },
+    "country": {
+      "en": "Armenia",
+      "ko": "아르메니아",
+      "ja": "アルメニア",
+      "es": "Armenia"
+    },
+    "zone": "Asia/Yerevan",
+    "aliases": [
+      "Yerevan",
+      "Asia/Yerevan",
+      "예레반",
+      "エレバン",
+      "Ereván"
+    ]
+  },
+  {
+    "id": "atlantic-azores",
+    "englishName": "Azores",
+    "name": {
+      "en": "Azores",
+      "ko": "아조레스",
+      "ja": "アゾレス",
+      "es": "Azores"
+    },
+    "country": {
+      "en": "Portugal",
+      "ko": "포르투갈",
+      "ja": "ポルトガル",
+      "es": "Portugal"
+    },
+    "zone": "Atlantic/Azores",
+    "aliases": [
+      "Azores",
+      "Atlantic/Azores",
+      "아조레스",
+      "アゾレス"
+    ]
+  },
+  {
+    "id": "atlantic-bermuda",
+    "englishName": "Bermuda",
+    "name": {
+      "en": "Bermuda",
+      "ko": "버뮤다",
+      "ja": "バミューダ",
+      "es": "Bermudas"
+    },
+    "country": {
+      "en": "Bermuda",
+      "ko": "버뮤다",
+      "ja": "バミューダ",
+      "es": "Bermudas"
+    },
+    "zone": "Atlantic/Bermuda",
+    "aliases": [
+      "Bermuda",
+      "Atlantic/Bermuda",
+      "버뮤다",
+      "バミューダ",
+      "Bermudas"
+    ]
+  },
+  {
+    "id": "atlantic-canary",
+    "englishName": "Canary",
+    "name": {
+      "en": "Canary",
+      "ko": "카나리아 제도",
+      "ja": "カナリア",
+      "es": "Canarias"
+    },
+    "country": {
+      "en": "Spain",
+      "ko": "스페인",
+      "ja": "スペイン",
+      "es": "España"
+    },
+    "zone": "Atlantic/Canary",
+    "aliases": [
+      "Canary",
+      "Atlantic/Canary",
+      "카나리아 제도",
+      "カナリア",
+      "Canarias"
+    ]
+  },
+  {
+    "id": "atlantic-cape-verde",
+    "englishName": "Cape Verde",
+    "name": {
+      "en": "Cape Verde",
+      "ko": "카보 베르데",
+      "ja": "カーボベルデ",
+      "es": "Cabo Verde"
+    },
+    "country": {
+      "en": "Cape Verde",
+      "ko": "카보베르데",
+      "ja": "カーボベルデ",
+      "es": "Cabo Verde"
+    },
+    "zone": "Atlantic/Cape_Verde",
+    "aliases": [
+      "Cape Verde",
+      "Atlantic/Cape_Verde",
+      "카보 베르데",
+      "カーボベルデ",
+      "Cabo Verde"
+    ]
+  },
+  {
+    "id": "atlantic-faroe",
+    "englishName": "Faroe",
+    "name": {
+      "en": "Faroe",
+      "ko": "Faroe",
+      "ja": "Faroe",
+      "es": "Faroe"
+    },
+    "country": {
+      "en": "Faroe Islands",
+      "ko": "페로 제도",
+      "ja": "フェロー諸島",
+      "es": "Islas Feroe"
+    },
+    "zone": "Atlantic/Faroe",
+    "aliases": [
+      "Faroe",
+      "Faeroe",
+      "Atlantic/Faeroe"
+    ]
+  },
+  {
+    "id": "atlantic-madeira",
+    "englishName": "Madeira",
+    "name": {
+      "en": "Madeira",
+      "ko": "마데이라",
+      "ja": "マデイラ",
+      "es": "Madeira"
+    },
+    "country": {
+      "en": "Portugal",
+      "ko": "포르투갈",
+      "ja": "ポルトガル",
+      "es": "Portugal"
+    },
+    "zone": "Atlantic/Madeira",
+    "aliases": [
+      "Madeira",
+      "Atlantic/Madeira",
+      "마데이라",
+      "マデイラ"
+    ]
+  },
+  {
+    "id": "atlantic-reykjavik",
+    "englishName": "Reykjavik",
+    "name": {
+      "en": "Reykjavik",
+      "ko": "레이캬비크",
+      "ja": "レイキャビク",
+      "es": "Reikiavik"
+    },
+    "country": {
+      "en": "Iceland",
+      "ko": "아이슬란드",
+      "ja": "アイスランド",
+      "es": "Islandia"
+    },
+    "zone": "Atlantic/Reykjavik",
+    "aliases": [
+      "Reykjavik",
+      "Atlantic/Reykjavik",
+      "레이캬비크",
+      "レイキャビク",
+      "Reikiavik"
+    ]
+  },
+  {
+    "id": "atlantic-south-georgia",
+    "englishName": "South Georgia",
+    "name": {
+      "en": "South Georgia",
+      "ko": "사우스조지아",
+      "ja": "サウスジョージア",
+      "es": "Georgia del Sur"
+    },
+    "country": {
+      "en": "South Georgia & South Sandwich Islands",
+      "ko": "사우스조지아 사우스샌드위치 제도",
+      "ja": "サウスジョージア・サウスサンドウィッチ諸島",
+      "es": "Islas Georgia del Sur y Sandwich del Sur"
+    },
+    "zone": "Atlantic/South_Georgia",
+    "aliases": [
+      "South Georgia",
+      "Atlantic/South_Georgia",
+      "사우스조지아",
+      "サウスジョージア",
+      "Georgia del Sur"
+    ]
+  },
+  {
+    "id": "atlantic-st-helena",
+    "englishName": "St. Helena",
+    "name": {
+      "en": "St. Helena",
+      "ko": "세인트 헬레나",
+      "ja": "セントヘレナ",
+      "es": "Santa Elena"
+    },
+    "country": {
+      "en": "St. Helena",
+      "ko": "세인트헬레나",
+      "ja": "セントヘレナ",
+      "es": "Santa Elena"
+    },
+    "zone": "Atlantic/St_Helena",
+    "aliases": [
+      "St. Helena",
+      "Atlantic/St_Helena",
+      "세인트 헬레나",
+      "セントヘレナ",
+      "Santa Elena"
+    ]
+  },
+  {
+    "id": "atlantic-stanley",
+    "englishName": "Stanley",
+    "name": {
+      "en": "Stanley",
+      "ko": "스탠리",
+      "ja": "スタンレー",
+      "es": "Stanley"
+    },
+    "country": {
+      "en": "Falkland Islands",
+      "ko": "포클랜드 제도",
+      "ja": "フォークランド諸島",
+      "es": "Islas Malvinas"
+    },
+    "zone": "Atlantic/Stanley",
+    "aliases": [
+      "Stanley",
+      "Atlantic/Stanley",
+      "스탠리",
+      "スタンレー"
+    ]
+  },
+  {
+    "id": "australia-adelaide",
+    "englishName": "Adelaide",
+    "name": {
+      "en": "Adelaide",
+      "ko": "애들레이드",
+      "ja": "アデレード",
+      "es": "Adelaida"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Adelaide",
+    "aliases": [
+      "Adelaide",
+      "Australia/Adelaide",
+      "애들레이드",
+      "アデレード",
+      "Adelaida"
+    ]
+  },
+  {
+    "id": "australia-brisbane",
+    "englishName": "Brisbane",
+    "name": {
+      "en": "Brisbane",
+      "ko": "브리스베인",
+      "ja": "ブリスベン",
+      "es": "Brisbane"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Brisbane",
+    "aliases": [
+      "Brisbane",
+      "Australia/Brisbane",
+      "브리스베인",
+      "ブリスベン"
+    ]
+  },
+  {
+    "id": "australia-broken-hill",
+    "englishName": "Broken Hill",
+    "name": {
+      "en": "Broken Hill",
+      "ko": "브로컨힐",
+      "ja": "ブロークンヒル",
+      "es": "Broken Hill"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Broken_Hill",
+    "aliases": [
+      "Broken Hill",
+      "Australia/Broken_Hill",
+      "브로컨힐",
+      "ブロークンヒル"
+    ]
+  },
+  {
+    "id": "australia-darwin",
+    "englishName": "Darwin",
+    "name": {
+      "en": "Darwin",
+      "ko": "다윈",
+      "ja": "ダーウィン",
+      "es": "Darwin"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Darwin",
+    "aliases": [
+      "Darwin",
+      "Australia/Darwin",
+      "다윈",
+      "ダーウィン"
+    ]
+  },
+  {
+    "id": "australia-eucla",
+    "englishName": "Eucla",
+    "name": {
+      "en": "Eucla",
+      "ko": "유클라",
+      "ja": "ユークラ",
+      "es": "Eucla"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Eucla",
+    "aliases": [
+      "Eucla",
+      "Australia/Eucla",
+      "유클라",
+      "ユークラ"
+    ]
+  },
+  {
+    "id": "australia-hobart",
+    "englishName": "Hobart",
+    "name": {
+      "en": "Hobart",
+      "ko": "호바트",
+      "ja": "ホバート",
+      "es": "Hobart"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Hobart",
+    "aliases": [
+      "Hobart",
+      "Australia/Hobart",
+      "호바트",
+      "ホバート"
+    ]
+  },
+  {
+    "id": "australia-lindeman",
+    "englishName": "Lindeman",
+    "name": {
+      "en": "Lindeman",
+      "ko": "린데만",
+      "ja": "リンデマン",
+      "es": "Lindeman"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Lindeman",
+    "aliases": [
+      "Lindeman",
+      "Australia/Lindeman",
+      "린데만",
+      "リンデマン"
+    ]
+  },
+  {
+    "id": "australia-lord-howe",
+    "englishName": "Lord Howe Island",
+    "name": {
+      "en": "Lord Howe Island",
+      "ko": "로드 하우",
+      "ja": "ロードハウ",
+      "es": "Lord Howe"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Lord_Howe",
+    "aliases": [
+      "Lord Howe",
+      "Australia/Lord_Howe",
+      "Lord Howe Island",
+      "로드 하우",
+      "ロードハウ"
+    ]
+  },
+  {
+    "id": "australia-perth",
+    "englishName": "Perth",
+    "name": {
+      "en": "Perth",
+      "ko": "퍼스",
+      "ja": "パース",
+      "es": "Perth"
+    },
+    "country": {
+      "en": "Australia",
+      "ko": "오스트레일리아",
+      "ja": "オーストラリア",
+      "es": "Australia"
+    },
+    "zone": "Australia/Perth",
+    "aliases": [
+      "Perth",
+      "Australia/Perth",
+      "퍼스",
+      "パース"
+    ]
+  },
+  {
+    "id": "europe-amsterdam",
+    "englishName": "Amsterdam",
+    "name": {
+      "en": "Amsterdam",
+      "ko": "암스테르담",
+      "ja": "アムステルダム",
+      "es": "Ámsterdam"
+    },
+    "country": {
+      "en": "Netherlands",
+      "ko": "네덜란드",
+      "ja": "オランダ",
+      "es": "Países Bajos"
+    },
+    "zone": "Europe/Amsterdam",
+    "aliases": [
+      "Amsterdam",
+      "Europe/Amsterdam",
+      "암스테르담",
+      "アムステルダム",
+      "Ámsterdam"
+    ]
+  },
+  {
+    "id": "europe-andorra",
+    "englishName": "Andorra",
+    "name": {
+      "en": "Andorra",
+      "ko": "안도라",
+      "ja": "アンドラ",
+      "es": "Andorra"
+    },
+    "country": {
+      "en": "Andorra",
+      "ko": "안도라",
+      "ja": "アンドラ",
+      "es": "Andorra"
+    },
+    "zone": "Europe/Andorra",
+    "aliases": [
+      "Andorra",
+      "Europe/Andorra",
+      "안도라",
+      "アンドラ"
+    ]
+  },
+  {
+    "id": "europe-astrakhan",
+    "englishName": "Astrakhan",
+    "name": {
+      "en": "Astrakhan",
+      "ko": "아스트라한",
+      "ja": "アストラハン",
+      "es": "Astracán"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Astrakhan",
+    "aliases": [
+      "Astrakhan",
+      "Europe/Astrakhan",
+      "아스트라한",
+      "アストラハン",
+      "Astracán"
+    ]
+  },
+  {
+    "id": "europe-athens",
+    "englishName": "Athens",
+    "name": {
+      "en": "Athens",
+      "ko": "아테네",
+      "ja": "アテネ",
+      "es": "Atenas"
+    },
+    "country": {
+      "en": "Greece",
+      "ko": "그리스",
+      "ja": "ギリシャ",
+      "es": "Grecia"
+    },
+    "zone": "Europe/Athens",
+    "aliases": [
+      "Athens",
+      "Europe/Athens",
+      "아테네",
+      "アテネ",
+      "Atenas"
+    ]
+  },
+  {
+    "id": "europe-belgrade",
+    "englishName": "Belgrade",
+    "name": {
+      "en": "Belgrade",
+      "ko": "베오그라드",
+      "ja": "ベオグラード",
+      "es": "Belgrado"
+    },
+    "country": {
+      "en": "Serbia",
+      "ko": "세르비아",
+      "ja": "セルビア",
+      "es": "Serbia"
+    },
+    "zone": "Europe/Belgrade",
+    "aliases": [
+      "Belgrade",
+      "Europe/Belgrade",
+      "베오그라드",
+      "ベオグラード",
+      "Belgrado"
+    ]
+  },
+  {
+    "id": "europe-bratislava",
+    "englishName": "Bratislava",
+    "name": {
+      "en": "Bratislava",
+      "ko": "브라티슬라바",
+      "ja": "ブラチスラバ",
+      "es": "Bratislava"
+    },
+    "country": {
+      "en": "Slovakia",
+      "ko": "슬로바키아",
+      "ja": "スロバキア",
+      "es": "Eslovaquia"
+    },
+    "zone": "Europe/Bratislava",
+    "aliases": [
+      "Bratislava",
+      "Europe/Bratislava",
+      "브라티슬라바",
+      "ブラチスラバ"
+    ]
+  },
+  {
+    "id": "europe-brussels",
+    "englishName": "Brussels",
+    "name": {
+      "en": "Brussels",
+      "ko": "브뤼셀",
+      "ja": "ブリュッセル",
+      "es": "Bruselas"
+    },
+    "country": {
+      "en": "Belgium",
+      "ko": "벨기에",
+      "ja": "ベルギー",
+      "es": "Bélgica"
+    },
+    "zone": "Europe/Brussels",
+    "aliases": [
+      "Brussels",
+      "Europe/Brussels",
+      "브뤼셀",
+      "ブリュッセル",
+      "Bruselas"
+    ]
+  },
+  {
+    "id": "europe-bucharest",
+    "englishName": "Bucharest",
+    "name": {
+      "en": "Bucharest",
+      "ko": "부쿠레슈티",
+      "ja": "ブカレスト",
+      "es": "Bucarest"
+    },
+    "country": {
+      "en": "Romania",
+      "ko": "루마니아",
+      "ja": "ルーマニア",
+      "es": "Rumanía"
+    },
+    "zone": "Europe/Bucharest",
+    "aliases": [
+      "Bucharest",
+      "Europe/Bucharest",
+      "부쿠레슈티",
+      "ブカレスト",
+      "Bucarest"
+    ]
+  },
+  {
+    "id": "europe-budapest",
+    "englishName": "Budapest",
+    "name": {
+      "en": "Budapest",
+      "ko": "부다페스트",
+      "ja": "ブダペスト",
+      "es": "Budapest"
+    },
+    "country": {
+      "en": "Hungary",
+      "ko": "헝가리",
+      "ja": "ハンガリー",
+      "es": "Hungría"
+    },
+    "zone": "Europe/Budapest",
+    "aliases": [
+      "Budapest",
+      "Europe/Budapest",
+      "부다페스트",
+      "ブダペスト"
+    ]
+  },
+  {
+    "id": "europe-busingen",
+    "englishName": "Busingen",
+    "name": {
+      "en": "Busingen",
+      "ko": "뷔지겐",
+      "ja": "ビュージンゲン",
+      "es": "Busingen"
+    },
+    "country": {
+      "en": "Germany",
+      "ko": "독일",
+      "ja": "ドイツ",
+      "es": "Alemania"
+    },
+    "zone": "Europe/Busingen",
+    "aliases": [
+      "Busingen",
+      "Europe/Busingen",
+      "뷔지겐",
+      "ビュージンゲン"
+    ]
+  },
+  {
+    "id": "europe-chisinau",
+    "englishName": "Chisinau",
+    "name": {
+      "en": "Chisinau",
+      "ko": "키시나우",
+      "ja": "キシナウ",
+      "es": "Chisináu"
+    },
+    "country": {
+      "en": "Moldova",
+      "ko": "몰도바",
+      "ja": "モルドバ",
+      "es": "Moldavia"
+    },
+    "zone": "Europe/Chisinau",
+    "aliases": [
+      "Chisinau",
+      "Europe/Chisinau",
+      "키시나우",
+      "キシナウ",
+      "Chisináu"
+    ]
+  },
+  {
+    "id": "europe-copenhagen",
+    "englishName": "Copenhagen",
+    "name": {
+      "en": "Copenhagen",
+      "ko": "코펜하겐",
+      "ja": "コペンハーゲン",
+      "es": "Copenhague"
+    },
+    "country": {
+      "en": "Denmark",
+      "ko": "덴마크",
+      "ja": "デンマーク",
+      "es": "Dinamarca"
+    },
+    "zone": "Europe/Copenhagen",
+    "aliases": [
+      "Copenhagen",
+      "Europe/Copenhagen",
+      "코펜하겐",
+      "コペンハーゲン",
+      "Copenhague"
+    ]
+  },
+  {
+    "id": "europe-dublin",
+    "englishName": "Dublin",
+    "name": {
+      "en": "Dublin",
+      "ko": "더블린",
+      "ja": "ダブリン",
+      "es": "Dublín"
+    },
+    "country": {
+      "en": "Ireland",
+      "ko": "아일랜드",
+      "ja": "アイルランド",
+      "es": "Irlanda"
+    },
+    "zone": "Europe/Dublin",
+    "aliases": [
+      "Dublin",
+      "Europe/Dublin",
+      "더블린",
+      "ダブリン",
+      "Dublín"
+    ]
+  },
+  {
+    "id": "europe-gibraltar",
+    "englishName": "Gibraltar",
+    "name": {
+      "en": "Gibraltar",
+      "ko": "지브롤터",
+      "ja": "ジブラルタル",
+      "es": "Gibraltar"
+    },
+    "country": {
+      "en": "Gibraltar",
+      "ko": "지브롤터",
+      "ja": "ジブラルタル",
+      "es": "Gibraltar"
+    },
+    "zone": "Europe/Gibraltar",
+    "aliases": [
+      "Gibraltar",
+      "Europe/Gibraltar",
+      "지브롤터",
+      "ジブラルタル"
+    ]
+  },
+  {
+    "id": "europe-guernsey",
+    "englishName": "Guernsey",
+    "name": {
+      "en": "Guernsey",
+      "ko": "건지",
+      "ja": "ガーンジー",
+      "es": "Guernesey"
+    },
+    "country": {
+      "en": "Guernsey",
+      "ko": "건지",
+      "ja": "ガーンジー",
+      "es": "Guernesey"
+    },
+    "zone": "Europe/Guernsey",
+    "aliases": [
+      "Guernsey",
+      "Europe/Guernsey",
+      "건지",
+      "ガーンジー",
+      "Guernesey"
+    ]
+  },
+  {
+    "id": "europe-helsinki",
+    "englishName": "Helsinki",
+    "name": {
+      "en": "Helsinki",
+      "ko": "헬싱키",
+      "ja": "ヘルシンキ",
+      "es": "Helsinki"
+    },
+    "country": {
+      "en": "Finland",
+      "ko": "핀란드",
+      "ja": "フィンランド",
+      "es": "Finlandia"
+    },
+    "zone": "Europe/Helsinki",
+    "aliases": [
+      "Helsinki",
+      "Europe/Helsinki",
+      "헬싱키",
+      "ヘルシンキ"
+    ]
+  },
+  {
+    "id": "europe-isle-of-man",
+    "englishName": "Isle of Man",
+    "name": {
+      "en": "Isle of Man",
+      "ko": "맨섬",
+      "ja": "マン島",
+      "es": "Isla de Man"
+    },
+    "country": {
+      "en": "Isle of Man",
+      "ko": "맨섬",
+      "ja": "マン島",
+      "es": "Isla de Man"
+    },
+    "zone": "Europe/Isle_of_Man",
+    "aliases": [
+      "Isle of Man",
+      "Europe/Isle_of_Man",
+      "맨섬",
+      "マン島",
+      "Isla de Man"
+    ]
+  },
+  {
+    "id": "europe-jersey",
+    "englishName": "Jersey",
+    "name": {
+      "en": "Jersey",
+      "ko": "저지",
+      "ja": "ジャージー",
+      "es": "Jersey"
+    },
+    "country": {
+      "en": "Jersey",
+      "ko": "저지",
+      "ja": "ジャージー",
+      "es": "Jersey"
+    },
+    "zone": "Europe/Jersey",
+    "aliases": [
+      "Jersey",
+      "Europe/Jersey",
+      "저지",
+      "ジャージー"
+    ]
+  },
+  {
+    "id": "europe-kaliningrad",
+    "englishName": "Kaliningrad",
+    "name": {
+      "en": "Kaliningrad",
+      "ko": "칼리닌그라드",
+      "ja": "カリーニングラード",
+      "es": "Kaliningrado"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Kaliningrad",
+    "aliases": [
+      "Kaliningrad",
+      "Europe/Kaliningrad",
+      "칼리닌그라드",
+      "カリーニングラード",
+      "Kaliningrado"
+    ]
+  },
+  {
+    "id": "europe-kirov",
+    "englishName": "Kirov",
+    "name": {
+      "en": "Kirov",
+      "ko": "키로프",
+      "ja": "キーロフ",
+      "es": "Kírov"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Kirov",
+    "aliases": [
+      "Kirov",
+      "Europe/Kirov",
+      "키로프",
+      "キーロフ",
+      "Kírov"
+    ]
+  },
+  {
+    "id": "europe-kyiv",
+    "englishName": "Kyiv",
+    "name": {
+      "en": "Kyiv",
+      "ko": "Kyiv",
+      "ja": "Kyiv",
+      "es": "Kyiv"
+    },
+    "country": {
+      "en": "Ukraine",
+      "ko": "우크라이나",
+      "ja": "ウクライナ",
+      "es": "Ucrania"
+    },
+    "zone": "Europe/Kyiv",
+    "aliases": [
+      "Kyiv",
+      "Kiev",
+      "Europe/Kiev"
+    ]
+  },
+  {
+    "id": "europe-lisbon",
+    "englishName": "Lisbon",
+    "name": {
+      "en": "Lisbon",
+      "ko": "리스본",
+      "ja": "リスボン",
+      "es": "Lisboa"
+    },
+    "country": {
+      "en": "Portugal",
+      "ko": "포르투갈",
+      "ja": "ポルトガル",
+      "es": "Portugal"
+    },
+    "zone": "Europe/Lisbon",
+    "aliases": [
+      "Lisbon",
+      "Europe/Lisbon",
+      "리스본",
+      "リスボン",
+      "Lisboa"
+    ]
+  },
+  {
+    "id": "europe-ljubljana",
+    "englishName": "Ljubljana",
+    "name": {
+      "en": "Ljubljana",
+      "ko": "류블랴나",
+      "ja": "リュブリャナ",
+      "es": "Liubliana"
+    },
+    "country": {
+      "en": "Slovenia",
+      "ko": "슬로베니아",
+      "ja": "スロベニア",
+      "es": "Eslovenia"
+    },
+    "zone": "Europe/Ljubljana",
+    "aliases": [
+      "Ljubljana",
+      "Europe/Ljubljana",
+      "류블랴나",
+      "リュブリャナ",
+      "Liubliana"
+    ]
+  },
+  {
+    "id": "europe-luxembourg",
+    "englishName": "Luxembourg",
+    "name": {
+      "en": "Luxembourg",
+      "ko": "룩셈부르크",
+      "ja": "ルクセンブルク",
+      "es": "Luxemburgo"
+    },
+    "country": {
+      "en": "Luxembourg",
+      "ko": "룩셈부르크",
+      "ja": "ルクセンブルク",
+      "es": "Luxemburgo"
+    },
+    "zone": "Europe/Luxembourg",
+    "aliases": [
+      "Luxembourg",
+      "Europe/Luxembourg",
+      "룩셈부르크",
+      "ルクセンブルク",
+      "Luxemburgo"
+    ]
+  },
+  {
+    "id": "europe-malta",
+    "englishName": "Malta",
+    "name": {
+      "en": "Malta",
+      "ko": "몰타",
+      "ja": "マルタ",
+      "es": "Malta"
+    },
+    "country": {
+      "en": "Malta",
+      "ko": "몰타",
+      "ja": "マルタ",
+      "es": "Malta"
+    },
+    "zone": "Europe/Malta",
+    "aliases": [
+      "Malta",
+      "Europe/Malta",
+      "몰타",
+      "マルタ"
+    ]
+  },
+  {
+    "id": "europe-mariehamn",
+    "englishName": "Mariehamn",
+    "name": {
+      "en": "Mariehamn",
+      "ko": "마리에함",
+      "ja": "マリエハムン",
+      "es": "Mariehamn"
+    },
+    "country": {
+      "en": "Åland Islands",
+      "ko": "올란드 제도",
+      "ja": "オーランド諸島",
+      "es": "Islas Aland"
+    },
+    "zone": "Europe/Mariehamn",
+    "aliases": [
+      "Mariehamn",
+      "Europe/Mariehamn",
+      "마리에함",
+      "マリエハムン"
+    ]
+  },
+  {
+    "id": "europe-minsk",
+    "englishName": "Minsk",
+    "name": {
+      "en": "Minsk",
+      "ko": "민스크",
+      "ja": "ミンスク",
+      "es": "Minsk"
+    },
+    "country": {
+      "en": "Belarus",
+      "ko": "벨라루스",
+      "ja": "ベラルーシ",
+      "es": "Bielorrusia"
+    },
+    "zone": "Europe/Minsk",
+    "aliases": [
+      "Minsk",
+      "Europe/Minsk",
+      "민스크",
+      "ミンスク"
+    ]
+  },
+  {
+    "id": "europe-monaco",
+    "englishName": "Monaco",
+    "name": {
+      "en": "Monaco",
+      "ko": "모나코",
+      "ja": "モナコ",
+      "es": "Mónaco"
+    },
+    "country": {
+      "en": "Monaco",
+      "ko": "모나코",
+      "ja": "モナコ",
+      "es": "Mónaco"
+    },
+    "zone": "Europe/Monaco",
+    "aliases": [
+      "Monaco",
+      "Europe/Monaco",
+      "모나코",
+      "モナコ",
+      "Mónaco"
+    ]
+  },
+  {
+    "id": "europe-oslo",
+    "englishName": "Oslo",
+    "name": {
+      "en": "Oslo",
+      "ko": "오슬로",
+      "ja": "オスロ",
+      "es": "Oslo"
+    },
+    "country": {
+      "en": "Norway",
+      "ko": "노르웨이",
+      "ja": "ノルウェー",
+      "es": "Noruega"
+    },
+    "zone": "Europe/Oslo",
+    "aliases": [
+      "Oslo",
+      "Europe/Oslo",
+      "오슬로",
+      "オスロ"
+    ]
+  },
+  {
+    "id": "europe-podgorica",
+    "englishName": "Podgorica",
+    "name": {
+      "en": "Podgorica",
+      "ko": "포드고리차",
+      "ja": "ポドゴリツァ",
+      "es": "Podgorica"
+    },
+    "country": {
+      "en": "Montenegro",
+      "ko": "몬테네그로",
+      "ja": "モンテネグロ",
+      "es": "Montenegro"
+    },
+    "zone": "Europe/Podgorica",
+    "aliases": [
+      "Podgorica",
+      "Europe/Podgorica",
+      "포드고리차",
+      "ポドゴリツァ"
+    ]
+  },
+  {
+    "id": "europe-prague",
+    "englishName": "Prague",
+    "name": {
+      "en": "Prague",
+      "ko": "프라하",
+      "ja": "プラハ",
+      "es": "Praga"
+    },
+    "country": {
+      "en": "Czechia",
+      "ko": "체코",
+      "ja": "チェコ",
+      "es": "Chequia"
+    },
+    "zone": "Europe/Prague",
+    "aliases": [
+      "Prague",
+      "Europe/Prague",
+      "프라하",
+      "プラハ",
+      "Praga"
+    ]
+  },
+  {
+    "id": "europe-riga",
+    "englishName": "Riga",
+    "name": {
+      "en": "Riga",
+      "ko": "리가",
+      "ja": "リガ",
+      "es": "Riga"
+    },
+    "country": {
+      "en": "Latvia",
+      "ko": "라트비아",
+      "ja": "ラトビア",
+      "es": "Letonia"
+    },
+    "zone": "Europe/Riga",
+    "aliases": [
+      "Riga",
+      "Europe/Riga",
+      "리가",
+      "リガ"
+    ]
+  },
+  {
+    "id": "europe-samara",
+    "englishName": "Samara",
+    "name": {
+      "en": "Samara",
+      "ko": "사마라",
+      "ja": "サマラ",
+      "es": "Samara"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Samara",
+    "aliases": [
+      "Samara",
+      "Europe/Samara",
+      "사마라",
+      "サマラ"
+    ]
+  },
+  {
+    "id": "europe-san-marino",
+    "englishName": "San Marino",
+    "name": {
+      "en": "San Marino",
+      "ko": "산마리노",
+      "ja": "サンマリノ",
+      "es": "San Marino"
+    },
+    "country": {
+      "en": "San Marino",
+      "ko": "산마리노",
+      "ja": "サンマリノ",
+      "es": "San Marino"
+    },
+    "zone": "Europe/San_Marino",
+    "aliases": [
+      "San Marino",
+      "Europe/San_Marino",
+      "산마리노",
+      "サンマリノ"
+    ]
+  },
+  {
+    "id": "europe-sarajevo",
+    "englishName": "Sarajevo",
+    "name": {
+      "en": "Sarajevo",
+      "ko": "사라예보",
+      "ja": "サラエボ",
+      "es": "Sarajevo"
+    },
+    "country": {
+      "en": "Bosnia & Herzegovina",
+      "ko": "보스니아 헤르체고비나",
+      "ja": "ボスニア・ヘルツェゴビナ",
+      "es": "Bosnia y Herzegovina"
+    },
+    "zone": "Europe/Sarajevo",
+    "aliases": [
+      "Sarajevo",
+      "Europe/Sarajevo",
+      "사라예보",
+      "サラエボ"
+    ]
+  },
+  {
+    "id": "europe-saratov",
+    "englishName": "Saratov",
+    "name": {
+      "en": "Saratov",
+      "ko": "사라토프",
+      "ja": "サラトフ",
+      "es": "Sarátov"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Saratov",
+    "aliases": [
+      "Saratov",
+      "Europe/Saratov",
+      "사라토프",
+      "サラトフ",
+      "Sarátov"
+    ]
+  },
+  {
+    "id": "europe-simferopol",
+    "englishName": "Simferopol",
+    "name": {
+      "en": "Simferopol",
+      "ko": "심페로폴",
+      "ja": "シンフェロポリ",
+      "es": "Simferópol"
+    },
+    "country": {
+      "en": "Ukraine",
+      "ko": "우크라이나",
+      "ja": "ウクライナ",
+      "es": "Ucrania"
+    },
+    "zone": "Europe/Simferopol",
+    "aliases": [
+      "Simferopol",
+      "Europe/Simferopol",
+      "심페로폴",
+      "シンフェロポリ",
+      "Simferópol"
+    ]
+  },
+  {
+    "id": "europe-skopje",
+    "englishName": "Skopje",
+    "name": {
+      "en": "Skopje",
+      "ko": "스코페",
+      "ja": "スコピエ",
+      "es": "Skopie"
+    },
+    "country": {
+      "en": "North Macedonia",
+      "ko": "북마케도니아",
+      "ja": "北マケドニア",
+      "es": "Macedonia del Norte"
+    },
+    "zone": "Europe/Skopje",
+    "aliases": [
+      "Skopje",
+      "Europe/Skopje",
+      "스코페",
+      "スコピエ",
+      "Skopie"
+    ]
+  },
+  {
+    "id": "europe-sofia",
+    "englishName": "Sofia",
+    "name": {
+      "en": "Sofia",
+      "ko": "소피아",
+      "ja": "ソフィア",
+      "es": "Sofía"
+    },
+    "country": {
+      "en": "Bulgaria",
+      "ko": "불가리아",
+      "ja": "ブルガリア",
+      "es": "Bulgaria"
+    },
+    "zone": "Europe/Sofia",
+    "aliases": [
+      "Sofia",
+      "Europe/Sofia",
+      "소피아",
+      "ソフィア",
+      "Sofía"
+    ]
+  },
+  {
+    "id": "europe-stockholm",
+    "englishName": "Stockholm",
+    "name": {
+      "en": "Stockholm",
+      "ko": "스톡홀름",
+      "ja": "ストックホルム",
+      "es": "Estocolmo"
+    },
+    "country": {
+      "en": "Sweden",
+      "ko": "스웨덴",
+      "ja": "スウェーデン",
+      "es": "Suecia"
+    },
+    "zone": "Europe/Stockholm",
+    "aliases": [
+      "Stockholm",
+      "Europe/Stockholm",
+      "스톡홀름",
+      "ストックホルム",
+      "Estocolmo"
+    ]
+  },
+  {
+    "id": "europe-tallinn",
+    "englishName": "Tallinn",
+    "name": {
+      "en": "Tallinn",
+      "ko": "탈린",
+      "ja": "タリン",
+      "es": "Tallin"
+    },
+    "country": {
+      "en": "Estonia",
+      "ko": "에스토니아",
+      "ja": "エストニア",
+      "es": "Estonia"
+    },
+    "zone": "Europe/Tallinn",
+    "aliases": [
+      "Tallinn",
+      "Europe/Tallinn",
+      "탈린",
+      "タリン",
+      "Tallin"
+    ]
+  },
+  {
+    "id": "europe-tirane",
+    "englishName": "Tirane",
+    "name": {
+      "en": "Tirane",
+      "ko": "티라나",
+      "ja": "ティラナ",
+      "es": "Tirana"
+    },
+    "country": {
+      "en": "Albania",
+      "ko": "알바니아",
+      "ja": "アルバニア",
+      "es": "Albania"
+    },
+    "zone": "Europe/Tirane",
+    "aliases": [
+      "Tirane",
+      "Europe/Tirane",
+      "티라나",
+      "ティラナ",
+      "Tirana"
+    ]
+  },
+  {
+    "id": "europe-ulyanovsk",
+    "englishName": "Ulyanovsk",
+    "name": {
+      "en": "Ulyanovsk",
+      "ko": "울리야노프스크",
+      "ja": "ウリヤノフスク",
+      "es": "Uliánovsk"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Ulyanovsk",
+    "aliases": [
+      "Ulyanovsk",
+      "Europe/Ulyanovsk",
+      "울리야노프스크",
+      "ウリヤノフスク",
+      "Uliánovsk"
+    ]
+  },
+  {
+    "id": "europe-vaduz",
+    "englishName": "Vaduz",
+    "name": {
+      "en": "Vaduz",
+      "ko": "파두츠",
+      "ja": "ファドゥーツ",
+      "es": "Vaduz"
+    },
+    "country": {
+      "en": "Liechtenstein",
+      "ko": "리히텐슈타인",
+      "ja": "リヒテンシュタイン",
+      "es": "Liechtenstein"
+    },
+    "zone": "Europe/Vaduz",
+    "aliases": [
+      "Vaduz",
+      "Europe/Vaduz",
+      "파두츠",
+      "ファドゥーツ"
+    ]
+  },
+  {
+    "id": "europe-vatican",
+    "englishName": "Vatican",
+    "name": {
+      "en": "Vatican",
+      "ko": "바티칸",
+      "ja": "バチカン",
+      "es": "El Vaticano"
+    },
+    "country": {
+      "en": "Vatican City",
+      "ko": "바티칸 시국",
+      "ja": "バチカン市国",
+      "es": "Ciudad del Vaticano"
+    },
+    "zone": "Europe/Vatican",
+    "aliases": [
+      "Vatican",
+      "Europe/Vatican",
+      "바티칸",
+      "バチカン",
+      "El Vaticano"
+    ]
+  },
+  {
+    "id": "europe-vienna",
+    "englishName": "Vienna",
+    "name": {
+      "en": "Vienna",
+      "ko": "비엔나",
+      "ja": "ウィーン",
+      "es": "Viena"
+    },
+    "country": {
+      "en": "Austria",
+      "ko": "오스트리아",
+      "ja": "オーストリア",
+      "es": "Austria"
+    },
+    "zone": "Europe/Vienna",
+    "aliases": [
+      "Vienna",
+      "Europe/Vienna",
+      "비엔나",
+      "ウィーン",
+      "Viena"
+    ]
+  },
+  {
+    "id": "europe-vilnius",
+    "englishName": "Vilnius",
+    "name": {
+      "en": "Vilnius",
+      "ko": "빌니우스",
+      "ja": "ヴィリニュス",
+      "es": "Vilna"
+    },
+    "country": {
+      "en": "Lithuania",
+      "ko": "리투아니아",
+      "ja": "リトアニア",
+      "es": "Lituania"
+    },
+    "zone": "Europe/Vilnius",
+    "aliases": [
+      "Vilnius",
+      "Europe/Vilnius",
+      "빌니우스",
+      "ヴィリニュス",
+      "Vilna"
+    ]
+  },
+  {
+    "id": "europe-volgograd",
+    "englishName": "Volgograd",
+    "name": {
+      "en": "Volgograd",
+      "ko": "볼고그라트",
+      "ja": "ボルゴグラード",
+      "es": "Volgogrado"
+    },
+    "country": {
+      "en": "Russia",
+      "ko": "러시아",
+      "ja": "ロシア",
+      "es": "Rusia"
+    },
+    "zone": "Europe/Volgograd",
+    "aliases": [
+      "Volgograd",
+      "Europe/Volgograd",
+      "볼고그라트",
+      "ボルゴグラード",
+      "Volgogrado"
+    ]
+  },
+  {
+    "id": "europe-zagreb",
+    "englishName": "Zagreb",
+    "name": {
+      "en": "Zagreb",
+      "ko": "자그레브",
+      "ja": "ザグレブ",
+      "es": "Zagreb"
+    },
+    "country": {
+      "en": "Croatia",
+      "ko": "크로아티아",
+      "ja": "クロアチア",
+      "es": "Croacia"
+    },
+    "zone": "Europe/Zagreb",
+    "aliases": [
+      "Zagreb",
+      "Europe/Zagreb",
+      "자그레브",
+      "ザグレブ"
+    ]
+  },
+  {
+    "id": "europe-zurich",
+    "englishName": "Zurich",
+    "name": {
+      "en": "Zurich",
+      "ko": "취리히",
+      "ja": "チューリッヒ",
+      "es": "Zúrich"
+    },
+    "country": {
+      "en": "Switzerland",
+      "ko": "스위스",
+      "ja": "スイス",
+      "es": "Suiza"
+    },
+    "zone": "Europe/Zurich",
+    "aliases": [
+      "Zurich",
+      "Europe/Zurich",
+      "취리히",
+      "チューリッヒ",
+      "Zúrich"
+    ]
+  },
+  {
+    "id": "indian-antananarivo",
+    "englishName": "Antananarivo",
+    "name": {
+      "en": "Antananarivo",
+      "ko": "안타나나리보",
+      "ja": "アンタナナリボ",
+      "es": "Antananarivo"
+    },
+    "country": {
+      "en": "Madagascar",
+      "ko": "마다가스카르",
+      "ja": "マダガスカル",
+      "es": "Madagascar"
+    },
+    "zone": "Indian/Antananarivo",
+    "aliases": [
+      "Antananarivo",
+      "Indian/Antananarivo",
+      "안타나나리보",
+      "アンタナナリボ"
+    ]
+  },
+  {
+    "id": "indian-chagos",
+    "englishName": "Chagos",
+    "name": {
+      "en": "Chagos",
+      "ko": "차고스",
+      "ja": "チャゴス",
+      "es": "Chagos"
+    },
+    "country": {
+      "en": "British Indian Ocean Territory",
+      "ko": "영국령 인도양 지역",
+      "ja": "英領インド洋地域",
+      "es": "Territorio Británico del Océano Índico"
+    },
+    "zone": "Indian/Chagos",
+    "aliases": [
+      "Chagos",
+      "Indian/Chagos",
+      "차고스",
+      "チャゴス"
+    ]
+  },
+  {
+    "id": "indian-christmas",
+    "englishName": "Christmas Island",
+    "name": {
+      "en": "Christmas Island",
+      "ko": "크리스마스",
+      "ja": "クリスマス島",
+      "es": "Navidad"
+    },
+    "country": {
+      "en": "Christmas Island",
+      "ko": "크리스마스섬",
+      "ja": "クリスマス島",
+      "es": "Isla de Navidad"
+    },
+    "zone": "Indian/Christmas",
+    "aliases": [
+      "Christmas",
+      "Indian/Christmas",
+      "Christmas Island",
+      "크리스마스",
+      "クリスマス島",
+      "Navidad"
+    ]
+  },
+  {
+    "id": "indian-cocos",
+    "englishName": "Cocos Islands",
+    "name": {
+      "en": "Cocos Islands",
+      "ko": "코코스",
+      "ja": "ココス諸島",
+      "es": "Cocos"
+    },
+    "country": {
+      "en": "Cocos (Keeling) Islands",
+      "ko": "코코스 제도",
+      "ja": "ココス(キーリング)諸島",
+      "es": "Islas Cocos"
+    },
+    "zone": "Indian/Cocos",
+    "aliases": [
+      "Cocos",
+      "Indian/Cocos",
+      "Cocos Islands",
+      "코코스",
+      "ココス諸島"
+    ]
+  },
+  {
+    "id": "indian-comoro",
+    "englishName": "Comoro",
+    "name": {
+      "en": "Comoro",
+      "ko": "코모로",
+      "ja": "コモロ",
+      "es": "Comoras"
+    },
+    "country": {
+      "en": "Comoros",
+      "ko": "코모로",
+      "ja": "コモロ",
+      "es": "Comoras"
+    },
+    "zone": "Indian/Comoro",
+    "aliases": [
+      "Comoro",
+      "Indian/Comoro",
+      "코모로",
+      "コモロ",
+      "Comoras"
+    ]
+  },
+  {
+    "id": "indian-kerguelen",
+    "englishName": "Kerguelen",
+    "name": {
+      "en": "Kerguelen",
+      "ko": "케르켈렌",
+      "ja": "ケルゲレン諸島",
+      "es": "Kerguelen"
+    },
+    "country": {
+      "en": "French Southern Territories",
+      "ko": "프랑스령 남방 지역",
+      "ja": "仏領極南諸島",
+      "es": "Territorios Australes Franceses"
+    },
+    "zone": "Indian/Kerguelen",
+    "aliases": [
+      "Kerguelen",
+      "Indian/Kerguelen",
+      "케르켈렌",
+      "ケルゲレン諸島"
+    ]
+  },
+  {
+    "id": "indian-mahe",
+    "englishName": "Mahe",
+    "name": {
+      "en": "Mahe",
+      "ko": "마헤",
+      "ja": "マヘ",
+      "es": "Mahé"
+    },
+    "country": {
+      "en": "Seychelles",
+      "ko": "세이셸",
+      "ja": "セーシェル",
+      "es": "Seychelles"
+    },
+    "zone": "Indian/Mahe",
+    "aliases": [
+      "Mahe",
+      "Indian/Mahe",
+      "마헤",
+      "マヘ",
+      "Mahé"
+    ]
+  },
+  {
+    "id": "indian-maldives",
+    "englishName": "Maldives",
+    "name": {
+      "en": "Maldives",
+      "ko": "몰디브",
+      "ja": "モルディブ",
+      "es": "Maldivas"
+    },
+    "country": {
+      "en": "Maldives",
+      "ko": "몰디브",
+      "ja": "モルディブ",
+      "es": "Maldivas"
+    },
+    "zone": "Indian/Maldives",
+    "aliases": [
+      "Maldives",
+      "Indian/Maldives",
+      "몰디브",
+      "モルディブ",
+      "Maldivas"
+    ]
+  },
+  {
+    "id": "indian-mauritius",
+    "englishName": "Mauritius",
+    "name": {
+      "en": "Mauritius",
+      "ko": "모리셔스",
+      "ja": "モーリシャス",
+      "es": "Mauricio"
+    },
+    "country": {
+      "en": "Mauritius",
+      "ko": "모리셔스",
+      "ja": "モーリシャス",
+      "es": "Mauricio"
+    },
+    "zone": "Indian/Mauritius",
+    "aliases": [
+      "Mauritius",
+      "Indian/Mauritius",
+      "모리셔스",
+      "モーリシャス",
+      "Mauricio"
+    ]
+  },
+  {
+    "id": "indian-mayotte",
+    "englishName": "Mayotte",
+    "name": {
+      "en": "Mayotte",
+      "ko": "메요트",
+      "ja": "マヨット",
+      "es": "Mayotte"
+    },
+    "country": {
+      "en": "Mayotte",
+      "ko": "마요트",
+      "ja": "マヨット",
+      "es": "Mayotte"
+    },
+    "zone": "Indian/Mayotte",
+    "aliases": [
+      "Mayotte",
+      "Indian/Mayotte",
+      "메요트",
+      "マヨット"
+    ]
+  },
+  {
+    "id": "indian-reunion",
+    "englishName": "Réunion",
+    "name": {
+      "en": "Réunion",
+      "ko": "레위니옹",
+      "ja": "レユニオン",
+      "es": "Reunión"
+    },
+    "country": {
+      "en": "Réunion",
+      "ko": "레위니옹",
+      "ja": "レユニオン",
+      "es": "Reunión"
+    },
+    "zone": "Indian/Reunion",
+    "aliases": [
+      "Reunion",
+      "Indian/Reunion",
+      "Réunion",
+      "레위니옹",
+      "レユニオン",
+      "Reunión"
+    ]
+  },
+  {
+    "id": "pacific-apia",
+    "englishName": "Apia",
+    "name": {
+      "en": "Apia",
+      "ko": "아피아",
+      "ja": "アピア",
+      "es": "Apia"
+    },
+    "country": {
+      "en": "Samoa",
+      "ko": "사모아",
+      "ja": "サモア",
+      "es": "Samoa"
+    },
+    "zone": "Pacific/Apia",
+    "aliases": [
+      "Apia",
+      "Pacific/Apia",
+      "아피아",
+      "アピア"
+    ]
+  },
+  {
+    "id": "pacific-bougainville",
+    "englishName": "Bougainville",
+    "name": {
+      "en": "Bougainville",
+      "ko": "부갱빌",
+      "ja": "ブーゲンビル",
+      "es": "Bougainville"
+    },
+    "country": {
+      "en": "Papua New Guinea",
+      "ko": "파푸아뉴기니",
+      "ja": "パプアニューギニア",
+      "es": "Papúa Nueva Guinea"
+    },
+    "zone": "Pacific/Bougainville",
+    "aliases": [
+      "Bougainville",
+      "Pacific/Bougainville",
+      "부갱빌",
+      "ブーゲンビル"
+    ]
+  },
+  {
+    "id": "pacific-chatham",
+    "englishName": "Chatham",
+    "name": {
+      "en": "Chatham",
+      "ko": "채텀",
+      "ja": "チャタム",
+      "es": "Chatham"
+    },
+    "country": {
+      "en": "New Zealand",
+      "ko": "뉴질랜드",
+      "ja": "ニュージーランド",
+      "es": "Nueva Zelanda"
+    },
+    "zone": "Pacific/Chatham",
+    "aliases": [
+      "Chatham",
+      "Pacific/Chatham",
+      "채텀",
+      "チャタム"
+    ]
+  },
+  {
+    "id": "pacific-chuuk",
+    "englishName": "Chuuk",
+    "name": {
+      "en": "Chuuk",
+      "ko": "Chuuk",
+      "ja": "Chuuk",
+      "es": "Chuuk"
+    },
+    "country": {
+      "en": "Micronesia",
+      "ko": "미크로네시아",
+      "ja": "ミクロネシア連邦",
+      "es": "Micronesia"
+    },
+    "zone": "Pacific/Chuuk",
+    "aliases": [
+      "Chuuk",
+      "Truk",
+      "Pacific/Truk"
+    ]
+  },
+  {
+    "id": "pacific-easter",
+    "englishName": "Easter Island",
+    "name": {
+      "en": "Easter Island",
+      "ko": "이스터 섬",
+      "ja": "イースター島",
+      "es": "Isla de Pascua"
+    },
+    "country": {
+      "en": "Chile",
+      "ko": "칠레",
+      "ja": "チリ",
+      "es": "Chile"
+    },
+    "zone": "Pacific/Easter",
+    "aliases": [
+      "Easter",
+      "Pacific/Easter",
+      "Easter Island",
+      "이스터 섬",
+      "イースター島",
+      "Isla de Pascua"
+    ]
+  },
+  {
+    "id": "pacific-efate",
+    "englishName": "Efate",
+    "name": {
+      "en": "Efate",
+      "ko": "에파테",
+      "ja": "エフェテ島",
+      "es": "Efate"
+    },
+    "country": {
+      "en": "Vanuatu",
+      "ko": "바누아투",
+      "ja": "バヌアツ",
+      "es": "Vanuatu"
+    },
+    "zone": "Pacific/Efate",
+    "aliases": [
+      "Efate",
+      "Pacific/Efate",
+      "에파테",
+      "エフェテ島"
+    ]
+  },
+  {
+    "id": "pacific-fakaofo",
+    "englishName": "Fakaofo",
+    "name": {
+      "en": "Fakaofo",
+      "ko": "파카오푸",
+      "ja": "ファカオフォ",
+      "es": "Fakaofo"
+    },
+    "country": {
+      "en": "Tokelau",
+      "ko": "토켈라우",
+      "ja": "トケラウ",
+      "es": "Tokelau"
+    },
+    "zone": "Pacific/Fakaofo",
+    "aliases": [
+      "Fakaofo",
+      "Pacific/Fakaofo",
+      "파카오푸",
+      "ファカオフォ"
+    ]
+  },
+  {
+    "id": "pacific-fiji",
+    "englishName": "Fiji",
+    "name": {
+      "en": "Fiji",
+      "ko": "피지",
+      "ja": "フィジー",
+      "es": "Fiyi"
+    },
+    "country": {
+      "en": "Fiji",
+      "ko": "피지",
+      "ja": "フィジー",
+      "es": "Fiyi"
+    },
+    "zone": "Pacific/Fiji",
+    "aliases": [
+      "Fiji",
+      "Pacific/Fiji",
+      "피지",
+      "フィジー",
+      "Fiyi"
+    ]
+  },
+  {
+    "id": "pacific-funafuti",
+    "englishName": "Funafuti",
+    "name": {
+      "en": "Funafuti",
+      "ko": "푸나푸티",
+      "ja": "フナフティ",
+      "es": "Funafuti"
+    },
+    "country": {
+      "en": "Tuvalu",
+      "ko": "투발루",
+      "ja": "ツバル",
+      "es": "Tuvalu"
+    },
+    "zone": "Pacific/Funafuti",
+    "aliases": [
+      "Funafuti",
+      "Pacific/Funafuti",
+      "푸나푸티",
+      "フナフティ"
+    ]
+  },
+  {
+    "id": "pacific-galapagos",
+    "englishName": "Galapagos",
+    "name": {
+      "en": "Galapagos",
+      "ko": "갈라파고스",
+      "ja": "ガラパゴス",
+      "es": "Galápagos"
+    },
+    "country": {
+      "en": "Ecuador",
+      "ko": "에콰도르",
+      "ja": "エクアドル",
+      "es": "Ecuador"
+    },
+    "zone": "Pacific/Galapagos",
+    "aliases": [
+      "Galapagos",
+      "Pacific/Galapagos",
+      "갈라파고스",
+      "ガラパゴス",
+      "Galápagos"
+    ]
+  },
+  {
+    "id": "pacific-gambier",
+    "englishName": "Gambier",
+    "name": {
+      "en": "Gambier",
+      "ko": "감비어",
+      "ja": "ガンビエ諸島",
+      "es": "Gambier"
+    },
+    "country": {
+      "en": "French Polynesia",
+      "ko": "프랑스령 폴리네시아",
+      "ja": "仏領ポリネシア",
+      "es": "Polinesia Francesa"
+    },
+    "zone": "Pacific/Gambier",
+    "aliases": [
+      "Gambier",
+      "Pacific/Gambier",
+      "감비어",
+      "ガンビエ諸島"
+    ]
+  },
+  {
+    "id": "pacific-guadalcanal",
+    "englishName": "Guadalcanal",
+    "name": {
+      "en": "Guadalcanal",
+      "ko": "과달카날",
+      "ja": "ガダルカナル",
+      "es": "Guadalcanal"
+    },
+    "country": {
+      "en": "Solomon Islands",
+      "ko": "솔로몬 제도",
+      "ja": "ソロモン諸島",
+      "es": "Islas Salomón"
+    },
+    "zone": "Pacific/Guadalcanal",
+    "aliases": [
+      "Guadalcanal",
+      "Pacific/Guadalcanal",
+      "과달카날",
+      "ガダルカナル"
+    ]
+  },
+  {
+    "id": "pacific-guam",
+    "englishName": "Guam",
+    "name": {
+      "en": "Guam",
+      "ko": "괌",
+      "ja": "グアム",
+      "es": "Guam"
+    },
+    "country": {
+      "en": "Guam",
+      "ko": "괌",
+      "ja": "グアム",
+      "es": "Guam"
+    },
+    "zone": "Pacific/Guam",
+    "aliases": [
+      "Guam",
+      "Pacific/Guam",
+      "괌",
+      "グアム"
+    ]
+  },
+  {
+    "id": "pacific-kanton",
+    "englishName": "Kanton",
+    "name": {
+      "en": "Kanton",
+      "ko": "칸톤",
+      "ja": "カントン島",
+      "es": "Kanton"
+    },
+    "country": {
+      "en": "Kiribati",
+      "ko": "키리바시",
+      "ja": "キリバス",
+      "es": "Kiribati"
+    },
+    "zone": "Pacific/Kanton",
+    "aliases": [
+      "Kanton",
+      "Enderbury",
+      "Pacific/Enderbury",
+      "칸톤",
+      "カントン島"
+    ]
+  },
+  {
+    "id": "pacific-kiritimati",
+    "englishName": "Kiritimati",
+    "name": {
+      "en": "Kiritimati",
+      "ko": "키리티마티",
+      "ja": "キリスィマスィ島",
+      "es": "Kiritimati"
+    },
+    "country": {
+      "en": "Kiribati",
+      "ko": "키리바시",
+      "ja": "キリバス",
+      "es": "Kiribati"
+    },
+    "zone": "Pacific/Kiritimati",
+    "aliases": [
+      "Kiritimati",
+      "Pacific/Kiritimati",
+      "키리티마티",
+      "キリスィマスィ島"
+    ]
+  },
+  {
+    "id": "pacific-kosrae",
+    "englishName": "Kosrae",
+    "name": {
+      "en": "Kosrae",
+      "ko": "코스레",
+      "ja": "コスラエ",
+      "es": "Kosrae"
+    },
+    "country": {
+      "en": "Micronesia",
+      "ko": "미크로네시아",
+      "ja": "ミクロネシア連邦",
+      "es": "Micronesia"
+    },
+    "zone": "Pacific/Kosrae",
+    "aliases": [
+      "Kosrae",
+      "Pacific/Kosrae",
+      "코스레",
+      "コスラエ"
+    ]
+  },
+  {
+    "id": "pacific-kwajalein",
+    "englishName": "Kwajalein",
+    "name": {
+      "en": "Kwajalein",
+      "ko": "콰잘렌",
+      "ja": "クェゼリン",
+      "es": "Kwajalein"
+    },
+    "country": {
+      "en": "Marshall Islands",
+      "ko": "마셜 제도",
+      "ja": "マーシャル諸島",
+      "es": "Islas Marshall"
+    },
+    "zone": "Pacific/Kwajalein",
+    "aliases": [
+      "Kwajalein",
+      "Pacific/Kwajalein",
+      "콰잘렌",
+      "クェゼリン"
+    ]
+  },
+  {
+    "id": "pacific-majuro",
+    "englishName": "Majuro",
+    "name": {
+      "en": "Majuro",
+      "ko": "마주로",
+      "ja": "マジュロ",
+      "es": "Majuro"
+    },
+    "country": {
+      "en": "Marshall Islands",
+      "ko": "마셜 제도",
+      "ja": "マーシャル諸島",
+      "es": "Islas Marshall"
+    },
+    "zone": "Pacific/Majuro",
+    "aliases": [
+      "Majuro",
+      "Pacific/Majuro",
+      "마주로",
+      "マジュロ"
+    ]
+  },
+  {
+    "id": "pacific-marquesas",
+    "englishName": "Marquesas",
+    "name": {
+      "en": "Marquesas",
+      "ko": "마퀘사스",
+      "ja": "マルキーズ",
+      "es": "Marquesas"
+    },
+    "country": {
+      "en": "French Polynesia",
+      "ko": "프랑스령 폴리네시아",
+      "ja": "仏領ポリネシア",
+      "es": "Polinesia Francesa"
+    },
+    "zone": "Pacific/Marquesas",
+    "aliases": [
+      "Marquesas",
+      "Pacific/Marquesas",
+      "마퀘사스",
+      "マルキーズ"
+    ]
+  },
+  {
+    "id": "pacific-midway",
+    "englishName": "Midway",
+    "name": {
+      "en": "Midway",
+      "ko": "미드웨이",
+      "ja": "ミッドウェー島",
+      "es": "Midway"
+    },
+    "country": {
+      "en": "U.S. Outlying Islands",
+      "ko": "미국령 해외 제도",
+      "ja": "合衆国領有小離島",
+      "es": "Islas menores alejadas de EE. UU."
+    },
+    "zone": "Pacific/Midway",
+    "aliases": [
+      "Midway",
+      "Pacific/Midway",
+      "미드웨이",
+      "ミッドウェー島"
+    ]
+  },
+  {
+    "id": "pacific-nauru",
+    "englishName": "Nauru",
+    "name": {
+      "en": "Nauru",
+      "ko": "나우루",
+      "ja": "ナウル",
+      "es": "Nauru"
+    },
+    "country": {
+      "en": "Nauru",
+      "ko": "나우루",
+      "ja": "ナウル",
+      "es": "Nauru"
+    },
+    "zone": "Pacific/Nauru",
+    "aliases": [
+      "Nauru",
+      "Pacific/Nauru",
+      "나우루",
+      "ナウル"
+    ]
+  },
+  {
+    "id": "pacific-niue",
+    "englishName": "Niue",
+    "name": {
+      "en": "Niue",
+      "ko": "니우에",
+      "ja": "ニウエ",
+      "es": "Niue"
+    },
+    "country": {
+      "en": "Niue",
+      "ko": "니우에",
+      "ja": "ニウエ",
+      "es": "Niue"
+    },
+    "zone": "Pacific/Niue",
+    "aliases": [
+      "Niue",
+      "Pacific/Niue",
+      "니우에",
+      "ニウエ"
+    ]
+  },
+  {
+    "id": "pacific-norfolk",
+    "englishName": "Norfolk Island",
+    "name": {
+      "en": "Norfolk Island",
+      "ko": "노퍽",
+      "ja": "ノーフォーク島",
+      "es": "Norfolk"
+    },
+    "country": {
+      "en": "Norfolk Island",
+      "ko": "노퍽섬",
+      "ja": "ノーフォーク島",
+      "es": "Isla Norfolk"
+    },
+    "zone": "Pacific/Norfolk",
+    "aliases": [
+      "Norfolk",
+      "Pacific/Norfolk",
+      "Norfolk Island",
+      "노퍽",
+      "ノーフォーク島"
+    ]
+  },
+  {
+    "id": "pacific-noumea",
+    "englishName": "Noumea",
+    "name": {
+      "en": "Noumea",
+      "ko": "누메아",
+      "ja": "ヌメア",
+      "es": "Numea"
+    },
+    "country": {
+      "en": "New Caledonia",
+      "ko": "뉴칼레도니아",
+      "ja": "ニューカレドニア",
+      "es": "Nueva Caledonia"
+    },
+    "zone": "Pacific/Noumea",
+    "aliases": [
+      "Noumea",
+      "Pacific/Noumea",
+      "누메아",
+      "ヌメア",
+      "Numea"
+    ]
+  },
+  {
+    "id": "pacific-pago-pago",
+    "englishName": "Pago Pago",
+    "name": {
+      "en": "Pago Pago",
+      "ko": "파고파고",
+      "ja": "パゴパゴ",
+      "es": "Pago Pago"
+    },
+    "country": {
+      "en": "American Samoa",
+      "ko": "아메리칸 사모아",
+      "ja": "米領サモア",
+      "es": "Samoa Americana"
+    },
+    "zone": "Pacific/Pago_Pago",
+    "aliases": [
+      "Pago Pago",
+      "Pacific/Pago_Pago",
+      "파고파고",
+      "パゴパゴ"
+    ]
+  },
+  {
+    "id": "pacific-palau",
+    "englishName": "Palau",
+    "name": {
+      "en": "Palau",
+      "ko": "팔라우",
+      "ja": "パラオ",
+      "es": "Palaos"
+    },
+    "country": {
+      "en": "Palau",
+      "ko": "팔라우",
+      "ja": "パラオ",
+      "es": "Palaos"
+    },
+    "zone": "Pacific/Palau",
+    "aliases": [
+      "Palau",
+      "Pacific/Palau",
+      "팔라우",
+      "パラオ",
+      "Palaos"
+    ]
+  },
+  {
+    "id": "pacific-pitcairn",
+    "englishName": "Pitcairn",
+    "name": {
+      "en": "Pitcairn",
+      "ko": "핏케언",
+      "ja": "ピトケアン諸島",
+      "es": "Pitcairn"
+    },
+    "country": {
+      "en": "Pitcairn Islands",
+      "ko": "핏케언 제도",
+      "ja": "ピトケアン諸島",
+      "es": "Islas Pitcairn"
+    },
+    "zone": "Pacific/Pitcairn",
+    "aliases": [
+      "Pitcairn",
+      "Pacific/Pitcairn",
+      "핏케언",
+      "ピトケアン諸島"
+    ]
+  },
+  {
+    "id": "pacific-pohnpei",
+    "englishName": "Pohnpei",
+    "name": {
+      "en": "Pohnpei",
+      "ko": "Pohnpei",
+      "ja": "Pohnpei",
+      "es": "Pohnpei"
+    },
+    "country": {
+      "en": "Micronesia",
+      "ko": "미크로네시아",
+      "ja": "ミクロネシア連邦",
+      "es": "Micronesia"
+    },
+    "zone": "Pacific/Pohnpei",
+    "aliases": [
+      "Pohnpei",
+      "Ponape",
+      "Pacific/Ponape"
+    ]
+  },
+  {
+    "id": "pacific-port-moresby",
+    "englishName": "Port Moresby",
+    "name": {
+      "en": "Port Moresby",
+      "ko": "포트모르즈비",
+      "ja": "ポートモレスビー",
+      "es": "Port Moresby"
+    },
+    "country": {
+      "en": "Papua New Guinea",
+      "ko": "파푸아뉴기니",
+      "ja": "パプアニューギニア",
+      "es": "Papúa Nueva Guinea"
+    },
+    "zone": "Pacific/Port_Moresby",
+    "aliases": [
+      "Port Moresby",
+      "Pacific/Port_Moresby",
+      "포트모르즈비",
+      "ポートモレスビー"
+    ]
+  },
+  {
+    "id": "pacific-rarotonga",
+    "englishName": "Rarotonga",
+    "name": {
+      "en": "Rarotonga",
+      "ko": "라로통가",
+      "ja": "ラロトンガ",
+      "es": "Rarotonga"
+    },
+    "country": {
+      "en": "Cook Islands",
+      "ko": "쿡 제도",
+      "ja": "クック諸島",
+      "es": "Islas Cook"
+    },
+    "zone": "Pacific/Rarotonga",
+    "aliases": [
+      "Rarotonga",
+      "Pacific/Rarotonga",
+      "라로통가",
+      "ラロトンガ"
+    ]
+  },
+  {
+    "id": "pacific-saipan",
+    "englishName": "Saipan",
+    "name": {
+      "en": "Saipan",
+      "ko": "사이판",
+      "ja": "サイパン",
+      "es": "Saipán"
+    },
+    "country": {
+      "en": "Northern Mariana Islands",
+      "ko": "북마리아나제도",
+      "ja": "北マリアナ諸島",
+      "es": "Islas Marianas del Norte"
+    },
+    "zone": "Pacific/Saipan",
+    "aliases": [
+      "Saipan",
+      "Pacific/Saipan",
+      "사이판",
+      "サイパン",
+      "Saipán"
+    ]
+  },
+  {
+    "id": "pacific-tahiti",
+    "englishName": "Tahiti",
+    "name": {
+      "en": "Tahiti",
+      "ko": "타히티",
+      "ja": "タヒチ",
+      "es": "Tahití"
+    },
+    "country": {
+      "en": "French Polynesia",
+      "ko": "프랑스령 폴리네시아",
+      "ja": "仏領ポリネシア",
+      "es": "Polinesia Francesa"
+    },
+    "zone": "Pacific/Tahiti",
+    "aliases": [
+      "Tahiti",
+      "Pacific/Tahiti",
+      "타히티",
+      "タヒチ",
+      "Tahití"
+    ]
+  },
+  {
+    "id": "pacific-tarawa",
+    "englishName": "Tarawa",
+    "name": {
+      "en": "Tarawa",
+      "ko": "타라와",
+      "ja": "タラワ",
+      "es": "Tarawa"
+    },
+    "country": {
+      "en": "Kiribati",
+      "ko": "키리바시",
+      "ja": "キリバス",
+      "es": "Kiribati"
+    },
+    "zone": "Pacific/Tarawa",
+    "aliases": [
+      "Tarawa",
+      "Pacific/Tarawa",
+      "타라와",
+      "タラワ"
+    ]
+  },
+  {
+    "id": "pacific-tongatapu",
+    "englishName": "Tongatapu",
+    "name": {
+      "en": "Tongatapu",
+      "ko": "통가타푸",
+      "ja": "トンガタプ",
+      "es": "Tongatapu"
+    },
+    "country": {
+      "en": "Tonga",
+      "ko": "통가",
+      "ja": "トンガ",
+      "es": "Tonga"
+    },
+    "zone": "Pacific/Tongatapu",
+    "aliases": [
+      "Tongatapu",
+      "Pacific/Tongatapu",
+      "통가타푸",
+      "トンガタプ"
+    ]
+  },
+  {
+    "id": "pacific-wake",
+    "englishName": "Wake Island",
+    "name": {
+      "en": "Wake Island",
+      "ko": "웨이크",
+      "ja": "ウェーク島",
+      "es": "Wake"
+    },
+    "country": {
+      "en": "U.S. Outlying Islands",
+      "ko": "미국령 해외 제도",
+      "ja": "合衆国領有小離島",
+      "es": "Islas menores alejadas de EE. UU."
+    },
+    "zone": "Pacific/Wake",
+    "aliases": [
+      "Wake",
+      "Pacific/Wake",
+      "Wake Island",
+      "웨이크",
+      "ウェーク島"
+    ]
+  },
+  {
+    "id": "pacific-wallis",
+    "englishName": "Wallis",
+    "name": {
+      "en": "Wallis",
+      "ko": "월리스",
+      "ja": "ウォリス諸島",
+      "es": "Wallis"
+    },
+    "country": {
+      "en": "Wallis & Futuna",
+      "ko": "왈리스-푸투나 제도",
+      "ja": "ウォリス・フツナ",
+      "es": "Wallis y Futuna"
+    },
+    "zone": "Pacific/Wallis",
+    "aliases": [
+      "Wallis",
+      "Pacific/Wallis",
+      "월리스",
+      "ウォリス諸島"
+    ]
+  }
+]
