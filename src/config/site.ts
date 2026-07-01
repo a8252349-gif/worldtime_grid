@@ -16,6 +16,7 @@ export const siteConfig = {
   adsenseManualAdsEnabled: process.env.NEXT_PUBLIC_ADSENSE_MANUAL_ADS_ENABLED === "true",
   showAdPlaceholders: process.env.NEXT_PUBLIC_SHOW_AD_PLACEHOLDERS === "true",
   googleCmpEnabled: process.env.NEXT_PUBLIC_GOOGLE_CMP_ENABLED === "true",
+  googleSiteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim() || "",
 } as const;
 
 export const localeNames: Record<Locale, string> = {
