@@ -19,3 +19,14 @@ Point the selected hostname to the Render hostname using the record Render provi
 The origin is deliberately not hardcoded into components. Until a WorldTime Grid production domain is selected, `.env.example` uses `https://example.com` as a replaceable placeholder.
 
 Static export does not use Next.js server functions, route middleware, API routes or image optimization. All planner and calculator logic runs in the browser.
+
+
+## Google Search Console
+
+Add the token from the HTML tag verification method as a build environment variable:
+
+```env
+NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=your-verification-token
+```
+
+Enter only the `content` value, save it, and trigger a fresh deploy. Verify that page source contains `google-site-verification` before clicking Verify in Search Console.

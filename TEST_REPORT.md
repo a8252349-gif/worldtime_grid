@@ -66,3 +66,12 @@ npm run build
 npm run audit
 npm run test:e2e
 ```
+
+## 2026-06-30 – 전체 도시 삭제 기능
+
+- 도시 검색창 옆 전체 삭제 버튼 추가
+- 빈 도시 목록 localStorage 저장 및 새로고침 유지 로직 검증 코드 추가
+- 예시 도시 3개 복원 버튼 추가
+- Playwright 시나리오 2개 프로젝트(데스크톱/모바일)에 추가, 총 40개 테스트 인식
+- 현재 작업 환경에서는 Chromium의 localhost 및 사설 IP 접속이 관리자 정책으로 차단되어 브라우저 실행은 불가
+- ESLint, TypeScript, Vitest 22개, 정적 빌드 및 전체 감사 통과

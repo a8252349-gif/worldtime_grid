@@ -7,7 +7,7 @@ export function localizedPath(locale: Locale, path = ""): string {
 }
 
 export function absoluteUrl(locale: Locale, path = ""): string {
-  return `${siteConfig.siteUrl.replace(/\/$/, "")}${localizedPath(locale, path)}`;
+  return `${siteConfig.siteUrl}${localizedPath(locale, path)}`;
 }
 
 export function metadataFor(params: {
@@ -21,6 +21,17 @@ export function metadataFor(params: {
   const { locale, title, description, path = "", type = "website" } = params;
   const url = absoluteUrl(locale, path);
   const languages = Object.fromEntries(supportedLocales.map((code) => [code, absoluteUrl(code, path)]));
+  const other: Record<string, string> = {
+    "content-language": localeNames[locale],
+  };
+
+  if (siteConfig.adsenseClientIsValid) {
+    other["google-adsense-account"] = siteConfig.adsenseClient;
+  }
+  if (params.updated) {
+    other["article:modified_time"] = params.updated;
+  }
+
   return {
     title,
     description,
@@ -28,10 +39,9 @@ export function metadataFor(params: {
     openGraph: { title, description, url, siteName: siteConfig.name, locale, type },
     twitter: { card: "summary_large_image", title, description },
     robots: { index: true, follow: true },
-    other: {
-      "google-adsense-account": siteConfig.adsenseClient,
-      "content-language": localeNames[locale],
-      ...(params.updated ? { "article:modified_time": params.updated } : {}),
-    },
+    verification: siteConfig.googleSiteVerification
+      ? { google: siteConfig.googleSiteVerification }
+      : undefined,
+    other,
   };
 }

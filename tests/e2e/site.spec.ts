@@ -109,3 +109,42 @@ test("Japanese and Spanish localized city names are searchable", async ({ page }
   await page.getByPlaceholder(/Seúl/).fill("Nueva York");
   await expect(page.getByRole("option", { name: /Nueva York/ }).first()).toBeVisible();
 });
+
+test("all selected cities can be cleared and example cities restored", async ({ page }) => {
+  await page.goto("/en/planner/");
+  await expect(page.locator(".planner-table tbody tr")).toHaveCount(3);
+
+  await page.getByRole("button", { name: "Clear all cities" }).click();
+  await expect(page.locator(".planner-table tbody tr")).toHaveCount(0);
+  await expect(page.getByText("No cities are selected.")).toBeVisible();
+
+  await page.reload();
+  await expect(page.locator(".planner-table tbody tr")).toHaveCount(0);
+  await page.getByRole("button", { name: "Restore example cities" }).click();
+  await expect(page.locator(".planner-table tbody tr")).toHaveCount(3);
+});
+
+test("build-time verification and AdSense account metadata are present", async ({ page }) => {
+  await page.goto("/en/");
+  const verification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
+  const client = (process.env.NEXT_PUBLIC_ADSENSE_CLIENT || "ca-pub-9328837907414732").trim();
+  if (verification) {
+    await expect(page.locator('meta[name="google-site-verification"]')).toHaveAttribute("content", verification);
+  }
+  await expect(page.locator('meta[name="google-adsense-account"]')).toHaveAttribute("content", client);
+});
+
+test("configured manual AdSense slots are emitted on their intended pages", async ({ page }) => {
+  test.skip(process.env.NEXT_PUBLIC_ADSENSE_MANUAL_ADS_ENABLED !== "true", "Manual ads are disabled for this build.");
+  const cases = [
+    ["/en/", process.env.NEXT_PUBLIC_ADSENSE_HOME_SLOT],
+    ["/en/guides/time-zone-converter-guide/", process.env.NEXT_PUBLIC_ADSENSE_GUIDE_SLOT],
+    ["/en/about/", process.env.NEXT_PUBLIC_ADSENSE_CONTENT_SLOT],
+    ["/en/planner/", process.env.NEXT_PUBLIC_ADSENSE_PLANNER_BOTTOM_SLOT],
+  ] as const;
+  for (const [path, slot] of cases) {
+    if (!slot) continue;
+    await page.goto(path);
+    await expect(page.locator(`ins.adsbygoogle[data-ad-slot="${slot}"]`)).toHaveCount(1);
+  }
+});

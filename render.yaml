@@ -6,9 +6,13 @@ services:
     staticPublishPath: ./out
     pullRequestPreviewsEnabled: true
     envVars:
+      - key: NODE_VERSION
+        value: 22.22.0
       - key: NEXT_PUBLIC_SITE_URL
-        sync: false
+        value: https://meettimegrid.com
       - key: NEXT_PUBLIC_CONTACT_EMAIL
+        sync: false
+      - key: NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION
         sync: false
       - key: NEXT_PUBLIC_ADSENSE_CLIENT
         value: ca-pub-9328837907414732
@@ -20,3 +24,11 @@ services:
         value: "false"
       - key: NEXT_PUBLIC_GOOGLE_CMP_ENABLED
         value: "false"
+      - key: NEXT_PUBLIC_ADSENSE_HOME_SLOT
+        sync: false
+      - key: NEXT_PUBLIC_ADSENSE_GUIDE_SLOT
+        sync: false
+      - key: NEXT_PUBLIC_ADSENSE_CONTENT_SLOT
+        sync: false
+      - key: NEXT_PUBLIC_ADSENSE_PLANNER_BOTTOM_SLOT
+        sync: false

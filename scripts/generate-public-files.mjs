@@ -2,7 +2,22 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root=process.cwd();
-const site=(process.env.NEXT_PUBLIC_SITE_URL||"https://example.com").replace(/\/$/,"");
+
+for (const fileName of [".env.local", ".env"]) {
+  const filePath = path.join(root, fileName);
+  if (!fs.existsSync(filePath)) continue;
+  for (const rawLine of fs.readFileSync(filePath, "utf8").split(/\r?\n/)) {
+    const line = rawLine.trim();
+    if (!line || line.startsWith("#") || !line.includes("=")) continue;
+    const separator = line.indexOf("=");
+    const key = line.slice(0, separator).trim();
+    let value = line.slice(separator + 1).trim();
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) value = value.slice(1, -1);
+    if (process.env[key] === undefined) process.env[key] = value;
+  }
+}
+
+const site=(process.env.NEXT_PUBLIC_SITE_URL||"https://example.com").replace(/\/+$/,"");
 const locales=["en","ko","ja","es"];
 const staticPages=["how-it-works","faq","about","contact","privacy","terms","cookie-policy","accessibility","editorial-policy","time-calculation-methodology"];
 const resources=["time-converter","working-hours-overlap","dst-checker","date-line-visualizer","utc-offset-explainer"];
@@ -20,6 +35,11 @@ const xml=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sit
 fs.writeFileSync(path.join(root,"public/sitemap.xml"),xml);
 fs.writeFileSync(path.join(root,"public/sitemap.txt"),urls.join("\n")+"\n");
 fs.writeFileSync(path.join(root,"public/robots.txt"),`User-agent: *\nAllow: /\n\nSitemap: ${site}/sitemap.xml\n`);
+
+const adsenseClient=(process.env.NEXT_PUBLIC_ADSENSE_CLIENT||"ca-pub-9328837907414732").trim();
+if (/^ca-pub-\d{10,}$/.test(adsenseClient)) {
+  fs.writeFileSync(path.join(root,"public/ads.txt"),`google.com, ${adsenseClient.replace(/^ca-/,"")}, DIRECT, f08c47fec0942fa0\n`);
+}
 const enGuides=guides.filter(g=>g.locale==="en");
 const rssItems=enGuides.map(g=>`<item><title><![CDATA[${g.title}]]></title><link>${site}/en/guides/${g.slug}/</link><guid>${site}/en/guides/${g.slug}/</guid><description><![CDATA[${g.description}]]></description><pubDate>Mon, 29 Jun 2026 00:00:00 GMT</pubDate></item>`).join("");
 fs.writeFileSync(path.join(root,"public/feed.xml"),`<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>WorldTime Grid Guides</title><link>${site}/en/guides/</link><description>Global scheduling and time-zone guides</description>${rssItems}</channel></rss>`);

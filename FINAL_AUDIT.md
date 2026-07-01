@@ -96,3 +96,8 @@ The ExactResize prompt's `exactresize.com` domain was not applied to this unrela
 - Browser preferences and saved combinations do not synchronize between devices.
 - Monthly keyword volumes were not invented; authenticated, location-specific Keyword Planner data should be added later when available.
 - Playwright assertions should be run in deployment CI because local HTTP navigation is blocked in this artifact environment.
+
+
+## 2026-07-01 environment wiring correction
+
+Search Console, AdSense, contact, domain and consent environment variables were re-audited and connected to generated HTML and runtime behavior. See `ENVIRONMENT_FIX_AUDIT.md` for the full result. The release passed 25 unit tests, the 139-route production export, all content/SEO checks, and an active AdSense build using four separate slot IDs.

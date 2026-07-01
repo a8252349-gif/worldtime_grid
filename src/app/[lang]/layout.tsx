@@ -13,6 +13,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: { default: "WorldTime Grid", template: "%s | WorldTime Grid" },
   description: siteConfig.description,
+  verification: siteConfig.googleSiteVerification
+    ? { google: siteConfig.googleSiteVerification }
+    : undefined,
+  other: siteConfig.adsenseClientIsValid
+    ? { "google-adsense-account": siteConfig.adsenseClient }
+    : undefined,
   icons: { icon: "/favicon.svg" },
 };
 

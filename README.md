@@ -48,3 +48,20 @@ The root path detects a previously selected language first, then stored preferen
 - `KEYWORD_RESEARCH.md` — localized search-language research
 - `SEO_KEYWORD_MAP.md` — route-level search-intent ownership
 - `TIME_ZONE_METHOD.md` — time-zone calculation method and limitations
+
+## Google Search Console verification
+
+Set the token value only, not the full meta tag:
+
+```env
+NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=your-verification-token
+```
+
+Because this is a static export, redeploy after changing the variable. The generated root and localized pages include `<meta name="google-site-verification" ...>` in `<head>`.
+
+
+## Render environment wiring
+
+All public settings are read at build time. After changing a Render environment variable, trigger a new deploy. The production configuration is validated before static generation, and `npm run check:env` verifies the resulting HTML.
+
+See `ENVIRONMENT_WIRING_FIX.md` and `ADSENSE_SETUP.md` for the complete mapping and approval/production advertising modes.

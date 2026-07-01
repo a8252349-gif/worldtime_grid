@@ -9,6 +9,7 @@ export const uiCopy: Record<Locale, {
   cookieMessage: string;
   accept: string;
   reject: string;
+  adLabel: string;
   year: string;
   noOffsetChange: string;
   dateA: string;
@@ -34,6 +35,7 @@ export const uiCopy: Record<Locale, {
     cookieMessage: "Advertising may use optional cookies. Choose whether these cookies may be used.",
     accept: "Accept",
     reject: "Reject",
+    adLabel: "Advertisement",
     year: "Year",
     noOffsetChange: "No UTC offset change was detected for this year.",
     dateA: "Date A",
@@ -59,6 +61,7 @@ export const uiCopy: Record<Locale, {
     cookieMessage: "광고 제공 과정에서 선택적 쿠키가 사용될 수 있습니다. 사용 허용 여부를 선택해 주세요.",
     accept: "허용",
     reject: "거부",
+    adLabel: "광고",
     year: "연도",
     noOffsetChange: "이 연도에는 UTC 오프셋 변화가 감지되지 않았습니다.",
     dateA: "날짜 A",
@@ -84,6 +87,7 @@ export const uiCopy: Record<Locale, {
     cookieMessage: "広告配信で任意のCookieを使用する場合があります。使用を許可するか選択してください。",
     accept: "許可する",
     reject: "拒否する",
+    adLabel: "広告",
     year: "年",
     noOffsetChange: "この年にはUTCオフセットの変化が検出されませんでした。",
     dateA: "日付A",
@@ -109,6 +113,7 @@ export const uiCopy: Record<Locale, {
     cookieMessage: "La publicidad puede utilizar cookies opcionales. Elige si permites su uso.",
     accept: "Aceptar",
     reject: "Rechazar",
+    adLabel: "Publicidad",
     year: "Año",
     noOffsetChange: "No se detectó ningún cambio de desfase UTC durante este año.",
     dateA: "Fecha A",
