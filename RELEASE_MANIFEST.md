@@ -24,10 +24,3 @@
 - Render publish directory: `out`
 
 The archive excludes `node_modules`, `.next`, Playwright reports and temporary test output. It includes the complete source, official-registry lockfile, tests, documentation and verified `out` static export.
-
-## 1.0.2
-
-- 현재 선택 도시 전체 삭제
-- 빈 도시 목록 새로고침 유지
-- 예시 도시 3개 복원
-- 기본 설정 복원과 도시 전체 삭제 기능 명칭 분리

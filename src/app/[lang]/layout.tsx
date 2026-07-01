@@ -13,9 +13,6 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.siteUrl),
   title: { default: "WorldTime Grid", template: "%s | WorldTime Grid" },
   description: siteConfig.description,
-  verification: siteConfig.googleSiteVerification
-    ? { google: siteConfig.googleSiteVerification }
-    : undefined,
   icons: { icon: "/favicon.svg" },
 };
 

@@ -18,9 +18,6 @@ export const metadata: Metadata = {
     },
   },
   robots: { index: true, follow: true },
-  verification: siteConfig.googleSiteVerification
-    ? { google: siteConfig.googleSiteVerification }
-    : undefined,
   icons: { icon: "/favicon.svg" },
 };
 

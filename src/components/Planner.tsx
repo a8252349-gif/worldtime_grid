@@ -107,7 +107,7 @@ export function Planner({ locale, compact = false }: { locale: Locale; compact?:
     if (!loaded && stored) {
       try {
         const value = JSON.parse(stored) as { zones?: PlannerZone[]; date?: string; duration?: number; format?: TimeFormat; windowHours?: WindowHours; step?: StepMinutes };
-        if (Array.isArray(value.zones)) setZones(value.zones.filter((item) => cityById[item.cityId]).slice(0, 10));
+        if (value.zones?.length) setZones(value.zones.filter((item) => cityById[item.cityId]).slice(0, 10));
         if (value.date) setDate(value.date);
         if (value.duration) setDuration(value.duration);
         if (value.format) setFormat(value.format);
@@ -194,19 +194,6 @@ export function Planner({ locale, compact = false }: { locale: Locale; compact?:
     setMessage(d.combinationDeleted as string);
   }
 
-  function clearAllCities() {
-    window.history.replaceState(null, "", window.location.pathname);
-    setZones([]);
-    setQuery("");
-    setSelectedUtc("");
-    setMessage(d.allCitiesCleared as string);
-  }
-
-  function restoreExampleCities() {
-    setZones(initialZones());
-    setMessage(d.exampleCitiesRestored as string);
-  }
-
   function updateWork(cityId: string, patch: Partial<WorkSettings>) {
     setZones((current) => current.map((item) => item.cityId === cityId ? { ...item, work: { ...item.work, ...patch } } : item));
   }
@@ -268,7 +255,6 @@ export function Planner({ locale, compact = false }: { locale: Locale; compact?:
   }
 
   function reset() {
-    window.history.replaceState(null, "", window.location.pathname);
     localStorage.removeItem(STORAGE_KEY);
     setZones(initialZones()); setDuration(60); setFormat("24"); setWindowHours(24); setStep(30); setRangeDays(1);
     setDate(DateTime.local().toISODate() || "2026-06-29");
@@ -290,12 +276,9 @@ export function Planner({ locale, compact = false }: { locale: Locale; compact?:
       </div>
 
       <div className="search-wrap">
-        <div className="city-search-toolbar">
-          <div className="search-box">
-            <label className="live-region" htmlFor={`city-search-${compact}`}>{d.addCity}</label>
-            <input id={`city-search-${compact}`} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={d.searchPlaceholder as string} autoComplete="off" />
-          </div>
-          {!compact && <button className="button-secondary clear-cities-button" type="button" onClick={clearAllCities} disabled={zones.length === 0}>{d.clearAllCities}</button>}
+        <div className="search-box">
+          <label className="live-region" htmlFor={`city-search-${compact}`}>{d.addCity}</label>
+          <input id={`city-search-${compact}`} value={query} onChange={(event) => setQuery(event.target.value)} placeholder={d.searchPlaceholder as string} autoComplete="off" />
         </div>
         <p className="small city-search-help">{d.citySearchHelp}</p>
         {query && <div className="search-results" role="listbox" aria-label={d.addCity as string}>
@@ -309,11 +292,9 @@ export function Planner({ locale, compact = false }: { locale: Locale; compact?:
       {dstWarning && <p className="warning" role="alert">{d.dstWarning}</p>}
       <p className="small">{d.savedLocally}</p>
 
-      {!compact && zones.length === 0 && <div className="empty-city-state card"><p role="status">{d.noCitiesSelected}</p><button className="button-secondary" type="button" onClick={restoreExampleCities}>{d.restoreExampleCities}</button></div>}
+      {!compact && <fieldset className="preset-settings"><legend>{d.savedCombinations}</legend><div className="preset-save"><div className="field"><label htmlFor="preset-name">{d.presetName}</label><input id="preset-name" value={presetName} maxLength={80} onChange={(event) => setPresetName(event.target.value)} placeholder={zones.map((item) => cityById[item.cityId].name[locale]).join(" · ")} /></div><button className="button-secondary" type="button" onClick={saveCombination}>{d.saveCombination}</button></div>{savedPresets.length === 0 ? <p className="small">{d.noSavedCombinations}</p> : <div className="preset-list">{savedPresets.map((preset) => <div className="preset-item" key={preset.id}><span><strong>{preset.name}</strong><br/><span className="small">{preset.zones.map((item) => cityById[item.cityId]?.name[locale]).filter(Boolean).join(" · ")}</span></span><span className="icon-actions"><button className="button-secondary" type="button" onClick={() => loadCombination(preset)}>{d.loadCombination}</button><button className="icon-button" type="button" aria-label={`${d.deleteCombination} ${preset.name}`} onClick={() => deleteCombination(preset.id)}>×</button></span></div>)}</div>}</fieldset>}
 
-      {!compact && <fieldset className="preset-settings"><legend>{d.savedCombinations}</legend><div className="preset-save"><div className="field"><label htmlFor="preset-name">{d.presetName}</label><input id="preset-name" value={presetName} maxLength={80} onChange={(event) => setPresetName(event.target.value)} placeholder={zones.map((item) => cityById[item.cityId].name[locale]).join(" · ")} /></div><button className="button-secondary" type="button" onClick={saveCombination} disabled={zones.length === 0}>{d.saveCombination}</button></div>{savedPresets.length === 0 ? <p className="small">{d.noSavedCombinations}</p> : <div className="preset-list">{savedPresets.map((preset) => <div className="preset-item" key={preset.id}><span><strong>{preset.name}</strong><br/><span className="small">{preset.zones.map((item) => cityById[item.cityId]?.name[locale]).filter(Boolean).join(" · ")}</span></span><span className="icon-actions"><button className="button-secondary" type="button" onClick={() => loadCombination(preset)}>{d.loadCombination}</button><button className="icon-button" type="button" aria-label={`${d.deleteCombination} ${preset.name}`} onClick={() => deleteCombination(preset.id)}>×</button></span></div>)}</div>}</fieldset>}
-
-      {!compact && zones.length > 0 && <>
+      {!compact && <>
         <div className="range-row card">
           <RelativeSlider id="meeting-slider" label={d.adjustMeeting as string} min={0} max={Math.max(0, slots.length - 1)} step={1} value={selectedIndex} valueText={formatLocal(selected.toISO() || "", firstZone, localeCode, format)} onChange={(index) => setSelectedUtc(slots[index]?.toISO() || "")} />
           <strong>{formatLocal(selected.toISO() || "", firstZone, localeCode, format)}</strong>
@@ -341,12 +322,12 @@ export function Planner({ locale, compact = false }: { locale: Locale; compact?:
       {!compact && <fieldset className="event-details"><legend>{d.meetingDetails}</legend><div className="field"><label htmlFor="meeting-title">{d.meetingTitleLabel}</label><input id="meeting-title" value={meetingTitle} maxLength={120} onChange={(event) => setMeetingTitle(event.target.value)} /></div><div className="field"><label htmlFor="meeting-location">{d.meetingLocation}</label><input id="meeting-location" value={meetingLocation} maxLength={500} onChange={(event) => setMeetingLocation(event.target.value)} placeholder="https://meet.example.com/…" /></div></fieldset>}
 
       <div className="button-row">
-        <button className="button" type="button" onClick={downloadIcs} disabled={zones.length === 0}>{d.downloadIcs}</button>
-        <button className="button-secondary" type="button" onClick={copyShareLink} disabled={zones.length === 0}>{d.copyLink}</button>
-        <button className="button-secondary" type="button" onClick={() => copyText("plain")} disabled={zones.length === 0}>{d.plainCopy}</button>
-        <button className="button-secondary" type="button" onClick={() => copyText("markdown")} disabled={zones.length === 0}>{d.markdownCopy}</button>
-        <button className="button-secondary" type="button" onClick={() => copyText("email")} disabled={zones.length === 0}>{d.emailCopy}</button>
-        <button className="button-secondary" type="button" onClick={() => copyText("slack")} disabled={zones.length === 0}>{d.slackCopy}</button>
+        <button className="button" type="button" onClick={downloadIcs}>{d.downloadIcs}</button>
+        <button className="button-secondary" type="button" onClick={copyShareLink}>{d.copyLink}</button>
+        <button className="button-secondary" type="button" onClick={() => copyText("plain")}>{d.plainCopy}</button>
+        <button className="button-secondary" type="button" onClick={() => copyText("markdown")}>{d.markdownCopy}</button>
+        <button className="button-secondary" type="button" onClick={() => copyText("email")}>{d.emailCopy}</button>
+        <button className="button-secondary" type="button" onClick={() => copyText("slack")}>{d.slackCopy}</button>
         {!compact && <button className="button-secondary" type="button" onClick={reset}>{d.reset}</button>}
       </div>
       <p className="live-region" aria-live="polite">{message}</p>

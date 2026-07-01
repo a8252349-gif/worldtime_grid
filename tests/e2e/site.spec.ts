@@ -109,17 +109,3 @@ test("Japanese and Spanish localized city names are searchable", async ({ page }
   await page.getByPlaceholder(/Seúl/).fill("Nueva York");
   await expect(page.getByRole("option", { name: /Nueva York/ }).first()).toBeVisible();
 });
-
-test("all selected cities can be cleared and example cities restored", async ({ page }) => {
-  await page.goto("/en/planner/");
-  await expect(page.locator(".planner-table tbody tr")).toHaveCount(3);
-
-  await page.getByRole("button", { name: "Clear all cities" }).click();
-  await expect(page.locator(".planner-table tbody tr")).toHaveCount(0);
-  await expect(page.getByText("No cities are selected.")).toBeVisible();
-
-  await page.reload();
-  await expect(page.locator(".planner-table tbody tr")).toHaveCount(0);
-  await page.getByRole("button", { name: "Restore example cities" }).click();
-  await expect(page.locator(".planner-table tbody tr")).toHaveCount(3);
-});

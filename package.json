@@ -1,6 +1,6 @@
 {
   "name": "time-zone-meeting-planner",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -18,14 +18,13 @@
     "check:hreflang": "node scripts/check-hreflang.mjs",
     "check:sitemap": "node scripts/check-sitemap.mjs",
     "check:timezones": "node scripts/check-time-zone-results.mjs",
-    "audit": "npm run check:registry && npm run check:content && npm run check:length && npm run check:duplicates && npm run check:links && npm run check:hreflang && npm run check:sitemap && npm run check:timezones && npm run check:language && npm run check:public-copy && npm run check:metadata && npm run check:orphans && npm run check:ads && npm run check:search-console",
+    "audit": "npm run check:registry && npm run check:content && npm run check:length && npm run check:duplicates && npm run check:links && npm run check:hreflang && npm run check:sitemap && npm run check:timezones && npm run check:language && npm run check:public-copy && npm run check:metadata && npm run check:orphans && npm run check:ads",
     "check:registry": "node scripts/check-package-registry.mjs",
     "check:language": "node scripts/check-language-purity.mjs",
     "check:public-copy": "node scripts/check-public-copy.mjs",
     "check:metadata": "node scripts/check-metadata-uniqueness.mjs",
     "check:orphans": "node scripts/check-orphan-pages.mjs",
-    "check:ads": "node scripts/check-empty-ad-slots.mjs",
-    "check:search-console": "node scripts/check-search-console-verification.mjs"
+    "check:ads": "node scripts/check-empty-ad-slots.mjs"
   },
   "dependencies": {
     "@formatjs/intl-localematcher": "^0.6.2",
