@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import "../globals.css";
+import "../contrast-fix.css";
 import { siteConfig, supportedLocales, type Locale } from "@/config/site";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
