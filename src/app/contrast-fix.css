@@ -9,3 +9,26 @@ input, textarea, select { background: #ffffff; }
 .warning { background:#fff8dd; color:#5d4700; }
 .time-cell.night { background:#3a4355; color:#ffffff; }
 .site-footer { background:#111827; color:#e7eaf0; }
+
+/* Homepage visual polish */
+.hero .button::before,
+.hero .button-secondary::before,
+.section .card h3::before,
+.section .eyebrow::before {
+  display:inline-grid;
+  place-items:center;
+  width:1.75rem;
+  height:1.75rem;
+  margin-right:.5rem;
+  border-radius:.55rem;
+  line-height:1;
+  font-size:.82rem;
+  font-weight:900;
+  vertical-align:-.16rem;
+}
+.hero .button::before { content:"◷"; background:rgba(255,255,255,.22); color:#fff; }
+.hero .button-secondary::before { content:"▤"; background:#eef2ff; color:#233e9f; }
+.section .eyebrow::before { content:"◈"; background:#eef2ff; color:#3157d5; }
+.section .card:nth-child(1) h3::before { content:"◎"; background:#eef2ff; color:#3157d5; }
+.section .card:nth-child(2) h3::before { content:"⌂"; background:#e8f7f0; color:#13795b; }
+.section .card:nth-child(3) h3::before { content:"↔"; background:#fff3c9; color:#7d5a00; }
