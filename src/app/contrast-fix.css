@@ -1,0 +1,11 @@
+:root { color-scheme: light !important; }
+html, body { background: #f6f7fb; color: #172033; }
+button, input, textarea, select, option { color: #172033; }
+input, textarea, select { background: #ffffff; }
+.site-header, .language-menu, .planner-toolbar, .search-results, .search-result, .planner-table-wrap, .planner-table tbody th, .work-settings, .recommendation, .browser-language, .cookie-banner, .tool-panel, .preset-settings, .event-details { background-color: #ffffff; color: #172033; }
+.button-secondary, .icon-button { background: #ffffff; color: #172033; }
+.card, .prose table { background:#ffffff; color:#172033; }
+.note { background:#eef2ff; color:#172033; }
+.warning { background:#fff8dd; color:#5d4700; }
+.time-cell.night { background:#3a4355; color:#ffffff; }
+.site-footer { background:#111827; color:#e7eaf0; }
